@@ -11,7 +11,7 @@ outcomes, result recaps, logs, save/quit messages, intro captions and hidden
 discoveries. French layouts retain the 420 × 650 portrait format. Dollar values
 remain dollars, with French decimal and grouping conventions when selected.
 
-Risk_v2 and Blacksite Relay remain proper names. Player-entered names, command
+Risk_V2 and Blacksite Relay remain proper names. Player-entered names, command
 strings used by Injection, letter shortcuts, saved IDs and numeric game rules
 are preserved. The existing original music, sound effects and scene assets are
 unchanged. The 1.8.0 release includes a refreshed English gameplay trailer and

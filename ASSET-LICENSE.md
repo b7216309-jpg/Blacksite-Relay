@@ -5,7 +5,7 @@ under **GPL-3.0-only**, the license in `LICENSE`.
 
 | Material | License / provenance |
 | --- | --- |
-| Game code, interface, effects and authoring scripts | GPL-3.0-only; original Risk_v2 / Blacksite Relay work |
+| Game code, interface, effects and authoring scripts | GPL-3.0-only; original Risk_V2 / Blacksite Relay work |
 | Scene, characters, pets, menus, protocol hardware, upgrade cards and discoveries | GPL-3.0-only; original generated artwork; prompts in `art-source/` |
 | Industrial Terminal icon | GPL-3.0-only; original 1.8.2 ImageGen artwork; master/prompt/export script in `art-source/icon/` |
 | Neon Standby, Backstreet Signal, Chrome Pursuit, Redline Protocol, generator and scores | GPL-3.0-only; supplied by the owner, who confirmed permission to release them under GPLv3 on 12 October 2026 |

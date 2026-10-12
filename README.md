@@ -1,4 +1,4 @@
-# Risk_v2 — Blacksite Relay
+# Risk_V2 — Blacksite Relay
 
 **The full game. Free to play. Open source under GPLv3.**
 
@@ -6,13 +6,13 @@ A compact cyberpunk hacking roguelike: take a risk, build your multiplier, and g
 your money out before the trace catches you. Permanent upgrades and prestige
 bring you back stronger. A living pixel-art relay station keeps you company.
 
-[Download for Windows](https://github.com/b7216309-jpg/Blacksite-Relay/releases/latest) ·
+[Download for Windows](https://github.com/b7216309-jpg/Risk_V2/releases/latest) ·
 [Website and trailer / Site et bande-annonce](https://blacksite-relay.b7216309.chatgpt.site) ·
 [License](LICENSE)
 
-![Blacksite Relay](assets/scene/blacksite-relay.png)
+![Risk_V2 — Blacksite Relay](assets/scene/blacksite-relay.png)
 
-**Version 1.8.2 · Windows x64 · English / Français · Offline · 420 × 650 portrait**
+**Version 1.8.3 · Windows x64 · English / Français · Offline · 420 × 650 portrait**
 
 - Three hacks, six bonuses, and memory, command-entry and timing mini-games.
 - Permanent upgrades, prestige, 34 achievements and hidden discoveries.
@@ -24,8 +24,8 @@ bring you back stronger. A living pixel-art relay station keeps you company.
 ## Play
 
 Download the installer, or extract the **whole portable ZIP** and launch
-`Risk_v2.exe`. The complete game is free; this is not a demo. The Windows build is
-unsigned. Close the game before updating. Existing Blacksite Relay saves remain compatible.
+`Risk_V2.exe`. The complete game is free; this is not a demo. The Windows build is
+unsigned. Close the game before updating. Existing saves remain compatible.
 
 Choose **Start Run**, review your upgrades and enter the grid. Hack to earn funds,
 then transfer them before detection. Banked money persists; unfinished runs do not
@@ -45,7 +45,7 @@ resume after quitting. The **How to play** guide explains the rules.
 
 **Le jeu complet est gratuit et son code est libre sous GPLv3.** Téléchargez
 l'installateur Windows ou décompressez entièrement la version portable, puis
-lancez `Risk_v2.exe`. Changez la langue dans **Settings → Language → Français**.
+lancez `Risk_V2.exe`. Changez la langue dans **Settings → Language → Français**.
 L'interface, le guide, les succès et les mini-jeux sont traduits.
 
 Piratez, poussez votre multiplicateur, puis transférez avant de vous faire repérer.

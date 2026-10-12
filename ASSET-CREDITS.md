@@ -1,4 +1,4 @@
-# Risk_v2 — Blacksite Relay asset credits
+# Risk_V2 — Blacksite Relay asset credits
 
 ## Free/open-source release — 1.8.2
 
@@ -62,7 +62,7 @@ show 1.3.1 and predate the guide, submenu rooms and later rule fixes. The local
 **b7216309-jpg — Risk_V2**: original game identity, hacking mechanics, progression,
 upgrades, prestige, achievements, mini-games and Electron application foundation.
 The finish starts from commit `ae6411e8db7d6b366f51a9ef629112df1e8c84d2` in
-[the original repository](https://github.com/b7216309-jpg/Risk_V2).
+the original private repository (now `Risk_V2-legacy`, not public).
 
 The old icon and ISC package declaration belonged to the private baseline.
 The public release replaces that icon and uses an explicit GPLv3 license.
@@ -87,7 +87,7 @@ concepts—Neon Safehouse, Ghost Grid and Blacksite Relay—were made for this g
 The user selected Blacksite Relay. Its runtime artwork is
 `assets/scene/blacksite-relay.png`, an original 1536 × 1024 generated environment.
 The concept package preserves the original images, boards and generation prompts
-at `concepts/prompts.json` inside `Risk_v2-Three-Concepts.zip`.
+at `concepts/prompts.json` inside `Risk_V2-Three-Concepts.zip`.
 
 **Original ImageGen technician art (1.2.1):** `assets/scene/relay-operator-design.png`
 is a new single character generated for this room with the built-in ImageGen tool.
@@ -154,7 +154,7 @@ The four scores replace in-game use of the previous track. Existing mechanical
 ambience and all 28 sound effects remain. The following original-music sources
 are retained for earlier media and history.
 
-**Original Risk_v2 soundtrack:** `son/backgroundloop.mp3` from the baseline repository.
+**Original Risk_V2 soundtrack:** `son/backgroundloop.mp3` from the baseline repository.
 The source does not name a composer; no new authorship is claimed for this track.
 A byte-identical source copy is in `art-source/audio/original/backgroundloop.mp3`.
 `restore_original.py` removes its silent tail, adds headroom and bakes a 7.5-second

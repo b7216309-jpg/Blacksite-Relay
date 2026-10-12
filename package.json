@@ -1,7 +1,7 @@
 {
   "name": "risk-v2",
-  "version": "1.8.2",
-  "description": "Risk_v2 - Blacksite Relay HD-2D hacking roguelike",
+  "version": "1.8.3",
+  "description": "Risk_V2 - Blacksite Relay HD-2D hacking roguelike",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -11,9 +11,9 @@
     "build:dir": "electron-builder --win --dir"
   },
   "build": {
-    "productName": "Risk_v2",
+    "productName": "Risk_V2",
     "appId": "com.b7216309.risk-v2",
-    "artifactName": "Risk_v2-Blacksite-Relay-${version}-Setup.${ext}",
+    "artifactName": "Risk_V2-Blacksite-Relay-${version}-Setup.${ext}",
     "win": {
       "icon": "icon/blacksite.ico",
       "target": [
@@ -29,7 +29,7 @@
     "nsis": {
       "oneClick": false,
       "allowToChangeInstallationDirectory": true,
-      "shortcutName": "Risk_v2",
+      "shortcutName": "Risk_V2",
       "createDesktopShortcut": true
     },
     "directories": {
@@ -87,7 +87,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/b7216309-jpg/Blacksite-Relay.git"
+    "url": "https://github.com/b7216309-jpg/Risk_V2.git"
   },
   "homepage": "https://blacksite-relay.b7216309.chatgpt.site"
 }

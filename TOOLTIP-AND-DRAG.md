@@ -7,7 +7,7 @@ Returning from a challenge does not immediately show a tooltip under a stationar
 pointer. Gameplay updates can reposition an already visible tip, but never skip
 the delay. Hidden windows clear pending help.
 
-Drag the gameplay title bar, the menu's top 44-pixel strip, or its large Risk_v2
+Drag the gameplay title bar, the menu's top 44-pixel strip, or its large Risk_V2
 title to move the frameless window. The settings button, menu buttons, agent-name
 input and interactive room details remain normal clickable controls. Artwork and
 gameplay panels below these title areas are not drag regions.

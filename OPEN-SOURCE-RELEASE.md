@@ -1,4 +1,4 @@
-# Blacksite Relay 1.8.2 — free and open source
+# Risk_V2 — Blacksite Relay 1.8.3 — free and open source
 
 The complete game is free under GPL-3.0-only. The public repository starts from
 finished 1.8.0 gameplay, with an Industrial Terminal application icon, explicit code/asset

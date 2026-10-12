@@ -1,4 +1,4 @@
-# Risk_v2 - Modifications effectuées
+# Risk_V2 - Modifications effectuées
 
 ## 📋 Résumé des changements
 
@@ -184,7 +184,7 @@ if (overclockBonusTurns > 0) {
 ---
 
 **Date:** 08/02/2026
-**Version:** Risk_v2 - Patch Balance v1.4 (GAMBLE TRIPLE NERF - AJUSTÉ)
+**Version:** Risk_V2 - Patch Balance v1.4 (GAMBLE TRIPLE NERF - AJUSTÉ)
 
 **Changelog:**
 - v1.4: Ajustement final : BUSTED à 5%, GAMBLE_LOSS à 20% (plus équilibré)

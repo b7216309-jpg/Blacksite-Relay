@@ -1,7 +1,7 @@
 /* Static interface and complete field-guide copy. */
 window.RiskI18n.register({
   "en": {
-    "static.risk_v2_hacking_session": "Risk_v2 hacking session",
+    "static.risk_v2_hacking_session": "Risk_V2 hacking session",
     "static.open_settings": "Open settings",
     "static.settings": "Settings",
     "static.animated_underground_relay_station": "Animated underground relay station",
@@ -250,7 +250,7 @@ window.RiskI18n.register({
     "static.prestige_start_funds": "+$50"
   },
   "fr": {
-    "static.risk_v2_hacking_session": "Session de piratage Risk_v2",
+    "static.risk_v2_hacking_session": "Session de piratage Risk_V2",
     "static.open_settings": "Ouvrir les paramètres",
     "static.settings": "Paramètres",
     "static.animated_underground_relay_station": "Station relais souterraine animée",

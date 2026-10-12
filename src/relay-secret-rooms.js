@@ -4,7 +4,7 @@
   if (window.RelaySecretRooms) return;
   const W = 1536, H = 1024;
   const layout = Object.freeze({
-    locker: Object.freeze({ x: 1344, y: 407, w: 68, h: 260 }),
+    locker: Object.freeze({ x: 1350, y: 416, w: 64, h: 248 }),
     guideHostSelector: '.guide-hero',
     guideLEDs: Object.freeze([232, 250, 268, 286].map(x => Object.freeze({ x, y: 100, w: 16, h: 18 }))),
     guideArcade: Object.freeze({ x: 342, y: 35, w: 48, h: 87 })
@@ -17,6 +17,11 @@
   const guide = document.createElement('canvas'); guide.width = 420; guide.height = 124; guide.className = 'secret-guide-canvas'; guide.setAttribute('aria-hidden', 'true');
   document.getElementById('guide-art')?.append(guide);
   const guideCtx = guide.getContext('2d'); if (guideCtx) guideCtx.imageSmoothingEnabled = false;
+  // The locker is composed and graded off-screen so its tint stays inside its own silhouette.
+  const lockerLayer = document.createElement('canvas'); lockerLayer.width = layout.locker.w; lockerLayer.height = layout.locker.h;
+  const lockerCtx = lockerLayer.getContext('2d'); if (lockerCtx) lockerCtx.imageSmoothingEnabled = false;
+  // Scene-space anchors: the wall lantern right of the locker, and the floor line it stands on.
+  const LANTERN = Object.freeze({ x: 1436, y: 506, r: 150 });
   const mini = document.createElement('canvas'); mini.width = 32; mini.height = 24;
   const miniCtx = mini.getContext('2d'); if (miniCtx) miniCtx.imageSmoothingEnabled = false;
   let disposed = false, lockerDraws = 0, guideDraws = 0, guideActive = false, lockerActive = false, lastGuideTime = 0;
@@ -65,28 +70,56 @@
   }
 
   function drawLocker(c, time = 0, options = {}, secret = {}) {
-    if (disposed || !c || !assets.locker.ready || (options.screen && options.screen !== 'game')) return;
-    const asset = assets.locker, { x,y,w,h } = layout.locker;
+    if (disposed || !c || !lockerCtx || !assets.locker.ready || (options.screen && options.screen !== 'game')) return;
+    const asset = assets.locker, { x,y,w,h } = layout.locker, l = lockerCtx;
     const isStatic = !!(options.isStatic || secret.isStatic), elapsed = Math.max(0, Number(secret.elapsed) || 0);
     const opening = secret.active ? isStatic ? 1 : smooth((elapsed-.15)/.65) * smooth(((secret.duration || 7)-elapsed)/.65) : 0;
     if (options.record !== false) { lockerActive = !!secret.active; lockerDraws++; }
-    c.save(); c.globalAlpha = 1; c.globalCompositeOperation = 'source-over'; c.imageSmoothingEnabled = false;
-    c.translate(x,y); c.drawImage(asset.texture, 0, 0, w, h);
-    // The frame never moves: a shallow cover opens inside the registered door well.
+    l.setTransform(1,0,0,1,0,0); l.globalAlpha = 1; l.globalCompositeOperation = 'source-over'; l.clearRect(0,0,w,h);
+    l.drawImage(asset.texture, 0, 0, w, h);
+    // The frame never moves: a shallow brushed-metal cover opens inside the registered door well.
     const door = scalePoints(asset.definition.door, w, h);
-    c.save(); polygon(c, door); c.clip();
+    l.save(); polygon(l, door); l.clip();
     const minX = Math.min(...door.map(point=>point[0])), maxX = Math.max(...door.map(point=>point[0]));
     const coverWidth = Math.ceil(minX + (maxX-minX) * (1-opening));
-    c.fillStyle = '#0c1c20'; c.fillRect(minX, 0, coverWidth-minX, h);
-    c.fillStyle = '#2d4442'; c.fillRect(Math.max(minX,coverWidth-3), 0, 3, h);
-    c.fillStyle = '#8b7954'; c.fillRect(Math.max(minX,coverWidth-10), h*.54, 3, 17);
-    c.restore();
+    if (coverWidth > minX) {
+      const metal = l.createLinearGradient(minX, 0, coverWidth, 0);
+      metal.addColorStop(0, '#16201f'); metal.addColorStop(.55, '#1f2a27'); metal.addColorStop(1, '#141b1a');
+      l.fillStyle = metal; l.fillRect(minX, 0, coverWidth-minX, h);
+      l.fillStyle = '#0a1110'; for (const seam of [.18,.47,.79]) l.fillRect(minX, Math.round(h*seam), coverWidth-minX, 1);
+      l.fillStyle = '#34413a'; for (const seam of [.18,.47,.79]) l.fillRect(minX, Math.round(h*seam)+1, coverWidth-minX, 1);
+      l.fillStyle = '#0d1514'; for (let vy = Math.round(h*.06); vy < h*.14; vy += 3) l.fillRect(minX+3, vy, Math.max(0,coverWidth-minX-6), 1);
+      l.fillStyle = '#3b453c'; l.fillRect(Math.max(minX,coverWidth-3), 0, 2, h);
+      l.fillStyle = '#9b8558'; l.fillRect(Math.max(minX,coverWidth-9), Math.round(h*.54), 3, 15);
+    }
+    l.restore();
     // Three worn lens marks hint at short / short / long; they stay on the existing light bank.
-    const px = w/19, py = h/71; c.fillStyle = '#baa26b'; c.globalAlpha = .65;
-    c.fillRect(px,py*32,px,py); c.fillRect(px,py*34,px,py); c.fillRect(px,py*36,px*2,py); c.globalAlpha = 1;
+    const px = w/19, py = h/71; l.fillStyle = '#baa26b'; l.globalAlpha = .65;
+    l.fillRect(px,py*32,px,py); l.fillRect(px,py*34,px,py); l.fillRect(px,py*36,px*2,py); l.globalAlpha = 1;
+    // Grade into the room: sink the cold paint into the ambient, occlude the base,
+    // then let the neighbouring lantern warm the near edge. Pixels outside the prop stay untouched.
+    l.globalCompositeOperation = 'source-atop';
+    l.fillStyle = 'rgba(12,10,8,.38)'; l.fillRect(0,0,w,h);
+    const occlusion = l.createLinearGradient(0,0,0,h);
+    occlusion.addColorStop(0,'rgba(4,6,6,.28)'); occlusion.addColorStop(.25,'rgba(4,6,6,0)'); occlusion.addColorStop(.78,'rgba(4,6,6,0)'); occlusion.addColorStop(1,'rgba(4,6,6,.5)');
+    l.fillStyle = occlusion; l.fillRect(0,0,w,h);
+    const flicker = isStatic ? 1 : .94 + .06 * Math.sin(time * 7.3) * Math.sin(time * 2.1 + 1);
+    const warm = l.createRadialGradient(LANTERN.x-x, LANTERN.y-y, 4, LANTERN.x-x, LANTERN.y-y, LANTERN.r);
+    warm.addColorStop(0,`rgba(255,168,74,${(.27*flicker).toFixed(3)})`); warm.addColorStop(.45,`rgba(214,120,48,${(.11*flicker).toFixed(3)})`); warm.addColorStop(1,'rgba(214,120,48,0)');
+    l.fillStyle = warm; l.fillRect(0,0,w,h);
+    l.fillStyle = `rgba(255,186,104,${(.22*flicker).toFixed(3)})`; l.fillRect(w-Math.ceil(px*2),Math.round(h*.12),Math.ceil(px),Math.round(h*.62));
+    // The left jamb sits in the rack's shadow; keep it dark so the two silhouettes stay separate.
+    l.fillStyle = 'rgba(2,4,4,.45)'; l.fillRect(0,0,Math.ceil(px*1.5),h);
+    l.globalCompositeOperation = 'source-over';
+    c.save(); c.globalAlpha = 1; c.globalCompositeOperation = 'source-over'; c.imageSmoothingEnabled = false;
+    // Contact shadow on the floor so the cabinet stands on the room instead of floating over it.
+    const contact = c.createRadialGradient(x+w*.46, y+h-3, 2, x+w*.46, y+h-3, w*.85);
+    contact.addColorStop(0,'rgba(2,4,4,.62)'); contact.addColorStop(.6,'rgba(2,4,4,.28)'); contact.addColorStop(1,'rgba(2,4,4,0)');
+    c.save(); c.translate(0, (y+h-3)*(1-.22)); c.scale(1,.22); c.fillStyle = contact; c.fillRect(x-w*.5, y+h-3-w, w*2, w*2); c.restore();
+    c.drawImage(lockerLayer, x, y);
     if (secret.active && asset.noteTexture) {
       const slip = isStatic ? 1 : smooth((elapsed-1.5)/.55) * smooth(((secret.duration||7)-elapsed)/.65);
-      if (slip > 0) { c.save(); c.beginPath(); c.rect(0,h*.92,w,h*.3); c.clip(); c.drawImage(asset.noteTexture,w*.2,h*(.86+slip*.1),8*px,10*py); c.restore(); }
+      if (slip > 0) { c.save(); c.translate(x,y); c.beginPath(); c.rect(0,h*.92,w,h*.3); c.clip(); c.drawImage(asset.noteTexture,w*.2,h*(.86+slip*.1),8*px,10*py); c.restore(); }
     }
     c.restore();
   }
@@ -150,9 +183,9 @@
     else paintGuide(c,time,options,options.state || {room404:{active:true,elapsed:2,duration:10},ledProgress:4});
     try { return { image:canvas.toDataURL('image/png'),width:canvas.width,height:canvas.height }; } catch (error) { return { error:String(error.message||error) }; }
   }
-  function dispose() { if (disposed) return; disposed = true; guide.remove(); guide.width = guide.height = mini.width = mini.height = 0; exporters.clear(); Object.values(assets).forEach(asset => { asset.image.onload = null; asset.image.onerror = null; asset.texture = null; asset.noteTexture = null; }); window.removeEventListener('beforeunload',dispose); }
+  function dispose() { if (disposed) return; disposed = true; guide.remove(); guide.width = guide.height = mini.width = mini.height = lockerLayer.width = lockerLayer.height = 0; exporters.clear(); Object.values(assets).forEach(asset => { asset.image.onload = null; asset.image.onerror = null; asset.texture = null; asset.noteTexture = null; }); window.removeEventListener('beforeunload',dispose); }
   window.addEventListener('beforeunload',dispose);
   window.RelaySecretRooms = Object.freeze({ drawLocker, drawGuide, getLayout:()=>layout, getDefinition, exportFrame, dispose,
-    getDiagnostics:()=>Object.freeze({ ready:!disposed&&Object.values(assets).every(asset=>asset.ready),disposed,lockerActive:!disposed&&!document.hidden&&window.RiskPresentation?.currentScreen?.()==='game'&&lockerActive,guideActive:!disposed&&!document.hidden&&window.RiskPresentation?.currentScreen?.()==='tutorial'&&document.getElementById('screen-tutorial')?.dataset.guideCurrent==='overview',lastGuideTime,lockerDraws,guideDraws,ownedRAF:0,ownedTimers:0,canvasCount:disposed?0:2+Object.values(assets).filter(asset=>asset.texture).length+Object.values(assets).filter(asset=>asset.noteTexture).length+exporters.size,assets:Object.fromEntries(Object.entries(assets).map(([name,asset])=>[name,{ready:asset.ready,error:asset.error,sourceCrop:asset.crop,keyedPixels:asset.keyedPixels}])) })
+    getDiagnostics:()=>Object.freeze({ ready:!disposed&&Object.values(assets).every(asset=>asset.ready),disposed,lockerActive:!disposed&&!document.hidden&&window.RiskPresentation?.currentScreen?.()==='game'&&lockerActive,guideActive:!disposed&&!document.hidden&&window.RiskPresentation?.currentScreen?.()==='tutorial'&&document.getElementById('screen-tutorial')?.dataset.guideCurrent==='overview',lastGuideTime,lockerDraws,guideDraws,ownedRAF:0,ownedTimers:0,canvasCount:disposed?0:3+Object.values(assets).filter(asset=>asset.texture).length+Object.values(assets).filter(asset=>asset.noteTexture).length+exporters.size,assets:Object.fromEntries(Object.entries(assets).map(([name,asset])=>[name,{ready:asset.ready,error:asset.error,sourceCrop:asset.crop,keyedPixels:asset.keyedPixels}])) })
   });
 })();

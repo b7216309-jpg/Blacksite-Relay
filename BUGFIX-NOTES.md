@@ -1,4 +1,4 @@
-# Risk_v2 1.1.3 — Bug fixes
+# Risk_V2 1.1.3 — Bug fixes
 
 This release corrects reproduced faults in Blacksite Relay 1.1.2 and inherited gameplay. Art, original looping music and the compact portrait layout stay the same.
 
