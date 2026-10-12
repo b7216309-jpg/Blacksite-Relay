@@ -1,0 +1,1530 @@
+{
+  "version": "1.2.5",
+  "frameCount": 72,
+  "atlas": [
+    432,
+    432
+  ],
+  "frame": [
+    36,
+    72
+  ],
+  "errors": [],
+  "atlasSha256": "a940522e568ce40ed6308edc7431e5371911e9e1ce646f6de7684b257f062ecd",
+  "startSeconds": 0,
+  "separateShadows": true,
+  "diagnostics": [
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 2,
+      "time": 0,
+      "frameCount": 1,
+      "generatedFrames": 2,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 3,
+      "time": 0.08333333333333333,
+      "frameCount": 1,
+      "generatedFrames": 3,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 4,
+      "time": 0.16666666666666666,
+      "frameCount": 1,
+      "generatedFrames": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 5,
+      "time": 0.25,
+      "frameCount": 1,
+      "generatedFrames": 5,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 6,
+      "time": 0.3333333333333333,
+      "frameCount": 1,
+      "generatedFrames": 6,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 7,
+      "time": 0.4166666666666667,
+      "frameCount": 1,
+      "generatedFrames": 7,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 8,
+      "time": 0.5,
+      "frameCount": 1,
+      "generatedFrames": 8,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 9,
+      "time": 0.5833333333333334,
+      "frameCount": 1,
+      "generatedFrames": 9,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 10,
+      "time": 0.6666666666666666,
+      "frameCount": 1,
+      "generatedFrames": 10,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 11,
+      "time": 0.75,
+      "frameCount": 1,
+      "generatedFrames": 11,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 12,
+      "time": 0.8333333333333334,
+      "frameCount": 1,
+      "generatedFrames": 12,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 13,
+      "time": 0.9166666666666666,
+      "frameCount": 1,
+      "generatedFrames": 13,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 14,
+      "time": 1,
+      "frameCount": 1,
+      "generatedFrames": 14,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 15,
+      "time": 1.0833333333333333,
+      "frameCount": 1,
+      "generatedFrames": 15,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 16,
+      "time": 1.1666666666666667,
+      "frameCount": 1,
+      "generatedFrames": 16,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 17,
+      "time": 1.25,
+      "frameCount": 1,
+      "generatedFrames": 17,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 18,
+      "time": 1.3333333333333333,
+      "frameCount": 1,
+      "generatedFrames": 18,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 19,
+      "time": 1.4166666666666667,
+      "frameCount": 1,
+      "generatedFrames": 19,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 20,
+      "time": 1.5,
+      "frameCount": 1,
+      "generatedFrames": 20,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 21,
+      "time": 1.5833333333333333,
+      "frameCount": 1,
+      "generatedFrames": 21,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 22,
+      "time": 1.6666666666666667,
+      "frameCount": 1,
+      "generatedFrames": 22,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 23,
+      "time": 1.75,
+      "frameCount": 1,
+      "generatedFrames": 23,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 24,
+      "time": 1.8333333333333333,
+      "frameCount": 1,
+      "generatedFrames": 24,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 25,
+      "time": 1.9166666666666667,
+      "frameCount": 1,
+      "generatedFrames": 25,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 26,
+      "time": 2,
+      "frameCount": 1,
+      "generatedFrames": 26,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 27,
+      "time": 2.0833333333333335,
+      "frameCount": 1,
+      "generatedFrames": 27,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 28,
+      "time": 2.1666666666666665,
+      "frameCount": 1,
+      "generatedFrames": 28,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 29,
+      "time": 2.25,
+      "frameCount": 1,
+      "generatedFrames": 29,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 30,
+      "time": 2.3333333333333335,
+      "frameCount": 1,
+      "generatedFrames": 30,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 31,
+      "time": 2.4166666666666665,
+      "frameCount": 1,
+      "generatedFrames": 31,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 32,
+      "time": 2.5,
+      "frameCount": 1,
+      "generatedFrames": 32,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 33,
+      "time": 2.5833333333333335,
+      "frameCount": 1,
+      "generatedFrames": 33,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 34,
+      "time": 2.6666666666666665,
+      "frameCount": 1,
+      "generatedFrames": 34,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 35,
+      "time": 2.75,
+      "frameCount": 1,
+      "generatedFrames": 35,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 36,
+      "time": 2.8333333333333335,
+      "frameCount": 1,
+      "generatedFrames": 36,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 37,
+      "time": 2.9166666666666665,
+      "frameCount": 1,
+      "generatedFrames": 37,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 38,
+      "time": 3,
+      "frameCount": 1,
+      "generatedFrames": 38,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 39,
+      "time": 3.0833333333333335,
+      "frameCount": 1,
+      "generatedFrames": 39,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 40,
+      "time": 3.1666666666666665,
+      "frameCount": 1,
+      "generatedFrames": 40,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 41,
+      "time": 3.25,
+      "frameCount": 1,
+      "generatedFrames": 41,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 42,
+      "time": 3.3333333333333335,
+      "frameCount": 1,
+      "generatedFrames": 42,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 43,
+      "time": 3.4166666666666665,
+      "frameCount": 1,
+      "generatedFrames": 43,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 44,
+      "time": 3.5,
+      "frameCount": 1,
+      "generatedFrames": 44,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 45,
+      "time": 3.5833333333333335,
+      "frameCount": 1,
+      "generatedFrames": 45,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 46,
+      "time": 3.6666666666666665,
+      "frameCount": 1,
+      "generatedFrames": 46,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 47,
+      "time": 3.75,
+      "frameCount": 1,
+      "generatedFrames": 47,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 48,
+      "time": 3.8333333333333335,
+      "frameCount": 1,
+      "generatedFrames": 48,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 49,
+      "time": 3.9166666666666665,
+      "frameCount": 1,
+      "generatedFrames": 49,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 50,
+      "time": 4,
+      "frameCount": 1,
+      "generatedFrames": 50,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 51,
+      "time": 4.083333333333333,
+      "frameCount": 1,
+      "generatedFrames": 51,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 52,
+      "time": 4.166666666666667,
+      "frameCount": 1,
+      "generatedFrames": 52,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 53,
+      "time": 4.25,
+      "frameCount": 1,
+      "generatedFrames": 53,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 54,
+      "time": 4.333333333333333,
+      "frameCount": 1,
+      "generatedFrames": 54,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 55,
+      "time": 4.416666666666667,
+      "frameCount": 1,
+      "generatedFrames": 55,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 56,
+      "time": 4.5,
+      "frameCount": 1,
+      "generatedFrames": 56,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 57,
+      "time": 4.583333333333333,
+      "frameCount": 1,
+      "generatedFrames": 57,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 58,
+      "time": 4.666666666666667,
+      "frameCount": 1,
+      "generatedFrames": 58,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 59,
+      "time": 4.75,
+      "frameCount": 1,
+      "generatedFrames": 59,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 60,
+      "time": 4.833333333333333,
+      "frameCount": 1,
+      "generatedFrames": 60,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 61,
+      "time": 4.916666666666667,
+      "frameCount": 1,
+      "generatedFrames": 61,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 62,
+      "time": 5,
+      "frameCount": 1,
+      "generatedFrames": 62,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 63,
+      "time": 5.083333333333333,
+      "frameCount": 1,
+      "generatedFrames": 63,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 64,
+      "time": 5.166666666666667,
+      "frameCount": 1,
+      "generatedFrames": 64,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 65,
+      "time": 5.25,
+      "frameCount": 1,
+      "generatedFrames": 65,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 66,
+      "time": 5.333333333333333,
+      "frameCount": 1,
+      "generatedFrames": 66,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 67,
+      "time": 5.416666666666667,
+      "frameCount": 1,
+      "generatedFrames": 67,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 68,
+      "time": 5.5,
+      "frameCount": 1,
+      "generatedFrames": 68,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 69,
+      "time": 5.583333333333333,
+      "frameCount": 1,
+      "generatedFrames": 69,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 70,
+      "time": 5.666666666666667,
+      "frameCount": 1,
+      "generatedFrames": 70,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 71,
+      "time": 5.75,
+      "frameCount": 1,
+      "generatedFrames": 71,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 72,
+      "time": 5.833333333333333,
+      "frameCount": 1,
+      "generatedFrames": 72,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "pose": "idle",
+      "draws": 73,
+      "time": 5.916666666666667,
+      "frameCount": 1,
+      "generatedFrames": 73,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "foot": {
+        "x": 574,
+        "y": 707
+      },
+      "pixelSize": {
+        "width": 36,
+        "height": 72
+      },
+      "screen": "game"
+    }
+  ]
+}

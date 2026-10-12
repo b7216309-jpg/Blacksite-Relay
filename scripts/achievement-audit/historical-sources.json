@@ -1,0 +1,32 @@
+[
+  {
+    "version": "1.4.0",
+    "file": "scripts/achievement-audit/before/renderer.js",
+    "sha256": "99922822bb12ae4fc6575c234fdde77c75cafdeccb79ab494ef054253b80898a"
+  },
+  {
+    "version": "1.4.0",
+    "file": "scripts/achievement-audit/before/presentation.js",
+    "sha256": "b19bb2981efe079d0adfb23e45426220a55508b29cc16cfc6e1a0474ea2a8829"
+  },
+  {
+    "version": "1.4.0",
+    "file": "scripts/achievement-audit/before/save-schema.js",
+    "sha256": "24dc60162ca21b957a372069383ec6432566bd2ded8211c0109759c80769bbdc"
+  },
+  {
+    "version": "1.4.1",
+    "file": "scripts/achievement-audit/before-1.4.1/renderer.js",
+    "sha256": "41b13e81f37144722f498825008cb840b3f156b270bf0f56f674fecb7ddfa86d"
+  },
+  {
+    "version": "1.4.1",
+    "file": "scripts/achievement-audit/before-1.4.1/presentation.js",
+    "sha256": "b19bb2981efe079d0adfb23e45426220a55508b29cc16cfc6e1a0474ea2a8829"
+  },
+  {
+    "version": "1.4.1",
+    "file": "scripts/achievement-audit/before-1.4.1/save-schema.js",
+    "sha256": "24dc60162ca21b957a372069383ec6432566bd2ded8211c0109759c80769bbdc"
+  }
+]

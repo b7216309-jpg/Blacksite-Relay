@@ -1,0 +1,9 @@
+# Current scene-discovery film
+
+The38-second preview uses actual real-time420×650 recordings in `recordings/`. The main picture preserves the full native window; the adjacent3× detail comes from the same recorded frames. Rat Union uses two selected highlights; the other four discoveries use continuous short clips. There is no synthetic gameplay or secret-state assignment.
+
+Merge the source and Art & Audio Masters archive into one source tree before rebuilding media. `node art-source/easter-eggs/media/edit-discoveries.cjs --encode` reproduces the edit from supplied recordings and original music/cue masters, using the existing Playwright and ffmpeg-static dependencies. `capture-report.json` supplies actual trigger times and clean gameplay/save snapshots. To make new takes after reviewing runtime, run `node art-source/easter-eggs/media/capture-discoveries.cjs --record --runtime-reviewed`; optional `--only=rootAccess,snailMail,locker` replaces selected takes. These commands use mocked profiles and no live leaderboard.
+
+Screen recordings have no audio track. The edit mixes original `music-original.wav` at0.32 gain with original cue PCM masters at1.5 gain (locker knocks0.825), then uses a0.9 safety limiter without automatic makeup gain. Music fades over0.6seconds in and2seconds out. Cue placement follows recorded control/discovery events. Final AAC loudness/peak and technical audio verification are in `preview-verification.json`. The original music file itself is unchanged.
+
+The first edit exposed a brief inherited hover tooltip in three shot openings. Those actual takes were recorded again with the pointer cleared before interaction, and final openings were inspected. The on-screen title is “Room 404”; the internal source ID remains `room404`. Root independently approved corrected10.2s,15.7s and33s frames. All new media is a spoiler preview; the older gameplay trailer and intro remain explicitly retained footage.

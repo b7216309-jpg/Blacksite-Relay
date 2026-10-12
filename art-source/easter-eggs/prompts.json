@@ -1,0 +1,16 @@
+{
+  "tool": "built-in image_gen",
+  "mode": "original game prop generation with style reference",
+  "reference": "work/Risk_V2/assets/scene/blacksite-relay.png",
+  "referenceRole": "Style and palette only; do not alter or reproduce the room.",
+  "assets": [
+    {
+      "id": "break-time-placard",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent pixel-art game prop, separate from the reference room. Reference image role: match only its worn dark-teal industrial metal, restrained warm amber highlights, crisp chunky pixel clusters and isometric camera. Generate a single small worn amber rectangular placard on a tiny dark-metal floor stand. The large sign face is completely BLANK, flat muted amber with no marks in its usable center; readable text will be drawn by game code. A single small bread crumb sits separately to the lower right with generous transparent space between it and the stand. Both are isolated fully visible objects. Compose the placard as about two thirds of a square canvas, three-quarter isometric view matching the room, with a broad readable front face. Pixel sprite craft, low-resolution appearance equivalent to roughly64x64 logical pixels enlarged with hard nearest-neighbor edges, compact limited palette, clear silhouette at tiny size. No typography, letters, symbols, watermark, surrounding room, floor tile, ground plane, baked shadow, outside glow, blur, soft halo, checkerboard drawing or matte background. Export an actual RGBA PNG with a genuinely transparent alpha background. Preserve solid opaque sprite pixels and clean transparent exterior. The reference is NOT an edit target. Produce only this new prop asset."
+    },
+    {
+      "id": "snail-courier-kit",
+      "prompt": "Use case: stylized-concept. Asset type: original transparent pixel-art game prop, separate from the reference room. Reference image role: style and palette only, matching worn dark-teal industrial materials, copper/amber highlights and crisp chunky pixel clusters. Create a tiny snail-sized courier satchel made of dark brown leather and aged copper: rounded rectangular bag, small hinged copper flap and a simple short strap, viewed in the same three-quarter isometric camera as the reference room. No snail or other character. Put one separate small off-white sealed envelope to the right with generous empty transparent spacing; envelope is blank, with only folded-paper geometry, no text, emblem, stamp or symbol. Bag occupies left two thirds, envelope right quarter, both fully visible on a square canvas. Original restrained cyberpunk pixel sprite craft, low-resolution appearance equivalent to roughly64x64 logical pixels enlarged with hard nearest-neighbor edges, compact limited palette and clear tiny silhouettes. No surrounding room, floor tile, ground plane, baked shadow, outside glow, blur, soft halo, typography, watermark, checkerboard drawing or matte background. Export actual RGBA PNG with genuinely transparent background and clean hard pixel edges. The reference is NOT an edit target. Produce only this new isolated courier prop kit."
+    }
+  ]
+}

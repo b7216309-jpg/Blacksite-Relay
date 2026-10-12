@@ -1,0 +1,21 @@
+/* Opaque during live challenges: only the quit decision remains visible. */
+#relay-quit-dialog[hidden]{display:none!important}
+#relay-quit-dialog{position:fixed;inset:0;z-index:20000;display:flex;align-items:center;justify-content:center;padding:28px;background:#09121b;color:#dce7ee;font:13px/1.6 Consolas,"Courier New",monospace;-webkit-app-region:no-drag;isolation:isolate;outline:0}
+#relay-quit-dialog *{box-sizing:border-box;-webkit-app-region:no-drag}
+.quit-brand{position:absolute;top:23px;left:28px;font:700 18px/24px Bahnschrift,"Segoe UI",sans-serif;letter-spacing:-.5px;color:#e6eff5}
+.quit-brand span{font:10px Consolas,monospace;color:#efc575}.quit-brand i{display:inline-block;width:4px;height:4px;background:#efc575;margin-left:4px}
+.quit-panel{width:100%;max-width:364px;padding:23px 0 9px;border-top:1px solid #3b4e59}
+.quit-symbol{width:42px;height:42px;border:1px solid #685e48;display:grid;place-items:center;color:#efc575;margin-bottom:21px;background:#171e21}.quit-symbol .icon{width:22px;height:22px}
+.quit-eyebrow{font-size:10px;letter-spacing:1.2px;color:#94aab7;margin:0 0 7px}
+#relay-quit-title{font:500 31px/1.15 Bahnschrift,"Segoe UI",sans-serif;letter-spacing:-.6px;margin:0 0 15px;color:#edf3f6}
+#relay-quit-description{font-size:13px;line-height:1.65;color:#bacbd5;margin:0;overflow-wrap:anywhere}
+.quit-loss{margin:17px 0 0;padding:12px 13px;border-left:2px solid #d0ad6f;background:#1b2429;color:#f1ce88;font-size:13px;line-height:1.55;overflow-wrap:anywhere}
+.quit-challenge{font-size:11px;line-height:1.5;color:#afbdc9;margin:12px 0 0}
+.quit-actions{display:flex;flex-direction:column;gap:9px;margin-top:28px}
+.quit-button{min-height:45px;width:100%;border:1px solid #506771;background:#14232d;color:#d8e4e9;padding:11px 14px;text-align:left;font:12px/20px Consolas,monospace;display:flex;align-items:center;justify-content:space-between;cursor:pointer}
+.quit-button[hidden]{display:none!important}.quit-primary{background:#ecca85;border-color:#ecca85;color:#101c24}.quit-button kbd{font:10px Consolas,monospace;border:1px solid currentColor;opacity:.65;padding:1px 4px}
+.quit-danger{border-color:#644548;color:#e0a4a5;background:#201d24}.quit-button:hover{filter:brightness(1.12)}.quit-button:focus-visible{outline:2px solid #a1e0dc;outline-offset:3px}
+.quit-pending{margin:26px 0 0;font-size:10px;letter-spacing:1.5px;color:#d9be83}
+#relay-quit-dialog[data-phase="error"] .quit-symbol{color:#dc9297;border-color:#734b51}
+#screen-settings .quit-settings-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;flex-shrink:0}
+#screen-settings .quit-settings-actions .menu-btn{width:100%;height:43px;min-height:43px;padding:8px 10px;background:#11212af2;border-color:#536e69;font-size:11px}

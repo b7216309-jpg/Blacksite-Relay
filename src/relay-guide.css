@@ -1,0 +1,80 @@
+/* A self-contained field guide. Native text stays separate from optional header art. */
+#screen-tutorial.relay-guide{padding:0 23px 18px;align-items:stretch;justify-content:flex-start;gap:0;background:linear-gradient(155deg,#17303566,transparent 42%),#0b141c;isolation:isolate}
+#screen-tutorial [hidden]{display:none!important}
+#screen-tutorial .guide-hero{position:relative;flex:0 0 124px;padding-top:20px;border-bottom:1px solid #344449;isolation:isolate}
+#guide-art{position:absolute;inset:0 -23px;z-index:-1;overflow:hidden;pointer-events:none}
+#screen-tutorial .guide-topline{height:20px;display:flex;align-items:center;justify-content:space-between;gap:10px;color:#91abae;font-size:10px;letter-spacing:1.2px}
+#guide-back{padding:3px 0 3px 8px;border:0;background:transparent;font-size:10px;color:#d5e5e2;letter-spacing:.3px;height:24px}
+#guide-back:hover{color:#ffce83}
+#guide-title{font-family:Bahnschrift,"Segoe UI",sans-serif;font-size:34px;line-height:39px;font-weight:600;letter-spacing:-1.2px;color:#f2f4ee;margin:10px 0 2px;text-shadow:0 1px 5px #091118;outline:none}
+#guide-subtitle{font-size:13px;line-height:20px;color:#ffc878;margin:0}
+#guide-overview{min-height:0;flex:1;display:flex;flex-direction:column;padding-top:16px}
+#screen-tutorial .guide-intro{font-size:12px;line-height:18px;color:#b3c6cd;margin:0 0 14px}
+#screen-tutorial .guide-loop{list-style:none;display:flex;flex-direction:column;padding:0;margin:0;gap:0}
+#screen-tutorial .guide-loop li{position:relative;display:grid;grid-template-columns:45px minmax(0,1fr);gap:12px;min-height:82px;padding:0 0 16px}
+#screen-tutorial .guide-loop li:last-child{padding-bottom:0;min-height:69px}
+#screen-tutorial .guide-step-icon{height:45px;position:relative;display:grid;place-items:center;border:1px solid #487575;background:#10272b;color:#8fdcd0;margin-top:1px}
+#screen-tutorial .guide-step-icon>.icon{height:23px;width:23px;stroke-width:1.5}
+#screen-tutorial .guide-step-icon>span{position:absolute;right:-4px;bottom:-4px;padding:1px 3px;background:#0b141c;font-size:9px;color:#799995;line-height:11px}
+#screen-tutorial .guide-loop li:not(:last-child)>.guide-step-icon:after{content:"";position:absolute;width:1px;height:27px;top:51px;left:21px;background:linear-gradient(#51696c,#263f42)}
+#screen-tutorial .guide-loop h3{display:flex;align-items:center;justify-content:space-between;gap:8px;height:21px;margin:0 0 5px;font-size:13px;line-height:21px;color:#edf4f2;letter-spacing:.3px}
+#screen-tutorial .guide-loop h3>span{display:flex;gap:4px}
+#screen-tutorial kbd{font-size:10px;line-height:14px;min-height:17px;padding:0 4px;color:#a3c6c8;border-color:#405958;background:#101f27;white-space:nowrap;display:inline-flex;align-items:center;justify-content:center}
+#screen-tutorial .guide-loop p{font-size:11px;line-height:17px;color:#b9cad0;margin:0;letter-spacing:-.15px}
+#screen-tutorial .guide-loop-risk .guide-step-icon{color:#f1b478;background:#2c221c;border-color:#87694b}
+#screen-tutorial .guide-risk-pips{display:block;width:6px;height:7px;background:#ffd080;box-shadow:9px 0 #ffd080,18px 0 #d38a6b,27px 0 #654845;margin-right:27px}
+#screen-tutorial .guide-loop-bank .guide-step-icon{border-color:#89754c;background:#2b271c;color:#ffd080}
+#screen-tutorial .guide-topics{margin-top:auto;padding:11px 0 0}
+#screen-tutorial .guide-topics>p{display:flex;justify-content:space-between;gap:8px;margin:0 0 8px;color:#d7dfdb;font-size:10px;line-height:14px;letter-spacing:.7px}
+#screen-tutorial .guide-topics>p>span{color:#7f969e;font-size:9px;letter-spacing:.2px}
+#screen-tutorial .guide-topics>div{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+#screen-tutorial .guide-topics button{display:flex;align-items:center;justify-content:space-between;gap:5px;padding:9px 10px;height:36px;background:#102027;color:#c3d8da;border:1px solid #354d54;font-size:11px;text-align:left}
+#screen-tutorial .guide-topics button>span{font-size:14px;color:#a3c9c7}
+#screen-tutorial .guide-topics button:hover{background:#193039;border-color:#88b8b2;color:#f2f6ed}
+#screen-tutorial .guide-footer{flex-shrink:0;padding-top:15px}
+#guide-close{height:42px;font-size:12px;letter-spacing:.7px}
+#screen-tutorial button:focus-visible,#screen-tutorial summary:focus-visible{outline:2px solid #98e4dc;outline-offset:2px;box-shadow:none}
+#guide-scroll{flex:1;min-height:0;margin-top:17px;padding-right:7px;scroll-padding:8px;scroll-behavior:auto}
+#guide-scroll [data-guide-page]>:first-child{margin-top:0}
+#guide-scroll [data-guide-page]>:last-child{margin-bottom:0}
+#guide-scroll p{font-size:12px;line-height:19px;color:#b9cbd2;margin:9px 0 14px}
+#guide-scroll strong{font-weight:500;color:#e2eeeb}
+#guide-scroll h3{font-family:Bahnschrift,"Segoe UI",sans-serif;font-size:18px;font-weight:500;line-height:24px;letter-spacing:-.2px;color:#eff5ef;margin:22px 0 7px}
+#screen-tutorial .guide-table{border-collapse:collapse;width:100%;font-size:11px;color:#c0d3d9;line-height:17px;margin-bottom:12px}
+#screen-tutorial .guide-table caption{text-align:left;font-size:10px;letter-spacing:1px;color:#8ba8ac;padding-bottom:10px}
+#screen-tutorial .guide-table th,#screen-tutorial .guide-table td{text-align:left;padding:10px 5px;border-bottom:1px solid #30454b;font-weight:400}
+#screen-tutorial .guide-table thead th{font-size:10px;color:#879fa8;padding-top:0;padding-bottom:5px}
+#screen-tutorial .guide-table th:first-child{padding-left:0}
+#screen-tutorial .guide-table td:nth-child(2){color:#ffd080}
+#screen-tutorial .guide-table tbody th{color:#e4efeb;white-space:nowrap}
+#screen-tutorial .guide-table kbd{margin-right:4px}
+#screen-tutorial .guide-callout{border-left:2px solid #dfb375;padding:11px 12px;background:#e9b76a09;margin:16px 0}
+#screen-tutorial .guide-callout>strong{font-size:12px;color:#f2d09b;line-height:19px}
+#screen-tutorial .guide-callout p{margin:5px 0 0}
+#screen-tutorial .guide-bonus{padding:0 0 3px;margin-top:19px;border-bottom:1px solid #293e46}
+#screen-tutorial .guide-bonus h3{font:500 12px/19px Consolas,"Courier New",monospace;margin:0;display:flex;align-items:center;gap:8px}
+#screen-tutorial .guide-bonus h3>span{margin-left:auto;font-size:9px;color:#caa875;letter-spacing:0}
+#screen-tutorial .guide-bonus p{margin-top:8px}
+#screen-tutorial .guide-odds{margin:-2px 0 14px}
+#screen-tutorial .guide-odds summary{font-size:11px;color:#8fd6cf;cursor:pointer;line-height:22px;list-style:disclosure-closed}
+#screen-tutorial .guide-odds[open] summary{list-style:disclosure-open}
+#screen-tutorial .guide-odds p{font-size:11px;line-height:18px;padding-left:11px;border-left:1px solid #3a565a;color:#a9c3c9}
+#screen-tutorial .guide-protocol-rule{border-top:1px solid #30444b;padding:17px 0 0;margin-top:18px}
+#screen-tutorial .guide-protocol-rule h3{display:flex;align-items:center;gap:9px;margin:0;font:500 13px/21px Consolas,"Courier New",monospace}
+#screen-tutorial .guide-protocol-rule h3>.icon{width:17px;height:17px;color:#93d1cc}
+#screen-tutorial .guide-protocol-rule h3>kbd,#screen-tutorial .guide-protocol-rule h3>span{margin-left:auto;color:#e3bb7d;font-size:10px}
+#screen-tutorial .guide-keys,#screen-tutorial .guide-upgrades{margin:12px 0 19px;font-size:11px;line-height:18px}
+#screen-tutorial .guide-keys>div,#screen-tutorial .guide-upgrades>div{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid #273c44;padding:9px 0}
+#screen-tutorial .guide-keys dt,#screen-tutorial .guide-upgrades dt{color:#d1e2df}
+#screen-tutorial .guide-keys dd,#screen-tutorial .guide-upgrades dd{margin:0;color:#a5bdc7;text-align:right}
+#screen-tutorial .guide-keys kbd{font-size:9px;padding:0 3px}
+#screen-tutorial .guide-prestige{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:14px 0;font-size:10px;color:#a5bbc4;text-align:center}
+#screen-tutorial .guide-prestige>span{padding:12px 3px;background:#1f2a28;border:1px solid #53543f}
+#screen-tutorial .guide-prestige b{display:block;color:#ffd080;font:500 24px/31px Bahnschrift,"Segoe UI",sans-serif;margin-bottom:3px}
+#guide-scroll .guide-muted{font-size:11px;color:#8da4b0;border-top:1px solid #2a3f47;padding-top:12px}
+#main-menu .menu-controls>.guide-launch{display:flex;align-items:center;justify-content:space-between;gap:12px;height:35px;padding:8px 13px;background:#162327e8;color:#f1d19c;border:1px solid #71664e;font-size:11px;letter-spacing:.6px}
+#main-menu .menu-controls>.guide-launch:hover{background:#243536;border-color:#d3bb80;color:#fff0cc}
+#main-menu .guide-launch-flow{display:flex;align-items:center;gap:9px;color:#99bcb9}
+#main-menu .guide-launch-flow .icon{height:15px;width:15px}
+#main-menu .guide-launch-flow i{font-style:normal;font-size:11px;color:#607f83}
+@media(prefers-reduced-motion:reduce){#screen-tutorial.relay-guide{animation:none}}

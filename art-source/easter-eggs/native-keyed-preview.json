@@ -1,0 +1,41 @@
+{
+  "method": "Browser runtime chroma-key/crop rendering; original PNGs unchanged",
+  "assets": [
+    {
+      "id": "break-time-placard",
+      "removedMattePixels": 1025012,
+      "nativeSize": [
+        28,
+        36
+      ],
+      "remainingMattePixels": 0
+    },
+    {
+      "id": "snail-courier-kit",
+      "removedMattePixels": 1284193,
+      "nativeSize": [
+        7,
+        5
+      ],
+      "remainingMattePixels": 0
+    },
+    {
+      "id": "hidden-locker",
+      "removedMattePixels": 1039471,
+      "nativeSize": [
+        19,
+        71
+      ],
+      "remainingMattePixels": 0
+    },
+    {
+      "id": "room404-arcade",
+      "removedMattePixels": 877087,
+      "nativeSize": [
+        48,
+        87
+      ],
+      "remainingMattePixels": 0
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "revision": "1.2.0",
+  "durationSeconds": 40,
+  "frameCount": 1200,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "videoCodec": "H.264 High / yuv420p / BT.709",
+  "audioCodec": "AAC stereo / 48000Hz",
+  "completeDecode": "passed",
+  "integratedLUFS": -17.3,
+  "truePeakDBTP": -0.56,
+  "browserErrors": [],
+  "stagedGameplay": {
+    "realFunctions": true,
+    "isolatedSave": true,
+    "randomRoll": 0.99999,
+    "traceReduction": 6,
+    "extractedMoney": 15284.095,
+    "finalRisk": 94
+  },
+  "operatorFrames": [
+    {
+      "time": 0,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 7,
+        "time": 0,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 8,
+        "time": 0,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 2,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 68,
+        "time": 2,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 68,
+        "time": 2,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 4.966666666666667,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "breathe",
+        "draws": 157,
+        "time": 4.966666666666667,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "breathe",
+        "draws": 157,
+        "time": 4.966666666666667,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "breathe",
+        "draws": 190,
+        "time": 6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "breathe",
+        "draws": 188,
+        "time": 6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 10,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "type",
+        "draws": 316,
+        "time": 10,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "type",
+        "draws": 308,
+        "time": 10,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 16,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 504,
+        "time": 16,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 488,
+        "time": 16,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 17.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 554,
+        "time": 17.6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "listen",
+        "draws": 536,
+        "time": 17.6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 18.4,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "listen",
+        "draws": 580,
+        "time": 18.4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "listen",
+        "draws": 560,
+        "time": 18.4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 22,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "type",
+        "draws": 692,
+        "time": 22,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "breathe",
+        "draws": 668,
+        "time": 22,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 27,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 788,
+        "time": 25.066666666666666,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "bypass"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 818,
+        "time": 27,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 32,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "headset",
+        "draws": 819,
+        "time": 13.44,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 968,
+        "time": 32,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 36,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "breathe",
+        "draws": 939,
+        "time": 15.12,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "breathe",
+        "draws": 1088,
+        "time": 36,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 37.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 987,
+        "time": 15.792,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "headset",
+        "draws": 1136,
+        "time": 37.6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 38.1,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 1002,
+        "time": 16.002,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "headset",
+        "draws": 1151,
+        "time": 38.1,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 39.333333333333336,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 1039,
+        "time": 16.52,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "frameCount": 6,
+        "pose": "idle",
+        "draws": 1188,
+        "time": 39.333333333333336,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "screen": "game"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "../../outputs/Blacksite-Relay-1.2.0/Blacksite-Relay-Trailer.mp4",
+      "bytes": 25544585,
+      "sha256": "ad56ec9ccf921626d25a04e5a8117bef47ebf6e536b438bc038d05061742506a"
+    },
+    {
+      "path": "assets/scene/intro.webm",
+      "bytes": 1525501,
+      "sha256": "42f7232d4ead2576272984eb4fd27993b685dc4038d55677cd5d2b23c6ac0a3d"
+    },
+    {
+      "path": "assets/scene/intro.mp4",
+      "bytes": 2416257,
+      "sha256": "b65a5687482a9d2e3455dd3699c0df66b2f7de4d947169ed628f9891d57f62a4"
+    },
+    {
+      "path": "assets/scene/relay-operator-atlas.png",
+      "bytes": 1471871,
+      "sha256": "b9267a92594d1aa8edf9fbdcb2f8fa034a7a9b0df0d1ed23c493789a003242e1"
+    },
+    {
+      "path": "art-source/blender/Blacksite_Relay.blend",
+      "bytes": 5930731,
+      "sha256": "0227e7c5b6c9c7d9851dc137efc0a42d4a19f4a89527c1de222809c0bb5fa469"
+    },
+    {
+      "path": "art-source/audio/masters/trailer-original-music-40s.wav",
+      "bytes": 10584044,
+      "sha256": "c26f00a264f57deb5fbd7bdb00115e19e8ea278591c8473165d90e6640d1d961"
+    }
+  ],
+  "inspection": {
+    "decodedFrameSeconds": [
+      2,
+      10,
+      16,
+      17.6,
+      18.4,
+      22,
+      27,
+      30,
+      32.5,
+      36,
+      37.6,
+      38.1
+    ],
+    "decodedFrameDirectory": "../living-relay/media/trailer-final-review",
+    "newBlenderIntro": true,
+    "originalMusicUnchanged": true,
+    "blenderReviewFrames": [
+      1,
+      72,
+      144
+    ],
+    "introEncodedReviewSeconds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audioChecks": "Original-music source selection, timed event mix, full decode, loudness and true peak. No claim of human listening."
+  },
+  "seekChecks": [
+    {
+      "seconds": 17.6,
+      "matchesSequential": true
+    },
+    {
+      "seconds": 38.1,
+      "matchesSequential": true
+    }
+  ]
+}

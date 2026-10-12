@@ -1,0 +1,27 @@
+{
+  "tool": "built-in image_gen",
+  "reason": "Two transparent-background attempts produced opaque PNG imagery. Root authorized unchanged original PNGs with a uniform chroma matte and runtime key/despill.",
+  "runtimeMatte": "#FF00FF",
+  "assets": [
+    {
+      "id": "break-time-placard",
+      "input": "break-time-placard-02.png",
+      "prompt": "Edit ONLY the background of this supplied pixel-art prop. Preserve the sign, stand, crumb, design, colors, geometry and blank amber face. Replace every background pixel with perfectly uniform solid pure magenta #FF00FF (RGB255,0,255), including the empty gaps beneath the sign stand. This is an intentional game-engine chroma-key sprite, NOT a request for transparency. No alpha, checkerboard, white, gray or textured backdrop. The magenta must be completely flat and continuous with a sharp hard boundary at the opaque prop pixels. Do not blend magenta into sprite edges; no halo, glow, baked shadow or colored fringe. Keep both separate objects fully visible. No added text, symbols or objects."
+    },
+    {
+      "id": "snail-courier-kit",
+      "input": "snail-courier-kit-02.png",
+      "prompt": "Edit ONLY the background of this supplied pixel-art courier bag and envelope. Preserve both objects, their design, colors, geometry, blank envelope and separation. Replace every background pixel with perfectly uniform solid pure magenta #FF00FF (RGB255,0,255), including the hole inside the bag strap. This is an intentional game-engine chroma-key sprite, NOT a request for transparency. No alpha, checkerboard, white, gray or textured backdrop. The magenta must be completely flat and continuous with a sharp hard boundary at opaque object pixels. Do not blend magenta into edges; no halo, glow, baked shadow or colored fringe. Keep both objects fully visible. No added text, symbols or objects."
+    },
+    {
+      "id": "hidden-locker",
+      "input": "work/Risk_V2/assets/scene/blacksite-relay.png",
+      "prompt": "Use case: stylized-concept. Make an original pixel-art game prop, NOT an edit of the reference room. Reference image supplies only the worn dark-teal metal, dim amber accents, restrained cyan details and chunky crisp pixel style. Subject: one very narrow tall industrial wall-locker inset, approximately1:3.8 width-to-height silhouette, fixed thick metal frame around a near-black open interior. Front-facing with a very slight isometric side thickness, matching the reference's far-right wall. No large swinging door: code will animate a closed cover within the stationary frame. A barely visible dark technician silhouette peeks from the upper interior, with one tiny amber eye glint and partial brow, not a full bright face. In the lower right of the image, separate from the locker, place one small blank worn off-white paper note with a dark outline, fully isolated. No text or emblems anywhere. Pixel sprite appearance, roughly24x80 logical-pixel locker enlarged with hard nearest-neighbor edges, compact limited palette, readable simple silhouette at19x71 native game pixels. No surrounding wall, room, floor, ground plane, cast shadow, outside glow, blur or antialiased halo. Put all objects against a perfectly uniform solid pure magenta #FF00FF background for runtime chroma-keying; this is an intentional opaque matte, NOT transparency. No checkerboard, white or gray background. Magenta only outside object silhouettes, never blended into sprite edges. Locker occupies most of canvas height with safe margin; paper stays separate with generous magenta spacing."
+    },
+      {
+      "id": "room404-arcade",
+      "input": "work/Risk_V2/assets/scene/blacksite-relay.png",
+      "prompt": "Use case: stylized-concept. Create one original miniature isometric arcade cabinet game prop, NOT an edit of the reference room. Match the reference's worn dark-teal industrial metal, dark recessed panels, restrained warm amber edges, cyan phosphor and chunky crisp pixel clusters. Cabinet aspect about3:4, viewed three-quarter isometric from above with the front face aimed left/front. A small upright cabinet, thick teal CRT bezel, one completely blank dark-cyan screen with a simple flat four-sided inner face for a live game graphic, blank dark header marquee, amber two-button controls and a short joystick. Lower front coin-door shape may be plain but no lettering, brand, numbers, symbols or illustrations. Simple readable silhouette equivalent to about64x84 logical pixels, enlarged hard nearest-neighbor edges; deliberate limited palette, clean big material clusters. No surrounding wall/room, floor tile, ground plane, cast shadow, outside glow, blurry shading or antialiased halo. The entire cabinet is fully visible and centered with safe margin on a perfectly uniform solid pure magenta #FF00FF background for runtime chroma-keying. This is an intentional opaque matte, NOT transparency; no checkerboard, white, gray or textured background. Never blend magenta into cabinet edges. The blank screen must have a clear four-corner interior polygon."
+    }
+  ]
+}

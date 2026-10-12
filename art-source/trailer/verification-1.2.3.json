@@ -1,0 +1,4712 @@
+{
+  "revision": "1.2.3",
+  "durationSeconds": 40,
+  "frameCount": 1200,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "videoCodec": "H.264 High / yuv420p / BT.709",
+  "audioCodec": "AAC stereo / 48000Hz",
+  "completeDecode": "passed",
+  "integratedLUFS": -17.3,
+  "truePeakDBTP": -0.56,
+  "browserErrors": [],
+  "stagedGameplay": {
+    "realFunctions": true,
+    "isolatedSave": true,
+    "randomRoll": 0.99999,
+    "traceReduction": 6,
+    "extractedMoney": 15284.095,
+    "finalRisk": 94
+  },
+  "operatorFrames": [
+    {
+      "time": 0,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 12,
+        "time": 0,
+        "frameCount": 1,
+        "generatedFrames": 5,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 14,
+        "time": 0,
+        "frameCount": 1,
+        "generatedFrames": 6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 2,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 73,
+        "time": 2,
+        "frameCount": 1,
+        "generatedFrames": 29,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 74,
+        "time": 2,
+        "frameCount": 1,
+        "generatedFrames": 30,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 4.966666666666667,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 162,
+        "time": 4.966666666666667,
+        "frameCount": 1,
+        "generatedFrames": 64,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 163,
+        "time": 4.966666666666667,
+        "frameCount": 1,
+        "generatedFrames": 65,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 195,
+        "time": 6,
+        "frameCount": 1,
+        "generatedFrames": 78,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 194,
+        "time": 6,
+        "frameCount": 1,
+        "generatedFrames": 78,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 10,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 321,
+        "time": 10,
+        "frameCount": 1,
+        "generatedFrames": 148,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 314,
+        "time": 10,
+        "frameCount": 1,
+        "generatedFrames": 126,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 16,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 509,
+        "time": 16,
+        "frameCount": 1,
+        "generatedFrames": 248,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 494,
+        "time": 16,
+        "frameCount": 1,
+        "generatedFrames": 198,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 17.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "glance",
+        "draws": 559,
+        "time": 17.6,
+        "frameCount": 1,
+        "generatedFrames": 278,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "glance",
+        "draws": 542,
+        "time": 17.6,
+        "frameCount": 1,
+        "generatedFrames": 217,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 18.4,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "glance",
+        "draws": 585,
+        "time": 18.4,
+        "frameCount": 1,
+        "generatedFrames": 289,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "glance",
+        "draws": 566,
+        "time": 18.4,
+        "frameCount": 1,
+        "generatedFrames": 226,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 22,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 697,
+        "time": 22,
+        "frameCount": 1,
+        "generatedFrames": 352,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 674,
+        "time": 22,
+        "frameCount": 1,
+        "generatedFrames": 270,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 27,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 793,
+        "time": 25.066666666666666,
+        "frameCount": 1,
+        "generatedFrames": 405,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "bypass"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 824,
+        "time": 27,
+        "frameCount": 1,
+        "generatedFrames": 330,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 32,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 824,
+        "time": 13.44,
+        "frameCount": 1,
+        "generatedFrames": 417,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 974,
+        "time": 32,
+        "frameCount": 1,
+        "generatedFrames": 390,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 36,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 944,
+        "time": 15.12,
+        "frameCount": 1,
+        "generatedFrames": 437,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 1094,
+        "time": 36,
+        "frameCount": 1,
+        "generatedFrames": 438,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 37.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 992,
+        "time": 15.792,
+        "frameCount": 1,
+        "generatedFrames": 445,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 1142,
+        "time": 37.6,
+        "frameCount": 1,
+        "generatedFrames": 457,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 38.1,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 1007,
+        "time": 16.002,
+        "frameCount": 1,
+        "generatedFrames": 448,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 1157,
+        "time": 38.1,
+        "frameCount": 1,
+        "generatedFrames": 463,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 39.333333333333336,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 1044,
+        "time": 16.52,
+        "frameCount": 1,
+        "generatedFrames": 454,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 1194,
+        "time": 39.333333333333336,
+        "frameCount": 1,
+        "generatedFrames": 478,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "../../outputs/Blacksite-Relay-1.2.3/Blacksite-Relay-Trailer.mp4",
+      "bytes": 27163982,
+      "sha256": "659666135209d034482d902a3c4e8f5340249c4c6456211a56df2bd60ff2f8aa"
+    },
+    {
+      "path": "assets/scene/intro.webm",
+      "bytes": 2016276,
+      "sha256": "4036afeef14620dbcdec510828d67305aaf4a23dbd039dd4dc5ccd30e1867b17"
+    },
+    {
+      "path": "assets/scene/intro.mp4",
+      "bytes": 2873709,
+      "sha256": "f19db970e67e4949009c7a04d01f84201961637f2a37ac9bcd9c4998e8a48edd"
+    },
+    {
+      "path": "assets/scene/relay-operator-design.png",
+      "bytes": 1023050,
+      "sha256": "412e4c0749ab91d92e1d773f3d365cff1657a9dc483583a9bbcf8124ee9dd570"
+    },
+    {
+      "path": "art-source/life/intro-atlas.png",
+      "bytes": 31417,
+      "sha256": "0bedbb971263431434a17f1c016c7787861b3a53fd1cd16d1824228639367ad0"
+    },
+    {
+      "path": "art-source/blender/Blacksite_Relay.blend",
+      "bytes": 6838072,
+      "sha256": "69dbd8bcfa2670453f68daa833a8388689a7b8b26559e485f85616e2119c768a"
+    },
+    {
+      "path": "art-source/audio/masters/trailer-original-music-40s.wav",
+      "bytes": 10584044,
+      "sha256": "c26f00a264f57deb5fbd7bdb00115e19e8ea278591c8473165d90e6640d1d961"
+    },
+    {
+      "path": "src/relay-pets.js",
+      "bytes": 8419,
+      "sha256": "c66e4625ae2295bc249ca3b91fe0b136253ca0ae1786e0f9534864a6f3dadfb8"
+    },
+    {
+      "path": "art-source/pets/intro-pets-atlas.png",
+      "bytes": 207489,
+      "sha256": "6d4cd63887b1ce8902f1c8f4d96e7d5c0ec9a4892a65c7cdfee01997df365d6a"
+    },
+    {
+      "path": "art-source/pets/intro-pets.json",
+      "bytes": 9375,
+      "sha256": "97e0f79e0776cd0ffbf76ce9402255bf910f6ef6adbc4cfb0a3dc9319c57963b"
+    },
+    {
+      "path": "assets/scene/relay-rat-design.png",
+      "bytes": 833291,
+      "sha256": "d6733ef487ea1d75881fd0d3049babc7e90bac41b08c0d3d9bb4f76e74308286"
+    },
+    {
+      "path": "assets/scene/relay-cat-design.png",
+      "bytes": 847054,
+      "sha256": "c8060c8524afa49e4eff88ce576d4099ff8ee30711a6d1d27b6ca5aada3f1e17"
+    },
+    {
+      "path": "assets/scene/relay-snail-design.png",
+      "bytes": 935133,
+      "sha256": "61cef404e4cece9b9864e2ba555440357c1bb42e037cdb20b242e5f8a0570e95"
+    },
+    {
+      "path": "src/relay-lighting.js",
+      "bytes": 9389,
+      "sha256": "94ca559a208171734b363f87ff7aaa36f7feb427dca05661d6d064b2c1787fa2"
+    },
+    {
+      "path": "art-source/lighting/shade.png",
+      "bytes": 21534,
+      "sha256": "695bccfd329803e1e232559ba880b29c290570f939275703820ab41086543261"
+    },
+    {
+      "path": "art-source/lighting/intro-irradiance-atlas.png",
+      "bytes": 1998972,
+      "sha256": "f7da0e70accbac5eb10427f345b6e0b4d3e26c5c9c3ea574089b0a03d8a1b53a"
+    },
+    {
+      "path": "art-source/lighting/intro-lighting.json",
+      "bytes": 976,
+      "sha256": "6443f7b434432387297399c07c1ef052790281bb4fd743c905d65ff65f25ee4d"
+    }
+  ],
+  "inspection": {
+    "decodedFrameSeconds": [
+      2,
+      10,
+      16,
+      17.6,
+      18.4,
+      22,
+      27,
+      30,
+      32.5,
+      36,
+      37.6,
+      38.1
+    ],
+    "decodedFrameDirectory": "../relay-lighting/media/trailer-final-review",
+    "newBlenderIntro": true,
+    "originalMusicUnchanged": true,
+    "blenderReviewFrames": [
+      1,
+      72,
+      144
+    ],
+    "introEncodedReviewSeconds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audioChecks": "Original-music source selection, timed event mix, full decode, loudness and true peak. No claim of human listening.",
+    "runtimePets": true,
+    "runtimeLighting": true
+  },
+  "seekChecks": [
+    {
+      "seconds": 17.6,
+      "matchesSequential": true
+    },
+    {
+      "seconds": 38.1,
+      "matchesSequential": true
+    }
+  ],
+  "petFrames": [
+    {
+      "time": 0,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 12,
+        "time": 0,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "blink",
+            "phase": 0
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1188.4089967068157,
+            "y": 382.2120877179789,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 0
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 0
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 12.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 10,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 5,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 5,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 15,
+        "time": 0,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "blink",
+            "phase": 0
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1188.4089967068157,
+            "y": 382.2120877179789,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 0
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 0
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 12.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 13,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 6,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 6,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 2,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 73,
+        "time": 2,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 2
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1190.4312882244612,
+            "y": 382.9311247020307,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 2
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 2
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 14.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 58,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 29,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 29,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 75,
+        "time": 2,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 2
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1190.4312882244612,
+            "y": 382.9311247020307,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 2
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 2
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 14.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 61,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 30,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 30,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 4.966666666666667,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 162,
+        "time": 4.966666666666667,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 4.966666666666667
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1194.0671054547702,
+            "y": 384.2238597172516,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 4.966666666666667
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 4.966666666666667
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 17.866666666666667
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 129,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 64,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 64,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 164,
+        "time": 4.966666666666667,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 4.966666666666667
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1194.0671054547702,
+            "y": 384.2238597172516,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 4.966666666666667
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 4.966666666666667
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 17.866666666666667
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 132,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 65,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 65,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 195,
+        "time": 6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 6
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1195.4807209677729,
+            "y": 384.72647856631926,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 6
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 428.5546875,
+            "y": 721.11767578125,
+            "facing": 1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 6
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 18.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 154,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 77,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 77,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 195,
+        "time": 6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 6
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1195.4807209677729,
+            "y": 384.72647856631926,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 6
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 428.5546875,
+            "y": 721.11767578125,
+            "facing": 1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 6
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 18.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 157,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 78,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 78,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 10,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 321,
+        "time": 10,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 10
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1201.4670060704423,
+            "y": 386.8549354917128,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 10
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 10
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 22.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 252,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 125,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 125,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 315,
+        "time": 10,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 10
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1201.4670060704423,
+            "y": 386.8549354917128,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 10
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 10
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 22.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 255,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 126,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 126,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 16,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 509,
+        "time": 16,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 16
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1211.1452953634832,
+            "y": 390.2961050181274,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 16
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 16
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 28.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 396,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 197,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 197,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 495,
+        "time": 16,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 16
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1211.1452953634832,
+            "y": 390.2961050181274,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 16
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 16
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 28.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 399,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 198,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 198,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 17.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 559,
+        "time": 17.6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 17.6
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1213.6901893187498,
+            "y": 391.2009562022222,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 17.6
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 17.6
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 30.5
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 435,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 218,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 216,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 543,
+        "time": 17.6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 17.6
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1213.6901893187498,
+            "y": 391.2009562022222,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 17.6
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 17.6
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 30.5
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 438,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 219,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 217,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 18.4,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 585,
+        "time": 18.4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 18.4
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1214.936646198672,
+            "y": 391.6441408706389,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 18.4
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 18.4
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 31.299999999999997
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 453,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 227,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 225,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 567,
+        "time": 18.4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 18.4
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1214.936646198672,
+            "y": 391.6441408706389,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 18.4
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 18.4
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 31.299999999999997
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 456,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 228,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 226,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 22,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 697,
+        "time": 22,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 22
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1220.2116085185567,
+            "y": 393.51968302882017,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 22
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410.8984375,
+            "y": 713.39306640625,
+            "facing": -1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 22
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 34.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 541,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 271,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 269,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 675,
+        "time": 22,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 22
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1220.2116085185567,
+            "y": 393.51968302882017,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 22
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410.8984375,
+            "y": 713.39306640625,
+            "facing": -1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 22
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 34.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 544,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 272,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 270,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 27,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 793,
+        "time": 25.066666666666666,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "bypass",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 25.066666666666666
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1224.0816646525134,
+            "y": 394.8957029875603,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 25.066666666666666
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 25.066666666666666
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1214.6010561342594,
+            "y": 733.072337962963,
+            "facing": 1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 37.96666666666667
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 616,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 308,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 305,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 825,
+        "time": 27,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 27
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1226.1220262090603,
+            "y": 395.6211648743326,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 27
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 27
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 39.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 667,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 333,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 330,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 32,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 824,
+        "time": 13.44,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "success",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 13.44
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1206.99582064566,
+            "y": 388.820736229568,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 13.44
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 13.44
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 26.34
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 642,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 320,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 317,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 975,
+        "time": 32,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 32
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1229.5297637057156,
+            "y": 396.83280487314335,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 32
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 32
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 44.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 789,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 393,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 390,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 36,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 944,
+        "time": 15.12,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "success",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 15.12
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1209.7250753791884,
+            "y": 389.79113791260033,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 15.12
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 15.12
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 28.02
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 682,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 340,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 337,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1095,
+        "time": 36,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 36
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1229.8278817111966,
+            "y": 396.93880238620324,
+            "facing": -1,
+            "pose": "creep",
+            "phase": 36
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 410,
+            "y": 713,
+            "facing": 1,
+            "moving": false,
+            "pose": "sniff",
+            "phase": 36
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 48.9
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 885,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 442,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 438,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 37.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 992,
+        "time": 15.792,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "success",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 15.792
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1210.8106035572278,
+            "y": 390.17710348701434,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 15.792
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 15.792
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 28.692
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 698,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 348,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 345,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1143,
+        "time": 37.6,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 37.6
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1229.2842252796934,
+            "y": 396.7455023216687,
+            "facing": -1,
+            "pose": "creep",
+            "phase": 37.6
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 425.42480468750006,
+            "y": 719.7483520507812,
+            "facing": 1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 37.6
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1280,
+            "y": 754,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 50.5
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 925,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 461,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 457,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 38.1,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1007,
+        "time": 16.002,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "success",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 16.002
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1211.148510093014,
+            "y": 390.2972480330717,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 16.002
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 16.002
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 28.902
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 703,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 351,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 348,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1158,
+        "time": 38.1,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 38.1
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1229.0428693202189,
+            "y": 396.6596868694112,
+            "facing": -1,
+            "pose": "creep",
+            "phase": 38.1
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 442.53906250000006,
+            "y": 727.23583984375,
+            "facing": 1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 38.1
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1277.528076171875,
+            "y": 753.208984375,
+            "facing": -1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 51
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 938,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 467,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 463,
+            "cachedFrames": 1
+          }
+        }
+      }
+    },
+    {
+      "time": 39.333333333333336,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1044,
+        "time": 16.52,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "success",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 16.52
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1211.9786585183645,
+            "y": 390.5924119176407,
+            "facing": 1,
+            "pose": "creep",
+            "phase": 16.52
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 490,
+            "y": 748,
+            "facing": 1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 16.52
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1180,
+            "y": 722,
+            "facing": -1,
+            "moving": false,
+            "pose": "rest",
+            "phase": 29.42
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 716,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 357,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 354,
+            "cachedFrames": 1
+          }
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1195,
+        "time": 39.333333333333336,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "residentLimit": 4,
+        "screen": "game",
+        "residents": [
+          {
+            "id": "server-cat",
+            "kind": "cat",
+            "x": 363,
+            "y": 370,
+            "facing": 1,
+            "pose": "rest",
+            "phase": 39.333333333333336
+          },
+          {
+            "id": "coil-snail",
+            "kind": "snail",
+            "x": 1228.3109998420157,
+            "y": 396.39946661049447,
+            "facing": -1,
+            "pose": "creep",
+            "phase": 39.333333333333336
+          },
+          {
+            "id": "cable-rat",
+            "kind": "rat",
+            "x": 483.362449363426,
+            "y": 745.0960715964989,
+            "facing": 1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 39.333333333333336
+          },
+          {
+            "id": "rack-rat",
+            "kind": "rat",
+            "x": 1233.1231915509259,
+            "y": 738.9994212962963,
+            "facing": -1,
+            "moving": true,
+            "pose": "scurry",
+            "phase": 52.233333333333334
+          }
+        ],
+        "textures": {
+          "rat": {
+            "ready": true,
+            "crop": [
+              153,
+              210,
+              1355,
+              483
+            ],
+            "pixelSize": [
+              30,
+              16
+            ],
+            "generatedFrames": 967,
+            "cachedFrames": 2
+          },
+          "cat": {
+            "ready": true,
+            "crop": [
+              256,
+              201,
+              934,
+              638
+            ],
+            "pixelSize": [
+              28,
+              22
+            ],
+            "generatedFrames": 482,
+            "cachedFrames": 1
+          },
+          "snail": {
+            "ready": true,
+            "crop": [
+              263,
+              206,
+              900,
+              657
+            ],
+            "pixelSize": [
+              21,
+              18
+            ],
+            "generatedFrames": 478,
+            "cachedFrames": 1
+          }
+        }
+      }
+    }
+  ],
+  "lightingFrames": [
+    {
+      "time": 0,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 12,
+        "mapBuilds": 4,
+        "time": 0,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8313725490196079,
+          "aisle": 1.0745098039215686,
+          "east": 0.8823529411764706,
+          "far": 0.8980392156862745,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 14,
+        "mapBuilds": 4,
+        "time": 0,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8313725490196079,
+          "aisle": 1.0745098039215686,
+          "east": 0.8823529411764706,
+          "far": 0.8980392156862745,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 2,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 73,
+        "mapBuilds": 19,
+        "time": 2,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8470588235294118,
+          "aisle": 1.0588235294117647,
+          "east": 0.8549019607843137,
+          "far": 0.8901960784313725,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 74,
+        "mapBuilds": 19,
+        "time": 2,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8470588235294118,
+          "aisle": 1.0588235294117647,
+          "east": 0.8549019607843137,
+          "far": 0.8901960784313725,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 4.966666666666667,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 162,
+        "mapBuilds": 43,
+        "time": 4.966666666666667,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8156862745098039,
+          "aisle": 1.0274509803921568,
+          "east": 0.8705882352941177,
+          "far": 0.9137254901960784,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 163,
+        "mapBuilds": 43,
+        "time": 4.966666666666667,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8156862745098039,
+          "aisle": 1.0274509803921568,
+          "east": 0.8705882352941177,
+          "far": 0.9137254901960784,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 195,
+        "mapBuilds": 60,
+        "time": 6,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8117647058823529,
+          "aisle": 1.035294117647059,
+          "east": 0.8823529411764706,
+          "far": 0.9254901960784314,
+          "crt": 1.011764705882353,
+          "core": 0.8980392156862745,
+          "racks": 1.011764705882353,
+          "alarm": 0
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 194,
+        "mapBuilds": 51,
+        "time": 6,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8117647058823529,
+          "aisle": 1.035294117647059,
+          "east": 0.8823529411764706,
+          "far": 0.9254901960784314,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 10,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 321,
+        "mapBuilds": 180,
+        "time": 10,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8470588235294118,
+          "aisle": 1.0705882352941176,
+          "east": 0.8588235294117647,
+          "far": 0.9137254901960784,
+          "crt": 0.8509803921568627,
+          "core": 0.8745098039215686,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 314,
+        "mapBuilds": 83,
+        "time": 10,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8470588235294118,
+          "aisle": 1.0705882352941176,
+          "east": 0.8588235294117647,
+          "far": 0.9137254901960784,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 16,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 509,
+        "mapBuilds": 357,
+        "time": 16,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8392156862745098,
+          "aisle": 1.0470588235294118,
+          "east": 0.8862745098039215,
+          "far": 0.9098039215686274,
+          "crt": 0.9411764705882353,
+          "core": 0.9882352941176471,
+          "racks": 0.9529411764705882,
+          "alarm": 0.27058823529411763
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 494,
+        "mapBuilds": 152,
+        "time": 16,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8392156862745098,
+          "aisle": 1.0470588235294118,
+          "east": 0.8862745098039215,
+          "far": 0.9098039215686274,
+          "crt": 0.8392156862745098,
+          "core": 0.9882352941176471,
+          "racks": 0.8,
+          "alarm": 0.27058823529411763
+        }
+      }
+    },
+    {
+      "time": 17.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 559,
+        "mapBuilds": 405,
+        "time": 17.6,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8470588235294118,
+          "aisle": 1.0705882352941176,
+          "east": 0.8666666666666667,
+          "far": 0.9254901960784314,
+          "crt": 1.007843137254902,
+          "core": 0.9098039215686274,
+          "racks": 0.9921568627450981,
+          "alarm": 0.6509803921568628
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 542,
+        "mapBuilds": 187,
+        "time": 17.6,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8470588235294118,
+          "aisle": 1.0705882352941176,
+          "east": 0.8666666666666667,
+          "far": 0.9254901960784314,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0.6509803921568628
+        }
+      }
+    },
+    {
+      "time": 18.4,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 585,
+        "mapBuilds": 429,
+        "time": 18.4,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8431372549019608,
+          "aisle": 1.0745098039215686,
+          "east": 0.8588235294117647,
+          "far": 0.9294117647058824,
+          "crt": 0.8705882352941177,
+          "core": 0.8509803921568627,
+          "racks": 0.9568627450980393,
+          "alarm": 0
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 566,
+        "mapBuilds": 197,
+        "time": 18.4,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8431372549019608,
+          "aisle": 1.0745098039215686,
+          "east": 0.8588235294117647,
+          "far": 0.9294117647058824,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 22,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 697,
+        "mapBuilds": 536,
+        "time": 22,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8156862745098039,
+          "aisle": 1.031372549019608,
+          "east": 0.8745098039215686,
+          "far": 0.9058823529411765,
+          "crt": 1.0862745098039215,
+          "core": 0.996078431372549,
+          "racks": 1.003921568627451,
+          "alarm": 0.32941176470588235
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 674,
+        "mapBuilds": 244,
+        "time": 22,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8156862745098039,
+          "aisle": 1.031372549019608,
+          "east": 0.8745098039215686,
+          "far": 0.9058823529411765,
+          "crt": 0.8745098039215686,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0.32941176470588235
+        }
+      }
+    },
+    {
+      "time": 27,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 793,
+        "mapBuilds": 627,
+        "time": 25.066666666666666,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 2,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8470588235294118,
+          "aisle": 1.0470588235294118,
+          "east": 0.8784313725490196,
+          "far": 0.8901960784313725,
+          "crt": 0.8862745098039215,
+          "core": 0.8509803921568627,
+          "racks": 0.8117647058823529,
+          "alarm": 0.43137254901960786
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 824,
+        "mapBuilds": 355,
+        "time": 27,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8274509803921568,
+          "aisle": 1.0705882352941176,
+          "east": 0.8549019607843137,
+          "far": 0.9058823529411765,
+          "crt": 0.8745098039215686,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0.5843137254901961
+        }
+      }
+    },
+    {
+      "time": 32,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 824,
+        "mapBuilds": 658,
+        "time": 13.44,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 3,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8117647058823529,
+          "aisle": 1.0274509803921568,
+          "east": 0.8705882352941177,
+          "far": 0.8901960784313725,
+          "crt": 1.1803921568627451,
+          "core": 1.0274509803921568,
+          "racks": 0.9803921568627451,
+          "alarm": 0.403921568627451
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 974,
+        "mapBuilds": 465,
+        "time": 32,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8470588235294118,
+          "aisle": 1.0274509803921568,
+          "east": 0.8901960784313725,
+          "far": 0.9176470588235294,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 36,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 944,
+        "mapBuilds": 737,
+        "time": 15.12,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 3,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8235294117647058,
+          "aisle": 1.035294117647059,
+          "east": 0.8901960784313725,
+          "far": 0.9019607843137255,
+          "crt": 0.8745098039215686,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0.615686274509804
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1094,
+        "mapBuilds": 495,
+        "time": 36,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8117647058823529,
+          "aisle": 1.0705882352941176,
+          "east": 0.8509803921568627,
+          "far": 0.8901960784313725,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 37.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 992,
+        "mapBuilds": 754,
+        "time": 15.792,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 3,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8352941176470589,
+          "aisle": 1.0431372549019609,
+          "east": 0.8862745098039215,
+          "far": 0.9098039215686274,
+          "crt": 0.8745098039215686,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0.48627450980392156
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1142,
+        "mapBuilds": 503,
+        "time": 37.6,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8156862745098039,
+          "aisle": 1.0666666666666667,
+          "east": 0.8627450980392157,
+          "far": 0.8980392156862745,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 38.1,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1007,
+        "mapBuilds": 759,
+        "time": 16.002,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 3,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8392156862745098,
+          "aisle": 1.0470588235294118,
+          "east": 0.8862745098039215,
+          "far": 0.9098039215686274,
+          "crt": 0.8745098039215686,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0.4392156862745098
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1157,
+        "mapBuilds": 508,
+        "time": 38.1,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8235294117647058,
+          "aisle": 1.0627450980392157,
+          "east": 0.8666666666666667,
+          "far": 0.9058823529411765,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    },
+    {
+      "time": 39.333333333333336,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1044,
+        "mapBuilds": 769,
+        "time": 16.52,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 3,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8431372549019608,
+          "aisle": 1.0549019607843138,
+          "east": 0.8823529411764706,
+          "far": 0.9176470588235294,
+          "crt": 0.8745098039215686,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0.4
+        }
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "draws": 1194,
+        "mapBuilds": 522,
+        "time": 39.333333333333336,
+        "mapCount": 10,
+        "mapSize": [
+          420,
+          280
+        ],
+        "viewBuffers": 1,
+        "viewBufferLimit": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "levels": {
+          "west": 0.8431372549019608,
+          "aisle": 1.0431372549019609,
+          "east": 0.8862745098039215,
+          "far": 0.9176470588235294,
+          "crt": 0.8392156862745098,
+          "core": 0.8509803921568627,
+          "racks": 0.8,
+          "alarm": 0
+        }
+      }
+    }
+  ],
+  "visualReview": {
+    "seconds": [
+      2,
+      10,
+      16,
+      17.6,
+      18.4,
+      22,
+      27,
+      30,
+      32.5,
+      36,
+      37.6,
+      38.1
+    ],
+    "result": "All twelve decoded frames inspected: warm and cool surface lighting stays registered and preserves the original pixel texture. Operator and pets stay grounded. Gameplay text, bypass controls, extraction recap and title remain readable.",
+    "frameDirectory": "art-source/trailer/final-review",
+    "introBlenderFrames": [
+      1,
+      72,
+      144
+    ],
+    "introEncodedSeconds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audioReviewScope": "Original-source hashes, cue timing, full decode, loudness and peak measurements; no claim of a human listening review."
+  },
+  "titleContinuity": {
+    "report": "art-source/trailer/title-continuity.json",
+    "frames": 108,
+    "brightReferencePixels": 33714,
+    "maximumChangedPixelFraction": 0,
+    "result": "passed"
+  }
+}

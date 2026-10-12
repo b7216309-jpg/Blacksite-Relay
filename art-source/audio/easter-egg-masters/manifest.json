@@ -1,0 +1,56 @@
+{
+  "provenance": "Original deterministic synthesis; no samples",
+  "sampleRate": 44100,
+  "channels": 2,
+  "pcmBits": 16,
+  "cues": [
+    {
+      "name": "egg-rat",
+      "seconds": 1.1,
+      "peak": 0.07002,
+      "rms": 0.02584,
+      "startZero": true,
+      "endZero": true
+    },
+    {
+      "name": "egg-cat",
+      "seconds": 1.8,
+      "peak": 0.08251,
+      "rms": 0.03431,
+      "startZero": true,
+      "endZero": true
+    },
+    {
+      "name": "egg-snail",
+      "seconds": 1.0,
+      "peak": 0.10184,
+      "rms": 0.03413,
+      "startZero": true,
+      "endZero": true
+    },
+    {
+      "name": "egg-locker",
+      "seconds": 1.4,
+      "peak": 0.13495,
+      "rms": 0.02182,
+      "startZero": true,
+      "endZero": true
+    },
+    {
+      "name": "egg-arcade",
+      "seconds": 1.45,
+      "peak": 0.09738,
+      "rms": 0.03447,
+      "startZero": true,
+      "endZero": true
+    },
+    {
+      "name": "egg-knock",
+      "seconds": 0.23,
+      "peak": 0.21156,
+      "rms": 0.03034,
+      "startZero": true,
+      "endZero": true
+    }
+  ]
+}

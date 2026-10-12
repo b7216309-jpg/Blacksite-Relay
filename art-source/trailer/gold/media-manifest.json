@@ -1,0 +1,111 @@
+{
+  "version": "1.8.0",
+  "durationSeconds": 40,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "music": {
+    "file": "trailer-music-40s.wav",
+    "sha256": "7ccba59c0b98f5603388d7c93bb2e7a54632232f280745c5e7eef60fe084fe1d"
+  },
+  "cues": [
+    {
+      "time": 5.566666666666666,
+      "name": "hack-1"
+    },
+    {
+      "time": 5.566666666666666,
+      "name": "node"
+    },
+    {
+      "time": 5.566666666666666,
+      "name": "achievement"
+    },
+    {
+      "time": 5.566666666666666,
+      "name": "achievement"
+    },
+    {
+      "time": 6.2,
+      "name": "hack-2"
+    },
+    {
+      "time": 6.9,
+      "name": "hack-3"
+    },
+    {
+      "time": 6.9,
+      "name": "node"
+    },
+    {
+      "time": 6.9,
+      "name": "achievement"
+    },
+    {
+      "time": 7.6,
+      "name": "proxy"
+    },
+    {
+      "time": 8.066666666666666,
+      "name": "hack-2"
+    },
+    {
+      "time": 8.8,
+      "name": "hack-1"
+    },
+    {
+      "time": 9.566666666666666,
+      "name": "hack-3"
+    },
+    {
+      "time": 9.566666666666666,
+      "name": "node"
+    },
+    {
+      "time": 9.566666666666666,
+      "name": "bypass-ready"
+    },
+    {
+      "time": 16.933333333333334,
+      "name": "achievement"
+    },
+    {
+      "time": 16.933333333333334,
+      "name": "minigame-success"
+    },
+    {
+      "time": 24.8,
+      "name": "achievement"
+    },
+    {
+      "time": 24.8,
+      "name": "minigame-success"
+    },
+    {
+      "time": 31,
+      "name": "minigame-success"
+    },
+    {
+      "time": 31.8,
+      "name": "transfer"
+    },
+    {
+      "time": 31.8,
+      "name": "achievement"
+    },
+    {
+      "time": 27.433333333333334,
+      "name": "click"
+    },
+    {
+      "time": 29.033333333333335,
+      "name": "click"
+    },
+    {
+      "time": 30.433333333333334,
+      "name": "click"
+    }
+  ],
+  "scriptedDemonstration": true,
+  "gameplay": "Current game code and actual handlers with a deterministic isolated demonstration save. Real input, timers and outcome calculations; protocol appearances triggered for filming."
+}

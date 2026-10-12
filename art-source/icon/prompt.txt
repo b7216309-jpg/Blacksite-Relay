@@ -1,0 +1,9 @@
+Use case: logo-brand
+Asset type: Windows game application icon, square raster pixel-art mark.
+Primary request: Create a charming, welcoming original cyberpunk server-cat app icon for the indie game Risk_v2 / Blacksite Relay. A friendly little charcoal cat with bright soft turquoise eyes and small copper inner ears peeks over and rests two paws on a tiny chunky amber-and-teal CRT terminal. One clear compact silhouette, centered, easy to recognize even at 32 or 16 pixels. The cat's large face is the dominant shape; the terminal is a simple smaller lower base with one luminous cyan screen. Gentle content expression, round cheeks and a tiny smile, calm clever companion.
+Style/medium: Crisp deliberate pixel art, visibly stepped edges and clean clusters as though drawn on a 64x64 grid enlarged with nearest neighbor. Professional polished game-icon finish, restrained shading in broad clusters, no blur, no painterly texture.
+Composition: Fill most of the square with the single cat-and-terminal silhouette, 8% clear margin; symmetric near-front view; no scene or separate objects.
+Color palette: Deep dark cyan and charcoal body, turquoise eyes and screen, warm copper/amber trim and ears. Subtle dark teal rounded-square plate behind the mascot; the plate and mascot are the only artwork, corners outside the plate genuinely transparent. Contrast strong enough for both light and dark Windows taskbars.
+Constraints: No text, no letters, no numbers, no watermarks, no skulls, no weapons, no angry expression, no complex circuit maze, no existing character or franchise likeness. Icon, not a full illustration. Transparent exterior background.
+
+Generated with the built-in ImageGen tool, 2026-10-12. Original output preserved as blacksite-friendly-icon-master.png. Exported sizes use area resampling; ICO embeds lossless PNG frames.

@@ -1,0 +1,54 @@
+[
+  {
+    "file": "01_neon_standby_96bpm",
+    "duration_seconds": 60,
+    "sample_rate": 44100,
+    "channels": 2,
+    "wav_peak_dbfs": -1.1105995842560359,
+    "wav_seam_delta": [
+      0,
+      0
+    ],
+    "ogg_decoded_frames": 2646000,
+    "ogg_peak_dbfs": -1.0679887533187866
+  },
+  {
+    "file": "02_backstreet_signal_112bpm",
+    "duration_seconds": 60,
+    "sample_rate": 44100,
+    "channels": 2,
+    "wav_peak_dbfs": -1.1105995842560359,
+    "wav_seam_delta": [
+      0,
+      0
+    ],
+    "ogg_decoded_frames": 2646000,
+    "ogg_peak_dbfs": -1.0491663217544556
+  },
+  {
+    "file": "03_chrome_pursuit_128bpm",
+    "duration_seconds": 60,
+    "sample_rate": 44100,
+    "channels": 2,
+    "wav_peak_dbfs": -1.1105995842560359,
+    "wav_seam_delta": [
+      0,
+      0
+    ],
+    "ogg_decoded_frames": 2646000,
+    "ogg_peak_dbfs": -1.1843370199203491
+  },
+  {
+    "file": "04_redline_protocol_160bpm",
+    "duration_seconds": 60,
+    "sample_rate": 44100,
+    "channels": 2,
+    "wav_peak_dbfs": -1.1105995842560359,
+    "wav_seam_delta": [
+      0,
+      0
+    ],
+    "ogg_decoded_frames": 2646000,
+    "ogg_peak_dbfs": -0.9527636766433716
+  }
+]

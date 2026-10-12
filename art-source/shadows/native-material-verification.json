@@ -1,0 +1,15 @@
+{
+  "nativeSize": [
+    420,
+    280
+  ],
+  "referenceSeconds": 2,
+  "shadowPixels": 786,
+  "meanChannelError": 0.003262471655328798,
+  "shadowMeanChannelError": 0.48812553011026294,
+  "maximumChannelError": 1,
+  "outsideShadowMaximumError": 0,
+  "method": "Identical original native room and continuous shadow mask; compare real Canvas RelayShadows.draw against the actual orthographic Blender source-backed sRGB material at frame 49.",
+  "tolerance": "Shadow-region MAE < 1/255, no channel beyond 3/255, outside-ink error <= 1/255.",
+  "passed": true
+}

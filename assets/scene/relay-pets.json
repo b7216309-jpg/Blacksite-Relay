@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "sourceArtSize": [1536, 1024],
+  "nativeWidth": 420,
+  "animationFps": 12,
+  "residentLimit": 4,
+  "ratLimit": 2,
+  "designs": {
+    "rat": {"image":"relay-rat-design.png","crop":[153,210,1355,483],"canvas":[30,16],"content":[2,2,26,10],"pivot":[18,12]},
+    "cat": {"image":"relay-cat-design.png","crop":[256,201,934,638],"canvas":[28,22],"content":[2,2,24,16],"pivot":[15,18]},
+    "snail": {"image":"relay-snail-design.png","crop":[263,206,900,657],"canvas":[21,18],"content":[2,2,17,12],"pivot":[11,14],"renderScale":0.65,"renderCanvas":[14,12],"renderPivot":[7,9],"nativeDrawingApprox":[11,8]}
+  },
+  "residents": [
+    {"id":"server-cat","kind":"cat","foot":[363,370],"gestures":["blink","ear-flick"]},
+    {"id":"coil-snail","kind":"snail","foot":[1206,389],"facing":-1,"movement":"stationary","gestures":["eye-stalks"]},
+    {"id":"cable-rat","kind":"rat","route":[[410,713],[490,748]],"period":31.7,"offset":0,"gestures":["scurry","sniff","rest"]},
+    {"id":"rack-rat","kind":"rat","route":[[1180,722],[1280,754]],"period":31.7,"offset":12.9,"gestures":["scurry","sniff","rest"]}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "image": "intro-shadows-atlas.png",
+  "width": 5040,
+  "height": 1680,
+  "frameWidth": 420,
+  "frameHeight": 280,
+  "columns": 12,
+  "rows": 6,
+  "frameCount": 72,
+  "roomWidth": 1536,
+  "roomHeight": 1024,
+  "depth": 0.036,
+  "pixelStep": 1,
+  "animationBaked": true,
+  "alpha": "Unmodified continuous native shadow opacity; black RGB.",
+  "formula": "sRGB(C) * (1 - alpha)",
+  "holdSeconds": 0.08333333333333333,
+  "source": {
+    "renderer": "src/relay-shadows.js",
+    "rendererSha256": "02ce10ca463b4fb6881ab65b81603c80f9b8c4a203dfe260e7eadf01d3419719",
+    "operatorSha256": "c6f5acf9e978b87813fedfc3dc68fbd49029b83c5cf29ce8a8277742d341bcb2",
+    "petsSha256": "83ae364d3367252c5f490face2009fcd19242485ce4f749ab99dfd4218d18b41",
+    "art": "assets/scene/blacksite-relay.png",
+    "artSha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+    "startSeconds": 0,
+    "endExclusiveSeconds": 6,
+    "fps": 12,
+    "options": {
+      "screen": "game",
+      "risk": 0,
+      "isStatic": false,
+      "signal": {
+        "power": 1,
+        "activity": 0,
+        "warning": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "subjectiveListening": false,
+  "method": "Deterministic sample-index edit of hash-verified accepted tracks; preserved tempo and pitch; equal-power 250 ms transitions; independent opening/end envelopes.",
+  "sourceMasterManifest": "art-source/audio/neon-soundtrack/manifest.json",
+  "sourceFormat": "shipped OGG files decoded by FFmpeg",
+  "sources": [
+    {
+      "file": "music-neon-standby.ogg",
+      "sha256": "69a8326d043067b72b4450b47b1292e88dd8452e921fee902ffefddbff0cb91c",
+      "bpm": 96,
+      "unmodified": true
+    },
+    {
+      "file": "music-backstreet-signal.ogg",
+      "sha256": "09527676ab5729d5252b0049ec6be919d30512bac46ad54c04719840267986f2",
+      "bpm": 112,
+      "unmodified": true
+    },
+    {
+      "file": "music-chrome-pursuit.ogg",
+      "sha256": "0ee46f1179f89ba7b0d3121dcb76265763a93fd352f475c0f220547f222b87fc",
+      "bpm": 128,
+      "unmodified": true
+    },
+    {
+      "file": "music-redline-protocol.ogg",
+      "sha256": "2f574da3ff9f3d29bb80439f7a87e2af8933a7ced2d8821210aa7d84deab0440",
+      "bpm": 160,
+      "unmodified": true
+    }
+  ],
+  "timeline": [
+    {
+      "track": "neon-standby",
+      "bpm": 96,
+      "startSeconds": 0.0,
+      "nextDownbeatSeconds": 5.0,
+      "endSeconds": 5.25,
+      "sourceStartSeconds": 0.0,
+      "completeBars": 2,
+      "gain": 0.31333500000000003,
+      "fadeInSeconds": 0.5,
+      "fadeOutSeconds": 0.25
+    },
+    {
+      "track": "backstreet-signal",
+      "bpm": 112,
+      "startSeconds": 5.0,
+      "nextDownbeatSeconds": 13.571428571428571,
+      "endSeconds": 13.821428571428571,
+      "sourceStartSeconds": 8.571428571428571,
+      "completeBars": 4,
+      "gain": 0.46388399999999996,
+      "fadeInSeconds": 0.25,
+      "fadeOutSeconds": 0.25
+    },
+    {
+      "track": "chrome-pursuit",
+      "bpm": 128,
+      "startSeconds": 13.571428571428571,
+      "nextDownbeatSeconds": 28.571428571428573,
+      "endSeconds": 28.821428571428573,
+      "sourceStartSeconds": 0.0,
+      "completeBars": 8,
+      "gain": 0.5139549999999999,
+      "fadeInSeconds": 0.25,
+      "fadeOutSeconds": 0.25
+    },
+    {
+      "track": "redline-protocol",
+      "bpm": 160,
+      "startSeconds": 28.571428571428573,
+      "nextDownbeatSeconds": 34.57142857142857,
+      "endSeconds": 34.82142857142857,
+      "sourceStartSeconds": 6.0,
+      "completeBars": 4,
+      "gain": 0.47096800000000005,
+      "fadeInSeconds": 0.25,
+      "fadeOutSeconds": 0.25
+    },
+    {
+      "track": "neon-standby",
+      "bpm": 96,
+      "startSeconds": 34.57142857142857,
+      "nextDownbeatSeconds": 40.0,
+      "endSeconds": 40.0,
+      "sourceStartSeconds": 0.0,
+      "completeBars": null,
+      "gain": 0.28485,
+      "fadeInSeconds": 0.25,
+      "fadeOutSeconds": 1.4
+    }
+  ],
+  "frames": 1764000,
+  "sampleRate": 44100,
+  "channels": 2,
+  "bitsPerSample": 24,
+  "durationSeconds": 40,
+  "finite": true,
+  "peakDbFS": -6.57994529266977,
+  "clippedSamples": 0,
+  "firstSample": [
+    0.0,
+    0.0
+  ],
+  "lastSample": [
+    -2.0132009011978353e-18,
+    -3.2682794027014374e-18
+  ],
+  "windows": [
+    {
+      "label": "opening",
+      "rmsDbFS": -25.970509479954078,
+      "peakDbFS": -12.220477919897426
+    },
+    {
+      "label": "early",
+      "rmsDbFS": -19.821021625882416,
+      "peakDbFS": -7.7209784870203
+    },
+    {
+      "label": "middle",
+      "rmsDbFS": -18.79922232005708,
+      "peakDbFS": -7.07154148125332
+    },
+    {
+      "label": "critical",
+      "rmsDbFS": -18.573692688796314,
+      "peakDbFS": -7.716969630199624
+    },
+    {
+      "label": "end-card",
+      "rmsDbFS": -26.634940083721684,
+      "peakDbFS": -13.048331623061927
+    }
+  ],
+  "joins": [
+    {
+      "seconds": 5.0,
+      "joinDelta": 0.0019289627270819617,
+      "localMaxAdjacentDelta": 0.059166474924176926
+    },
+    {
+      "seconds": 13.571428571428571,
+      "joinDelta": 0.0010730238131582727,
+      "localMaxAdjacentDelta": 0.19577533671975134
+    },
+    {
+      "seconds": 28.571428571428573,
+      "joinDelta": 0.003919932443574074,
+      "localMaxAdjacentDelta": 0.20954044257722793
+    },
+    {
+      "seconds": 34.57142857142857,
+      "joinDelta": 0.0013013193844854838,
+      "localMaxAdjacentDelta": 0.16664352434396745
+    }
+  ],
+  "output": "trailer-music-40s.wav",
+  "sha256": "7ccba59c0b98f5603388d7c93bb2e7a54632232f280745c5e7eef60fe084fe1d",
+  "note": "This trailer montage compresses musical progression; runtime stage gates remain unchanged. Gameplay sound effects are mixed separately from recorded event timestamps."
+}

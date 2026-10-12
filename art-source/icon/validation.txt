@@ -1,0 +1,23 @@
+Friendly icon export validation - 2026-10-12
+
+Original built-in ImageGen output: blacksite-friendly-icon-master.png (1254x1254 RGBA).
+Subject: original charcoal cat with turquoise eyes and copper CRT. No text or existing IP.
+No content alterations were applied after generation. Export frames use area downsampling.
+
+PNG exports: 16, 24, 32, 48, 64, 128, 256 and 512 pixels square.
+ICO embeds lossless RGBA PNG frames at 16, 24, 32, 48, 64, 128 and 256px.
+ffprobe independently reads all seven ICO dimensions and RGBA pixel formats.
+System.Drawing.Icon opens the ICO successfully.
+Master corner alpha is 0 at all four corners; the exterior is truly transparent.
+
+Visual inspection:
+- Reviewed the original composition and native-size exports on both dark and light backgrounds.
+- Reviewed 16px and 32px nearest-neighbor enlargements for downsampling defects.
+- The recognizable elements at 16px are the twin ears, teal eyes and copper/teal lower terminal.
+- The tiny screen smile and face expression resolve at 32px and above; they are intentionally not required to read at 16px.
+- Silhouette remains separated from both light and dark backgrounds; no clipping or opaque corner plate.
+- No extra limbs, lettering, watermark or franchise resemblance observed.
+
+native-size-preview.png is the main review board.
+prompt.txt records the complete generation prompt.
+export-icon.ps1 reproduces the ICO and review board from the PNG frames.

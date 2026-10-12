@@ -1,0 +1,17 @@
+{
+  "revision": "1.3.1",
+  "result": "passed",
+  "trailerSeconds": [2, 6, 9.5, 11.5, 14.5, 16.5, 19, 22, 24, 27, 30, 32.5, 36, 37.6, 38.1],
+  "trailerMethod": "All fifteen decoded frames reviewed in a contact sheet, with final encoded Injection14.5s, Memory22s and Bypass27s opened separately at full resolution. Existing reveal, room, extraction and final title remain coherent; native controls are readable beside source-registered hardware detail.",
+  "previewFrames": ["decoded-1s.png", "decoded-2.5s.png", "decoded-4.5s.png", "decoded-7s.png", "decoded-8.5s.png", "decoded-9.5s.png", "decoded-14s.png", "decoded-17.5s.png", "decoded-20.5s.png", "decoded-22.5s.png"],
+  "previewMethod": "All ten final decoded frames inspected separately. Three native420×650 views remain contained, with exact3× hardware crops, distinct correct/error/focus states and actual outcome receipts. The Memory crop includes its animated lower-left lamp and copper contacts. Existing achievement banners are preserved when real gameplay emits them; they can overlap receipt headings as in1.3.0, while the captured external result captions remain readable.",
+  "motionEvidence": "The full576-frame diagnostic timeline records varying real LED opacities and visible spark frames for every device. Injection:8 varying LEDs and16 spark frames. Memory:4 varying LEDs and22 spark frames. Bypass:5 varying LEDs and12 successful-stop spark frames.",
+  "approvedTrialFrames": ["review-0024.png"],
+  "independentReview": {
+    "nativeRuntime": "Root inspected original-size artwork, native protocol phases, eight-second quiet/peak samples and enlarged contact-spark crops before visual freeze.",
+    "encodedPreviewSeconds": [4.5, 8.5],
+    "trialTrailerSeconds": [22],
+    "result": "Root accepted the revised Memory close-up and Bypass detail in final encoded media; native games remain readable. No further media changes requested."
+  },
+  "audioReviewScope": "Original music hashes, actual event timing, complete audio/video decoding, integrated loudness and true peak are verified. No human listening review is claimed."
+}

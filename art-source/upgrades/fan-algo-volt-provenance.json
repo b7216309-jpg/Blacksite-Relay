@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "authoringDate": "2026-09-06",
+  "assets": [
+    {
+      "id": "fan",
+      "asset": "assets/upgrades/fan.png",
+      "generation": {
+        "tool": "built-in image_gen",
+        "mode": "original illustration",
+        "calls": 1,
+        "prompt": "Use case: stylized-concept, original game-world background illustration.\nCreate one original full-bleed horizontal pixel-art vignette, roughly 2.2:1 aspect ratio, for a tiny 178 by 82 pixel upgrade-card background in a dark underground cyberpunk server vault. This is environmental artwork, with no interface elements. Crisp deliberate chunky pixel clusters and stepped square edges, a finely crafted 1990s pixel-art / HD-2D game background, never photorealistic or smoothly rendered 3D. The hardware needs a strong instantly recognizable silhouette even at 178 by 82 pixels.\n\nSubject: a large chunky industrial axial cooling fan, viewed from a slight three-quarter angle, recessed into a worn dark teal metal mounting frame, broad readable fan blades, thick teal coolant pipes and a single subtle cold cyan status light. The fan and its defining pipes occupy the RIGHTMOST 40 percent of the composition, chiefly x60% to x94%, without cutting off its main silhouette. Worn rivets and restrained amber edge glints tie it to an underground server room. The focal fan is cool teal and cyan, with very little light spill.\n\nThe LEFT 55 percent must remain very dark, low contrast and visually quiet: a continuous equipment-wall environment of deep charcoal steel, dim teal wall planes, broad recessed panel seams and a barely visible pipe, suitable behind separately composed sharp game text. Do not make a flat UI panel or a black rectangular overlay. The quiet left environment and detailed right machinery belong naturally to the same room. Leave the left completely free of focal objects, bright lights and diagonal beams.\n\nLimited palette: near-black charcoal, deep industrial teal, muted cold cyan, a few dim copper/amber wear highlights. Opaque edge-to-edge illustration. No lettering, numbers, symbols, logos, warning labels, typography, borders, panels that resemble interface cards, icon badges, people or creatures. No global fog, bloom, lens flare, soft gradients, airbrush glow, tiny noisy visual clutter, smooth 3D surfaces or photographic textures. Keep detail grouped into bold readable blocks.",
+        "originalFile": "<author-profile>/.codex/generated_images/01a07255-9727-7c70-b130-b51c54b93d5a/exec-2fe95f6f-1630-450a-8815-80e267c3259c.png",
+        "reference": "assets/scene/blacksite-relay.png inspected visually for style only; no reference image was passed to generation"
+      },
+      "postProcessing": "None. Selected output copied byte-for-byte; original file retained.",
+      "intendedDisplay": {
+        "width": 178,
+        "height": 82,
+        "method": "Runtime image display; functional text remains separate."
+      },
+      "review": {
+        "originalInspectedWith": "view_image",
+        "result": "accepted for native integration",
+        "notes": "Large readable blade silhouette, cool cyan light and teal pipes, dark left equipment wall; no lettering or UI borders."
+      },
+      "file": {
+        "bytes": 1514453,
+        "sha256": "c83a75d06343fa82c657ce41c9731519c11b5a862cbba045afdcd918fb463f3c",
+        "width": 1847,
+        "height": 851,
+        "format": "PNG",
+        "identicalToGeneratedOriginal": true
+      }
+    },
+    {
+      "id": "algo",
+      "asset": "assets/upgrades/algo.png",
+      "generation": {
+        "tool": "built-in image_gen",
+        "mode": "original illustration",
+        "calls": 1,
+        "prompt": "Use case: stylized-concept, original game-world background illustration.\nCreate one original full-bleed horizontal pixel-art vignette, roughly 2.2:1 aspect ratio, for a tiny 178 by 82 pixel upgrade-card background in a dark underground cyberpunk server vault. This is environmental artwork, with no interface elements. Crisp deliberate chunky pixel clusters and stepped square edges, a finely crafted 1990s pixel-art / HD-2D game background, never photorealistic or smoothly rendered 3D. The hardware needs a strong instantly recognizable silhouette even at 178 by 82 pixels.\n\nSubject: a deep-learning neural computing core, a thick glass canister enclosing a few bold branching gold and cyan circuit paths like a compact artificial neural tree, standing on a chunky dark teal processor pedestal with sturdy sockets. Its silhouette is cylindrical and distinct from a fan, ordinary monitor or Tesla coil. A very restrained violet accent occurs only on one small insulated connection. The glass core and pedestal occupy the RIGHTMOST 40 percent of the composition, chiefly x62% to x92%, with a little breathing room from the top and right edges and no cut-off silhouette. The neural branches should be grouped and large, not a tangle of hundreds of fine lines. Gentle local light catches thick worn copper fittings; almost no light spill.\n\nThe LEFT 55 percent must remain very dark, low contrast and visually quiet: a continuous equipment-wall environment of deep charcoal steel, dim teal wall planes, broad recessed panel seams and a barely visible conduit, suitable behind separately composed sharp game text. Do not make a flat UI panel or a black rectangular overlay. The quiet left environment and detailed right machinery belong naturally to the same room. Leave the left completely free of focal objects, bright lights and diagonal beams.\n\nLimited palette: near-black charcoal, deep industrial teal, muted cyan, pale amber/gold neural paths and copper edge wear, a tiny restrained violet accent. Opaque edge-to-edge illustration. No lettering, numbers, symbols, logos, warning labels, typography, borders, panels that resemble interface cards, icon badges, people or creatures. No global fog, bloom, lens flare, soft gradients, airbrush glow, tiny noisy visual clutter, smooth 3D surfaces or photographic textures. Keep detail grouped into bold readable blocks.",
+        "originalFile": "<author-profile>/.codex/generated_images/01a07255-9727-7c70-b130-b51c54b93d5a/exec-4db2d48a-68c2-4abb-863a-e7564bd1a975.png",
+        "reference": "assets/scene/blacksite-relay.png inspected visually for style only; no reference image was passed to generation"
+      },
+      "postProcessing": "None. Selected output copied byte-for-byte; original file retained.",
+      "intendedDisplay": {
+        "width": 178,
+        "height": 82,
+        "method": "Runtime image display; functional text remains separate."
+      },
+      "review": {
+        "originalInspectedWith": "view_image",
+        "result": "accepted for native integration",
+        "notes": "Neural branch silhouette and thick glass canister read clearly, restrained violet side connector, dark quiet left wall; no lettering or UI borders."
+      },
+      "file": {
+        "bytes": 1370479,
+        "sha256": "a0ad894cbc04192f791ec371bfe7a30f2d57c9b4bebf3f039cbb9832ec6c9761",
+        "width": 1847,
+        "height": 851,
+        "format": "PNG",
+        "identicalToGeneratedOriginal": true
+      }
+    },
+    {
+      "id": "volt",
+      "asset": "assets/upgrades/volt.png",
+      "generation": {
+        "tool": "built-in image_gen",
+        "mode": "original illustration",
+        "calls": 1,
+        "prompt": "Use case: stylized-concept, original game-world background illustration.\nCreate one original full-bleed horizontal pixel-art vignette, roughly 2.2:1 aspect ratio, for a tiny 178 by 82 pixel upgrade-card background in a dark underground cyberpunk server vault. This is environmental artwork, with no interface elements. Crisp deliberate chunky pixel clusters and stepped square edges, a finely crafted 1990s pixel-art / HD-2D game background, never photorealistic or smoothly rendered 3D. The hardware needs a strong instantly recognizable silhouette even at 178 by 82 pixels.\n\nSubject: a compact pair of copper Tesla induction coils on a heavy worn dark teal base, viewed from a slight three-quarter angle. Two thick, clearly separated copper winding towers with broad ceramic insulator stacks and rounded heavy terminals. One short angular AMBER electrical bridge jumps between the two upper terminals, suggesting contained stored power, with a small warm core between their bases. The twin coils and pedestal occupy the RIGHTMOST 40 percent of the composition, chiefly x60% to x94%, with breathing room around the top/right and no cut-off silhouette. Both towers must remain clearly distinct at tiny size. Pixelated amber electricity is localized between the terminals and does not arc across the composition. No cloud or huge aura. Worn copper and cream ceramic accents against teal metal.\n\nThe LEFT 55 percent must remain very dark, low contrast and visually quiet: a continuous equipment-wall environment of deep charcoal steel, dim teal wall planes, broad recessed panel seams and a barely visible conduit, suitable behind separately composed sharp game text. Do not make a flat UI panel or a black rectangular overlay. The quiet left environment and detailed right machinery belong naturally to the same room. Leave the left completely free of focal objects, bright lights and diagonal beams.\n\nLimited palette: near-black charcoal, deep industrial teal, dark copper, pale ceramic, warm amber electrical bridge and core. Opaque edge-to-edge illustration. No lettering, numbers, symbols, logos, warning labels, typography, borders, panels that resemble interface cards, icon badges, people or creatures. No global fog, bloom, lens flare, soft gradients, airbrush glow, tiny noisy visual clutter, smooth 3D surfaces or photographic textures. Keep detail grouped into bold readable blocks.",
+        "originalFile": "<author-profile>/.codex/generated_images/01a07255-9727-7c70-b130-b51c54b93d5a/exec-c2931fd9-b174-4460-9fff-4b081c5a13e3.png",
+        "reference": "assets/scene/blacksite-relay.png inspected visually for style only; no reference image was passed to generation"
+      },
+      "postProcessing": "None. Selected output copied byte-for-byte; original file retained.",
+      "intendedDisplay": {
+        "width": 178,
+        "height": 82,
+        "method": "Runtime image display; functional text remains separate."
+      },
+      "review": {
+        "originalInspectedWith": "view_image",
+        "result": "accepted for native integration",
+        "notes": "Clearly separated copper coils and localized amber electrical bridge, quiet dark left environment; no lettering or UI borders."
+      },
+      "file": {
+        "bytes": 1501195,
+        "sha256": "44751f2aa3353a4627758219030ff6d871c671a83554e95ed6c2fbfa10a2ea70",
+        "width": 1847,
+        "height": 851,
+        "format": "PNG",
+        "identicalToGeneratedOriginal": true
+      }
+    }
+  ],
+  "_publicationNote": "Publication copy: local authoring paths were replaced with neutral aliases. Original measurements and outcomes are unchanged; these historical results were not rerun for the public snapshot."
+}

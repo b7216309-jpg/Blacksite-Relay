@@ -1,0 +1,118 @@
+{
+  "version": "1.2.5",
+  "durationSeconds": 6,
+  "width": 960,
+  "height": 540,
+  "fps": 24,
+  "frames": 144,
+  "audio": "Silent; game music and cues remain independent.",
+  "operator": {
+    "metadata": "art-source/life/intro-operator.json",
+    "atlasSha256": "a940522e568ce40ed6308edc7431e5371911e9e1ce646f6de7684b257f062ecd",
+    "sourceImageSha256": "412e4c0749ab91d92e1d773f3d365cff1657a9dc483583a9bbcf8124ee9dd570",
+    "matte": "True alpha from accepted runtime import; no Blender color key.",
+    "pixelStep": 1,
+    "connectedFrames": 72,
+    "sourceFrameSize": [
+      36,
+      72
+    ],
+    "sourceFps": 12,
+    "bakedMotion": true,
+    "extraScaleBreathing": false,
+    "sourceStart": 0,
+    "separateShadows": true
+  },
+  "files": [
+    {
+      "file": "assets/scene/intro.webm",
+      "bytes": 1990705,
+      "sha256": "99b81c35c63f14982867c59d20dea726cf4d5d4274fc08306bc661e2c4e08f45"
+    },
+    {
+      "file": "assets/scene/intro.mp4",
+      "bytes": 2858061,
+      "sha256": "7053b36e88d197b99a3f1c0df99ae3de569843951a99837bb5951395cb6c7ef7"
+    }
+  ],
+  "verification": "Both complete files decoded by FFmpeg; frame review is separate from codec verification.",
+  "pets": {
+    "metadata": "art-source/pets/intro-pets.json",
+    "atlasSha256": "a5d5f4eb0f586b7068c0ca6bffc0d0d98739642f47ff63f32a66f9f3ac555b28",
+    "rendererSha256": "83ae364d3367252c5f490face2009fcd19242485ce4f749ab99dfd4218d18b41",
+    "frameCount": 72,
+    "nativeFrame": [
+      420,
+      280
+    ],
+    "room": [
+      1536,
+      1024
+    ],
+    "sourceFps": 12,
+    "sourceStart": 0,
+    "bakedMotion": true,
+    "registration": "The exact native-grid runtime RGBA frame is projected onto the original room. No independently animated or redrawn cinematic pet."
+  },
+  "lighting": {
+    "metadata": "art-source/lighting/intro-lighting.json",
+    "shadeSha256": "695bccfd329803e1e232559ba880b29c290570f939275703820ab41086543261",
+    "irradianceAtlasSha256": "462411c8af1a04a1bdebc37d68154e031eca0fb53d69f8868364dd9e2156008e",
+    "rendererSha256": "0fbb95e2764abbdae90bfcaefaca0f7518dcdddde0d2faa41c90e3b720bcc3c2",
+    "frameCount": 72,
+    "nativeFrame": [
+      420,
+      280
+    ],
+    "sourceFps": 12,
+    "sourceStart": 0,
+    "formula": "clamp(sRGB(C) * shade * (1 + irradiance), 0, 1)",
+    "registration": "Separate Non-Color data passes through the same cinematic camera; piecewise sRGB factor applied after the unchanged beauty render."
+  },
+  "electronics": {
+    "metadata": "art-source/electronics/intro-electronics.json",
+    "atlasSha256": "d9746aa0d046ad517c9eff2e0a5cdb2ee769df0ab2626f50b2df6bef1880abc4",
+    "rendererSha256": "405c5c7c303514047398d33e16d3aed18d54d07a45ed58057ccabe2b8e562455",
+    "frameCount": 72,
+    "nativeFrame": [
+      420,
+      280
+    ],
+    "sourceFps": 12,
+    "sourceStart": 0,
+    "bakedMotion": true,
+    "registration": "The exact source-backed runtime CRT, reactor and server patches replace the earlier independent Blender display animations."
+  },
+  "shadows": {
+    "metadata": "art-source/shadows/intro-shadows.json",
+    "atlasSha256": "24360e063bdb9aad67861d4a8ce4298da2093f867e175ab2e697b9550bc40091",
+    "rendererSha256": "02ce10ca463b4fb6881ab65b81603c80f9b8c4a203dfe260e7eadf01d3419719",
+    "frameCount": 72,
+    "nativeFrame": [
+      420,
+      280
+    ],
+    "sourceFps": 12,
+    "sourceStart": 0,
+    "formula": "sRGB(C) * (1 - alpha)",
+    "registration": "Continuous runtime alpha applied once in sRGB before actors and lighting; legacy contacts removed."
+  },
+  "inspection": {
+    "blenderFrames": [
+      1,
+      72,
+      144
+    ],
+    "encodedSeconds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "result": "Inspected all listed frames: silhouette shadows remain attached to the original operator, two rats, cat and smaller left-facing snail. Floor and cabinet textures remain intact. Runtime electronics and registered lighting remain coherent through the reveal.",
+    "gammaReport": "art-source/lighting/gamma-verification.json",
+    "packedSceneReport": "art-source/blender/packed-blend-verification.json",
+    "shadowMaterialReport": "art-source/shadows/native-material-verification.json"
+  }
+}

@@ -1,0 +1,24 @@
+/* Compact challenge records. No animated progress or changes to the room art. */
+#screen-achievements.panel-screen { gap:10px; }
+#screen-achievements.panel-screen > .panel-heading { height:105px; flex-shrink:0; }
+#screen-achievements #achievements-list { padding:6px; }
+#screen-achievements .challenge-card { display:block; min-height:74px; margin:0 0 6px; padding:9px 10px; background:#101e27f5; border-color:#344c50; }
+#screen-achievements .challenge-card:last-child { margin-bottom:0; }
+#screen-achievements .challenge-heading { display:flex; align-items:center; gap:7px; min-width:0; min-height:15px; }
+#screen-achievements .challenge-marker { position:relative; width:13px; height:13px; flex-shrink:0; border:1px solid #749389; color:#cdeada; font:bold 11px/11px Consolas,monospace; text-align:center; }
+#screen-achievements .challenge-marker:empty:after { content:""; position:absolute; width:3px; height:3px; top:4px; left:4px; background:#749389; }
+#screen-achievements .challenge-name { min-width:0; flex:1; font:700 12px/15px Consolas,monospace; color:#e0eaf0; overflow-wrap:anywhere; }
+#screen-achievements .challenge-description { margin:5px 0 0; font-size:11px; line-height:15px; color:#b4c7cd; overflow-wrap:anywhere; }
+#screen-achievements .challenge-progress { margin-top:6px; }
+#screen-achievements .challenge-progress-caption { display:flex; justify-content:space-between; gap:8px; margin-bottom:4px; font-size:10px; line-height:12px; }
+#screen-achievements .challenge-scope { color:#8ba6b0; }
+#screen-achievements .challenge-value { color:#c6d9df; text-align:right; margin-left:auto; }
+#screen-achievements .challenge-track { height:3px; width:100%; display:block; overflow:hidden; background:#2b3c46; }
+#screen-achievements .challenge-track i { display:block; height:100%; background:#8ddac6; }
+#screen-achievements .challenge-card.unlocked { border-color:#627660; background:linear-gradient(100deg,#27352ad9,#122229f5); }
+#screen-achievements .challenge-card.unlocked .challenge-name { color:#e1eace; }
+#screen-achievements .challenge-card.unlocked .challenge-value { color:#bcd2ac; }
+#screen-achievements .challenge-card.unlocked .challenge-track i { background:#a3bf91; }
+#screen-achievements .challenge-card.secret:not(.unlocked) { opacity:1; background:#111b23ed; border-style:dashed; }
+#screen-achievements .challenge-card.secret:not(.unlocked) .challenge-description { color:#96abb5; }
+#screen-achievements .challenge-empty { padding:18px 9px; color:#afc4cc; font-size:11px; }

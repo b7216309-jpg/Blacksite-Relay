@@ -1,0 +1,86 @@
+'use strict';
+const fs=require('node:fs/promises'),path=require('node:path'),os=require('node:os'),assert=require('node:assert/strict');
+const {createRequire}=require('node:module');
+const repo=path.resolve(__dirname,'..'),req=createRequire(path.join(repo,'package.json'));
+const { _electron:electron }=req('playwright'),closeTestApp=req('./scripts/close-test-app.cjs');
+const output=path.resolve(process.env.RISK_V2_QA_DIR||path.join(repo,'dist','qa','soundtrack'));
+const target=process.env.RISK_V2_EXECUTABLE?'packaged':'source';
+const report={target,version:require(path.join(repo,'package.json')).version,createdAt:new Date().toISOString(),methods:['real Electron AudioContext at44100','passive final-output analyser and MediaRecorder','director-only injected clock offset; actual audio clock is unchanged','OfflineAudioContext rendering of decoded OGG loop seams'],subjectiveListening:false,checks:[],errors:[],samples:[],captures:[],scales:[1]};
+const seed={money:0,totalMoney:12500,playerName:'AUDIO_QA',musicVolume:.5,sfxVolume:.5,tutorialSeen:true,presentation:{version:1,reducedMotion:true,effectsLevel:'off',introSeen:true}};
+let app,page,profile;
+async function check(name,fn){const evidence=await fn();report.checks.push({name,passed:true,evidence});await fs.writeFile(path.join(output,'report.json'),JSON.stringify(report,null,2));console.log('PASS '+name);}
+const diag=()=>page.evaluate(()=>RelayAudio.getDiagnostics());
+async function sample(label){const value=await page.evaluate(()=>({audio:RelayAudio.getDiagnostics(),output:SoundtrackOutputProbe.sample()}));report.samples.push({label,...value});return value;}
+async function waitTrack(name){await page.waitForFunction(name=>{const a=RelayAudio.getDiagnostics();return a.currentTrack===name&&!a.transition&&a.pendingAssets===0;},name,{timeout:15000});}
+async function advancePace(seconds){await page.evaluate(seconds=>{for(let n=0;n<seconds;n+=4){window.__audioPaceOffset+=Math.min(4,seconds-n)*1000;RelayAudio.setState(RiskPresentation.snapshot());}},seconds);}
+async function capture(name){const filename=name+'.png';await page.screenshot({path:path.join(output,filename)});report.captures.push(filename);}
+async function main(){
+ await fs.mkdir(output,{recursive:true});profile=await fs.mkdtemp(path.join(os.tmpdir(),'risk-soundtrack-'));await fs.writeFile(path.join(profile,'user_data.json'),JSON.stringify(seed));
+ app=await electron.launch({executablePath:process.env.RISK_V2_EXECUTABLE||req('electron'),args:process.env.RISK_V2_EXECUTABLE?[]:[repo],env:{...process.env,RISK_V2_TEST_MODE:'1',RISK_V2_USER_DATA_DIR:profile},timeout:120000});
+ page=await app.firstWindow();page.on('pageerror',e=>report.errors.push(e.message));await app.context().setOffline(true);
+ await app.evaluate(({BrowserWindow})=>BrowserWindow.getAllWindows().forEach(w=>w.webContents.setAudioMuted(true)));
+ await page.addInitScript({content:await fs.readFile(path.join(__dirname,'soundtrack-output-probe.js'),'utf8')});
+ await page.addInitScript(()=>{window.__audioPaceOffset=0;let module;Object.defineProperty(window,'RelayMusicDirector',{configurable:true,get:()=>module,set:value=>{module={...value,create:options=>value.create({...options,now:()=>performance.now()+window.__audioPaceOffset})};}});});
+ await page.reload();await page.waitForFunction(()=>window.RiskPresentation?.snapshot().playerName==='AUDIO_QA'&&!window.RiskSaveLoading);
+ await check('cold load stays locked without allocating or requesting audio',async()=>{const d=await diag();assert.equal(d.state,'locked');assert.equal(d.cachedAssets,0);assert.equal(d.pendingAssets,0);assert.equal(d.ownTimers,0);return d;});
+ await page.keyboard.press('Shift');await waitTrack('neon-standby');
+ await check('trusted keyboard unlock decodes all four exact60-second scores once',async()=>{const d=await diag();assert.equal(d.state,'running');assert.equal(d.sampleRate,44100);assert.equal(d.scoreDecodedBytes,84672000);assert.deepEqual(d.missingAssets,[]);assert.equal(d.musicTrackVoices,1);assert.equal(d.ambienceVoices,1);assert.equal(d.ownTimers,1);assert.equal(d.pace.runActive,false);return d;});
+ await page.waitForTimeout(900);await check('menu mix produces real output below the ceiling',async()=>{const s=await sample('menu');assert(s.output.rms>.001);assert(s.output.peak<.99);return s.output;});
+ await check('all four decoded loops render sample-exact60-to0 joins offline',async()=>{const result=await page.evaluate(async()=>Promise.all([0,1,2,3].map(n=>SoundtrackOutputProbe.seam(n))));for(const r of result){assert.equal(r.sampleRate,44100);assert.equal(r.length,2646000);assert.equal(r.channels,2);assert.equal(r.renderedFrames,44100);assert(r.jump<.08);assert(r.jump<=r.adjacentPeak);}return result;});
+ await page.evaluate(()=>SoundtrackOutputProbe.begin());
+ await page.locator('#menu-guide-trigger').click();await page.locator('#guide-close').click();
+ await page.locator('#main-menu button[onclick="showAchievements()"] ').click();await page.locator('#screen-achievements button[onclick="backToMenuFromAchievements()"] ').click();
+ await page.locator('#main-menu button[onclick="showLeaderboard()"] ').click();await page.locator('#screen-leaderboard button[onclick="backToMenuFromLeaderboard()"] ').click();
+ await page.locator('#main-menu button[onclick="showSettings()"] ').click();await page.locator('#screen-settings button[onclick="closeSettings()"] ').click();
+ await check('actual menu navigation retains one standby voice without restarting it',async()=>{const d=await diag();assert.equal(d.currentTrack,'neon-standby');assert.equal(d.transitionCount,0);assert.equal(d.musicTrackVoices,1);return d;});
+ await page.locator('#main-menu button[onclick="showPersistentUpgrades()"] ').click();await page.locator('#screen-persistent button[onclick="startGame()"] ').click();await waitTrack('backstreet-signal');
+ await check('entering a new run starts the early track at its opening',async()=>{const d=await diag();assert.equal(d.pace.stage,0);assert(d.pace.activeSeconds<10);assert(d.pace.runId>0);assert.equal(d.trackVoices[0].loopStart,0);assert.equal(d.trackVoices[0].loopEnd,60);return d;});
+ await page.keyboard.press('1');await page.waitForTimeout(150);
+ await page.evaluate(()=>{money=20000;updateUI();});
+ await advancePace(62);
+ await check('first tempo change is queued on the outgoing112-BPM bar',async()=>{const d=await diag();assert.equal(d.pace.stage,1);assert.equal(d.transition.fade,.25);const from=d.trackVoices.find(v=>v.name==='backstreet-signal');const bars=(d.transition.when-from.startedAt)/(240/112);assert(Math.abs(bars-Math.round(bars))<1e-8);assert(d.musicTrackVoices<=2);return d;});
+ await waitTrack('chrome-pursuit');await page.waitForTimeout(1000);
+ await advancePace(90);await waitTrack('redline-protocol');
+ await check('critical stage begins only after both minimum stages and elapsed threshold',async()=>{const d=await diag();assert(d.pace.activeSeconds>=150);assert.equal(d.pace.stage,2);assert.equal(d.currentTrack,'redline-protocol');assert(d.musicTrackVoices<=2);return d;});
+ await capture('soundtrack-gameplay');await page.locator('.header button[onclick="showSettings()"] ').click();await waitTrack('neon-standby');const paused=(await diag()).pace.activeSeconds;await advancePace(20);
+ await check('settings pauses pace and returns to the same run stage',async()=>{const before=await diag();assert(Math.abs(before.pace.activeSeconds-paused)<.02);await page.locator('#screen-settings button[onclick="closeSettings()"] ').click();await waitTrack('redline-protocol');const after=await diag();assert.equal(after.pace.runId,before.pace.runId);assert.equal(after.pace.stage,2);assert(after.trackVoices[0].offset>0);return {before:before.pace,after:after.pace};});
+ await page.evaluate(()=>{startTypingProtocol();});await page.waitForTimeout(500);assert.equal((await diag()).currentTrack,'redline-protocol');await page.waitForFunction(()=>RiskPresentation.protocol()?.phase==='active');const phrase=await page.evaluate(()=>RiskPresentation.protocol().phrase);await page.locator('#typing-input').pressSequentially(phrase,{delay:1});await page.waitForFunction(()=>RiskPresentation.currentScreen()==='game');
+ await check('real typing input retains the run score during challenge and result',async()=>{const d=await diag();assert.equal(d.currentTrack,'redline-protocol');assert.equal(d.pace.runActive,true);return d;});
+ await page.keyboard.press('Space');await waitTrack('neon-standby');
+ await check('actual extraction returns to quieter standby and ends run pacing',async()=>{const d=await diag();assert.equal(d.screen,'success');assert.equal(d.pace.runActive,false);return d;});
+ const recording=await page.evaluate(()=>SoundtrackOutputProbe.finish());const bytes=Buffer.from(recording.dataURL.split(',')[1],'base64');await fs.writeFile(path.join(output,'actual-transitions.webm'),bytes);report.recording={file:'actual-transitions.webm',bytes:bytes.length,mimeType:recording.mimeType,end:recording.end};
+ await page.locator('#screen-success button').click();await page.locator('#screen-persistent button[onclick="startGame()"] ').click();await waitTrack('backstreet-signal');
+ await check('a later run resets the score stage and starts a fresh early source',async()=>{const d=await diag();assert.equal(d.pace.stage,0);assert(d.pace.activeSeconds<5);assert.equal(d.trackVoices[0].offset,0);return d;});
+ await page.waitForFunction(()=>RelayAudio.getDiagnostics().activeVoices===0);
+ await page.evaluate(()=>RelayAudio.setVolumes(0,.6));await page.waitForTimeout(180);const silent=await sample('music-muted-idle');assert(silent.output.rms<.00001);
+ assert.equal(await page.evaluate(()=>RelayAudio.play('intro')),true);
+ const sfxBlocks=[];for(let n=0;n<8;n++){await page.waitForTimeout(75);sfxBlocks.push(await sample('sfx-only-'+n));}
+ const sfxOnly=sfxBlocks.reduce((a,b)=>a.output.rms>b.output.rms?a:b);assert(sfxOnly.output.rms>.0001);assert(sfxBlocks.some(s=>s.audio.activeVoices>0));
+ await page.evaluate(()=>{RelayAudio.stop('intro');RelayAudio.setVolumes(.6,0);});await page.waitForTimeout(160);const musicOnly=await sample('music-only');assert(musicOnly.output.rms>.001);assert.equal(await page.evaluate(()=>RelayAudio.play('bust')),false);
+ await page.evaluate(()=>RelayAudio.setVolumes(0,0));await page.waitForFunction(()=>SoundtrackOutputProbe.sample().rms<1e-7,null,{timeout:2000});const muted=await sample('both-muted');assert.equal(muted.output.rms,0);const mutedPace=(await diag()).pace.activeSeconds;await advancePace(4);
+ await check('music and SFX remain independent and double mute does not pause run pace',async()=>{const d=await diag();assert(d.pace.activeSeconds>=mutedPace+4);return {silent:silent.output,sfxOnly:sfxOnly.output,musicOnly:musicOnly.output,muted:muted.output,pace:d.pace};});
+ await page.evaluate(()=>RelayAudio.setVolumes(.7,.7));
+ // Playwright's own CDP session forces focus/visibility. This case injects only
+ // the browser visibility signal; a separate no-Playwright native witness
+ // verifies actual BrowserWindow hide/show without that automation override.
+ report.methods.push('injected document visibility signal under Playwright; native hide/show is a separate witness');
+ await page.evaluate(()=>{Object.defineProperty(document,'hidden',{configurable:true,value:true});document.dispatchEvent(new Event('visibilitychange'));});await page.waitForFunction(()=>RelayAudio.getDiagnostics().state==='suspended',null,{polling:100,timeout:5000});const hidden=await diag();await page.waitForTimeout(800);const hiddenLater=await diag();
+ await check('visibility signal suspends real audio and removes the scheduler without advancing pace',async()=>{assert.equal(hiddenLater.ownTimers,0);assert.equal(hiddenLater.pace.activeSeconds,hidden.pace.activeSeconds);return hiddenLater;});
+ await page.evaluate(()=>{delete document.hidden;document.dispatchEvent(new Event('visibilitychange'));});await page.waitForFunction(()=>RelayAudio.getDiagnostics().state==='running');await page.waitForTimeout(250);
+ await check('visible signal resumes one scheduler and bounded music voices',async()=>{const d=await diag();assert.equal(d.ownTimers,1);assert(d.musicTrackVoices<=2);return d;});
+ await page.keyboard.press('1');await page.waitForTimeout(100);
+ await check('quit blocking pauses the director immediately without changing game data',async()=>{const before=await page.evaluate(()=>RiskPresentation.snapshot());await page.locator('.header button[onclick="showSettings()"] ').click();await page.locator('#settings-save-quit').click();const blocked=await diag();assert.equal(blocked.pace.blocked,true);const t=blocked.pace.activeSeconds;await advancePace(12);assert.equal((await diag()).pace.activeSeconds,t);await page.keyboard.press('Escape');await page.locator('#screen-settings button[onclick="closeSettings()"] ').click();await waitTrack('backstreet-signal');const after=await page.evaluate(()=>RiskPresentation.snapshot());for(const key of ['money','totalMoney','risk','multiplier','runId','bypassCharge'])assert.equal(after[key],before[key]);return {blocked:blocked.pace,after:(await diag()).pace};});
+ await page.evaluate(()=>{window.__audioStressSamples=[];window.__audioStressTimer=setInterval(()=>{for(const name of ['hack-1','hack-2','hack-3','node','bypass-ready','minigame-success','ghost','overclock','cooler','insure','gamble','proxy','transfer','bust','achievement','prestige'])RelayAudio.play(name);window.__audioStressSamples.push({output:SoundtrackOutputProbe.sample(),audio:RelayAudio.getDiagnostics()});},160);});
+ await page.waitForTimeout(8000);const stress=await page.evaluate(()=>{clearInterval(window.__audioStressTimer);return window.__audioStressSamples;});
+ await check('non-muted cue bursts preserve the16-SFX/2-score/1-ambience caps and output ceiling',async()=>{assert(stress.length>=40);assert(stress.every(s=>s.audio.activeVoices<=16&&s.audio.musicTrackVoices<=2&&s.audio.ambienceVoices<=1&&s.audio.ownTimers===1));assert(stress.every(s=>s.output.peak<.99));return {samples:stress.length,maxSFX:Math.max(...stress.map(s=>s.audio.activeVoices)),maxScores:Math.max(...stress.map(s=>s.audio.musicTrackVoices)),peak:Math.max(...stress.map(s=>s.output.peak))};});
+ await page.waitForTimeout(4000);await check('decoded cache settles and disposal retires all timers and sources',async()=>{const before=await diag();assert.equal(before.pendingAssets,0);assert.deepEqual(before.missingAssets,[]);await page.evaluate(()=>RelayAudio.dispose());const after=await diag();assert.equal(after.ownTimers,0);assert.equal(after.musicTrackVoices,0);assert.equal(after.activeVoices,0);assert.equal(after.cachedAssets,0);return {before,after};});
+ // A second cold load verifies trusted mouse unlock and missing-file recovery.
+ // Only this fixture intercepts the one missing file; production I/O is intact.
+ await page.addInitScript(()=>{const nativeFetch=window.fetch;window.fetch=(url,...args)=>String(url).includes('music-chrome-pursuit.ogg')?Promise.reject(new Error('Fixture missing score')):nativeFetch(url,...args);const NativeXHR=XMLHttpRequest;window.XMLHttpRequest=class extends NativeXHR{open(method,url,...args){this.fixtureMissing=String(url).includes('music-chrome-pursuit.ogg');return super.open(method,url,...args);}send(...args){if(this.fixtureMissing){queueMicrotask(()=>this.onerror?.(new Event('error')));return;}return super.send(...args);}};});
+ await page.reload();await page.waitForFunction(()=>window.RiskPresentation?.snapshot().playerName==='AUDIO_QA'&&!window.RiskSaveLoading);assert.equal((await diag()).state,'locked');
+ await page.locator('#main-menu button[onclick="showSettings()"] ').click();await waitTrack('neon-standby');
+ await check('trusted mouse unlock succeeds when one score file is unavailable',async()=>{const d=await diag();assert.equal(d.state,'running');assert.deepEqual(d.missingAssets,['music-chrome-pursuit']);assert.equal(d.musicTrackVoices,1);return d;});
+ await page.locator('#screen-settings button[onclick="closeSettings()"] ').click();await page.locator('#main-menu button[onclick="showPersistentUpgrades()"] ').click();await page.locator('#screen-persistent button[onclick="startGame()"] ').click();await waitTrack('backstreet-signal');await page.evaluate(()=>{money=20000;updateUI();});await advancePace(62);await page.waitForTimeout(300);
+ await check('missing middle score keeps the current score and a later available stage still starts',async()=>{const middle=await diag();assert.equal(middle.pace.stage,1);assert.equal(middle.currentTrack,'backstreet-signal');assert.equal(middle.pendingAssets,0);await advancePace(90);await waitTrack('redline-protocol');return {middle,after:await diag()};});
+}
+main().catch(error=>{report.errors.push(error.stack||String(error));console.error(error);process.exitCode=1;}).finally(async()=>{if(app)await closeTestApp(app).catch(e=>{report.errors.push('Teardown: '+e.message);process.exitCode=1;});report.passed=report.errors.length===0;report.windowsClosed=true;await fs.mkdir(output,{recursive:true});await fs.writeFile(path.join(output,'report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({passed:report.passed,checks:report.checks.length,errors:report.errors,output}));});

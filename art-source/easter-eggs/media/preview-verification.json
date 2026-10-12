@@ -1,0 +1,253 @@
+{
+  "version": "1.6.0",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "durationSeconds": 38,
+  "sourceDimensions": [
+    420,
+    650
+  ],
+  "sourceMethod": "Actual pointer/keyboard controls with real elapsed scene clocks; isolated saves and no gameplay actions.",
+  "segments": [
+    {
+      "id": "ratUnion",
+      "relative": -0.35,
+      "duration": 6,
+      "source": "recordings\\ratUnion.webm",
+      "sourceStart": 0.9780766000098083,
+      "outputStart": 0,
+      "crop": {
+        "x": 1,
+        "y": 40,
+        "w": 418,
+        "h": 150
+      },
+      "detail": {
+        "x": 606,
+        "y": 350
+      },
+      "file": "segment-0.mp4"
+    },
+    {
+      "id": "ratUnion",
+      "relative": 10,
+      "duration": 4,
+      "source": "recordings\\ratUnion.webm",
+      "sourceStart": 11.328076600009808,
+      "outputStart": 6,
+      "crop": {
+        "x": 1,
+        "y": 40,
+        "w": 418,
+        "h": 150
+      },
+      "detail": {
+        "x": 606,
+        "y": 350
+      },
+      "file": "segment-1.mp4"
+    },
+    {
+      "id": "rootAccess",
+      "relative": -0.35,
+      "duration": 5.5,
+      "source": "recordings\\rootAccess.webm",
+      "sourceStart": 1.4864664000109769,
+      "outputStart": 10,
+      "crop": {
+        "x": 1,
+        "y": 40,
+        "w": 418,
+        "h": 150
+      },
+      "detail": {
+        "x": 606,
+        "y": 350
+      },
+      "file": "segment-2.mp4"
+    },
+    {
+      "id": "snailMail",
+      "relative": -0.35,
+      "duration": 6,
+      "source": "recordings\\snailMail.webm",
+      "sourceStart": 4.732369599986123,
+      "outputStart": 15.5,
+      "crop": {
+        "x": 1,
+        "y": 40,
+        "w": 418,
+        "h": 150
+      },
+      "detail": {
+        "x": 606,
+        "y": 350
+      },
+      "file": "segment-3.mp4"
+    },
+    {
+      "id": "locker",
+      "fromKnock": true,
+      "relative": -0.1,
+      "duration": 8.5,
+      "source": "recordings\\locker.webm",
+      "sourceStart": 1.3293815999990328,
+      "outputStart": 21.5,
+      "crop": {
+        "x": 1,
+        "y": 40,
+        "w": 418,
+        "h": 150
+      },
+      "detail": {
+        "x": 606,
+        "y": 350
+      },
+      "file": "segment-4.mp4"
+    },
+    {
+      "id": "room404",
+      "relative": -0.35,
+      "duration": 8,
+      "source": "recordings\\room404.webm",
+      "sourceStart": 1.3782434999942779,
+      "outputStart": 30,
+      "crop": {
+        "x": 24,
+        "y": 1,
+        "w": 372,
+        "h": 124
+      },
+      "detail": {
+        "x": 675,
+        "y": 389
+      },
+      "file": "segment-5.mp4"
+    }
+  ],
+  "cues": [
+    {
+      "name": "egg-rat",
+      "time": 0.35,
+      "gain": 1.5
+    },
+    {
+      "name": "egg-cat",
+      "time": 10.35,
+      "gain": 1.5
+    },
+    {
+      "name": "egg-snail",
+      "time": 15.85,
+      "gain": 1.5
+    },
+    {
+      "name": "egg-locker",
+      "time": 22.929388800018934,
+      "gain": 1.5
+    },
+    {
+      "name": "egg-knock",
+      "time": 21.6,
+      "gain": 0.825
+    },
+    {
+      "name": "egg-knock",
+      "time": 21.877833900006955,
+      "gain": 0.825
+    },
+    {
+      "name": "egg-arcade",
+      "time": 30.35,
+      "gain": 1.5
+    }
+  ],
+  "mix": {
+    "music": "art-source/audio/masters/music-original.wav",
+    "musicGain": 0.32,
+    "cueGain": 1.5,
+    "recordingContainsAudio": false,
+    "method": "Original unchanged music and original discovery PCM masters; cues aligned to actual recorded control/discovery timestamps. Approximate recording alignment is checked on decoded frames."
+  },
+  "sources": [
+    {
+      "file": "art-source/audio/easter-egg-masters/egg-rat.wav",
+      "sha256": "547c978604ab97b9df390b7c628383cc1eb6334a9826cecce9f711eceb99f795"
+    },
+    {
+      "file": "art-source/audio/easter-egg-masters/egg-cat.wav",
+      "sha256": "4d3cf589721e80d1dc0c2f89762e1100ccedeb82d83a64a3d0913fa5808cecc4"
+    },
+    {
+      "file": "art-source/audio/easter-egg-masters/egg-snail.wav",
+      "sha256": "326004054c9e53527d21a6f5a6504e25db6ecd163ed0bc42e9a26f7fb111ba92"
+    },
+    {
+      "file": "art-source/audio/easter-egg-masters/egg-locker.wav",
+      "sha256": "cc20b46d39427109f1fc9b292734383eed3d297a5b8f804023f3b40a8d1c5788"
+    },
+    {
+      "file": "art-source/audio/easter-egg-masters/egg-knock.wav",
+      "sha256": "596675250fb177ba1e990b32c64fa9f7e11caecb493e9ed8442fb8e9b6e3f75e"
+    },
+    {
+      "file": "art-source/audio/easter-egg-masters/egg-knock.wav",
+      "sha256": "596675250fb177ba1e990b32c64fa9f7e11caecb493e9ed8442fb8e9b6e3f75e"
+    },
+    {
+      "file": "art-source/audio/easter-egg-masters/egg-arcade.wav",
+      "sha256": "894974eae4d3015632ebc53a075da244c23578a0fcc28a858af5511f9fecfbad"
+    },
+    {
+      "file": "art-source/audio/masters/music-original.wav",
+      "sha256": "a8187a2a768734678ce18770b07ca9f69a991206d9670fab1af37767ad834246"
+    }
+  ],
+  "errors": [],
+  "decode": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '<authoring-workspace>\\work\\living-easter-eggs\\media\\final\\Living-Secrets-Preview.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf60.16.100\r\n  Duration: 00:00:38.00, start: 0.000000, bitrate: 2752 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2489 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\r\n    Metadata:\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 libx264\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 255 kb/s (default)\r\n    Metadata:\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\nStream mapping:\r\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\r\n  Stream #0:1 -> #0:1 (aac (native) -> pcm_s16le (native))\r\nPress [q] to stop, [?] for help\r\nOutput #0, null, to 'pipe:':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf60.16.100\r\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 30 fps, 30 tbn (default)\r\n    Metadata:\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 wrapped_avframe\r\n  Stream #0:1(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)\r\n    Metadata:\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 pcm_s16le\r\nframe=    0 fps=0.0 q=-0.0 size=N/A time=00:00:00.49 bitrate=N/A speed=28.4x    \r[out#0/null @ 0000024aa8106ec0] video:534kB audio:7128kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown\r\nframe= 1140 fps=0.0 q=-0.0 Lsize=N/A time=00:00:37.99 bitrate=N/A speed=78.2x    \r\n",
+  "audioMeasurement": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '<authoring-workspace>\\work\\living-easter-eggs\\media\\final\\Living-Secrets-Preview.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf60.16.100\r\n  Duration: 00:00:38.00, start: 0.000000, bitrate: 2752 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 1920x1080 [SAR 1:1 DAR 16:9], 2489 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\r\n    Metadata:\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 libx264\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 255 kb/s (default)\r\n    Metadata:\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\nStream mapping:\r\n  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))\r\nPress [q] to stop, [?] for help\r\nOutput #0, null, to 'pipe:':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf60.16.100\r\n  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)\r\n    Metadata:\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 pcm_s16le\r\n[out#0/null @ 000002168bc8d040] video:0kB audio:28512kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown\r\nsize=N/A time=00:00:35.20 bitrate=N/A speed=50.3x    \r\n[Parsed_loudnorm_0 @ 000002168b9d8240] \r\n{\r\n\t\"input_i\" : \"-27.04\",\r\n\t\"input_tp\" : \"-9.83\",\r\n\t\"input_lra\" : \"6.60\",\r\n\t\"input_thresh\" : \"-37.15\",\r\n\t\"output_i\" : \"-19.02\",\r\n\t\"output_tp\" : \"-2.38\",\r\n\t\"output_lra\" : \"5.10\",\r\n\t\"output_thresh\" : \"-29.08\",\r\n\t\"normalization_type\" : \"dynamic\",\r\n\t\"target_offset\" : \"-0.98\"\r\n}\r\n",
+  "reviewFrames": [
+    "decoded-0.5s.png",
+    "decoded-3.0s.png",
+    "decoded-5.5s.png",
+    "decoded-6.1s.png",
+    "decoded-9.8s.png",
+    "decoded-10.2s.png",
+    "decoded-12.5s.png",
+    "decoded-15.2s.png",
+    "decoded-15.7s.png",
+    "decoded-18.0s.png",
+    "decoded-21.2s.png",
+    "decoded-21.7s.png",
+    "decoded-24.5s.png",
+    "decoded-29.7s.png",
+    "decoded-30.2s.png",
+    "decoded-33.0s.png",
+    "decoded-37.4s.png"
+  ],
+  "file": {
+    "name": "Living-Secrets-Preview.mp4",
+    "bytes": 13074539,
+    "sha256": "441ccac21a999e6af526ed6dbf50aa63b70d1d0973cc3917cd596110de73cc7e"
+  },
+  "visualReviewPending": false,
+  "listeningReviewPending": false,
+  "passed": true,
+  "review": {
+    "visual": "Reviewed native recording stills and17 decoded start/mid/end/cut samples. Rat approach/hold/return, registered tail/pouch/note/CRT and full portrait controls remain readable. No matte fringe, displaced attachments or clipped controls in inspected frames. Initial pre-trigger hover remnants were removed by recapturing cat/snail/locker with pointer cleanup before actual inputs.",
+    "rootIndependent": [
+      "First encoded composition at5.5s,18s,24.5s,33s",
+      "Corrected final cat opening10.2s, snail opening15.7s and Room404 title/detail33s approved."
+    ],
+    "audio": "The complete38-second encoded audio stream decodes without error, and an audition file was output for playback. Cue/master identity and timing, clean authored fades and measured headroom are verified. No subjective listening assessment is claimed because a supported audio-input listening path was unavailable.",
+    "audioMeasurement": {
+      "integratedLUFS": -27.04,
+      "truePeakDbTP": -9.83,
+      "loudnessRangeLU": 6.6
+    },
+    "limitations": "Screen recording contains no captured audio. This is an explicit editorial overlay from original masters, synchronized to measured actual control/discovery timestamps. Native screen footage retains its recording compression; 3× enlargement uses nearest-neighbor pixels."
+  },
+  "audioAssessment": "Technical decode, playback/audition output, source/timing and meter checks; subjective listening not claimed.",
+  "_publicationNote": "Publication copy: local authoring paths were replaced with neutral aliases. Original measurements and outcomes are unchanged; these historical results were not rerun for the public snapshot."
+}

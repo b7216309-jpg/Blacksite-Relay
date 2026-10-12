@@ -1,0 +1,2314 @@
+{
+  "version": "1.2.5",
+  "frameCount": 72,
+  "uniqueIrradianceFrames": 40,
+  "shadeSha256": "695bccfd329803e1e232559ba880b29c290570f939275703820ab41086543261",
+  "irradianceAtlasSha256": "462411c8af1a04a1bdebc37d68154e031eca0fb53d69f8868364dd9e2156008e",
+  "errors": [],
+  "diagnostics": [
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 1,
+      "time": 0,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8313725490196079,
+        "aisle": 1.0745098039215686,
+        "east": 0.8823529411764706,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 1,
+      "time": 0.08333333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8313725490196079,
+        "aisle": 1.0745098039215686,
+        "east": 0.8823529411764706,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 2,
+      "time": 0.16666666666666666,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8313725490196079,
+        "aisle": 1.0745098039215686,
+        "east": 0.8784313725490196,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 3,
+      "time": 0.25,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8352941176470589,
+        "aisle": 1.0745098039215686,
+        "east": 0.8784313725490196,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 3,
+      "time": 0.3333333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8352941176470589,
+        "aisle": 1.0745098039215686,
+        "east": 0.8784313725490196,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 4,
+      "time": 0.4166666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8352941176470589,
+        "aisle": 1.0745098039215686,
+        "east": 0.8745098039215686,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 4,
+      "time": 0.5,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8352941176470589,
+        "aisle": 1.0745098039215686,
+        "east": 0.8745098039215686,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 5,
+      "time": 0.5833333333333334,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8392156862745098,
+        "aisle": 1.0705882352941176,
+        "east": 0.8745098039215686,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 5,
+      "time": 0.6666666666666666,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8392156862745098,
+        "aisle": 1.0705882352941176,
+        "east": 0.8745098039215686,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 6,
+      "time": 0.75,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8392156862745098,
+        "aisle": 1.0705882352941176,
+        "east": 0.8705882352941177,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 7,
+      "time": 0.8333333333333334,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0705882352941176,
+        "east": 0.8705882352941177,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 7,
+      "time": 0.9166666666666666,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0705882352941176,
+        "east": 0.8705882352941177,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 8,
+      "time": 1,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0705882352941176,
+        "east": 0.8666666666666667,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 8,
+      "time": 1.0833333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0705882352941176,
+        "east": 0.8666666666666667,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 9,
+      "time": 1.1666666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0666666666666667,
+        "east": 0.8666666666666667,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 10,
+      "time": 1.25,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0666666666666667,
+        "east": 0.8627450980392157,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 10,
+      "time": 1.3333333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0666666666666667,
+        "east": 0.8627450980392157,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 10,
+      "time": 1.4166666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0666666666666667,
+        "east": 0.8627450980392157,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 10,
+      "time": 1.5,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0666666666666667,
+        "east": 0.8627450980392157,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 11,
+      "time": 1.5833333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0627450980392157,
+        "east": 0.8588235294117647,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 11,
+      "time": 1.6666666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0627450980392157,
+        "east": 0.8588235294117647,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 11,
+      "time": 1.75,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0627450980392157,
+        "east": 0.8588235294117647,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 12,
+      "time": 1.8333333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0588235294117647,
+        "east": 0.8588235294117647,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 13,
+      "time": 1.9166666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0588235294117647,
+        "east": 0.8549019607843137,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 13,
+      "time": 2,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0588235294117647,
+        "east": 0.8549019607843137,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 13,
+      "time": 2.0833333333333335,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0588235294117647,
+        "east": 0.8549019607843137,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 14,
+      "time": 2.1666666666666665,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0549019607843138,
+        "east": 0.8549019607843137,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 14,
+      "time": 2.25,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0549019607843138,
+        "east": 0.8549019607843137,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 15,
+      "time": 2.3333333333333335,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0549019607843138,
+        "east": 0.8509803921568627,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 16,
+      "time": 2.4166666666666665,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0509803921568628,
+        "east": 0.8509803921568627,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 16,
+      "time": 2.5,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0509803921568628,
+        "east": 0.8509803921568627,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 16,
+      "time": 2.5833333333333335,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8470588235294118,
+        "aisle": 1.0509803921568628,
+        "east": 0.8509803921568627,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 17,
+      "time": 2.6666666666666665,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0470588235294118,
+        "east": 0.8509803921568627,
+        "far": 0.8901960784313725,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 18,
+      "time": 2.75,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0470588235294118,
+        "east": 0.8509803921568627,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 19,
+      "time": 2.8333333333333335,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0431372549019609,
+        "east": 0.8509803921568627,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 19,
+      "time": 2.9166666666666665,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0431372549019609,
+        "east": 0.8509803921568627,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 19,
+      "time": 3,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8431372549019608,
+        "aisle": 1.0431372549019609,
+        "east": 0.8509803921568627,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 20,
+      "time": 3.0833333333333335,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8392156862745098,
+        "aisle": 1.0431372549019609,
+        "east": 0.8509803921568627,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 21,
+      "time": 3.1666666666666665,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8392156862745098,
+        "aisle": 1.0392156862745099,
+        "east": 0.8509803921568627,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 21,
+      "time": 3.25,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8392156862745098,
+        "aisle": 1.0392156862745099,
+        "east": 0.8509803921568627,
+        "far": 0.8941176470588236,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 22,
+      "time": 3.3333333333333335,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8392156862745098,
+        "aisle": 1.0392156862745099,
+        "east": 0.8509803921568627,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 23,
+      "time": 3.4166666666666665,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8352941176470589,
+        "aisle": 1.035294117647059,
+        "east": 0.8509803921568627,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 23,
+      "time": 3.5,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8352941176470589,
+        "aisle": 1.035294117647059,
+        "east": 0.8509803921568627,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 24,
+      "time": 3.5833333333333335,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8352941176470589,
+        "aisle": 1.035294117647059,
+        "east": 0.8549019607843137,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 25,
+      "time": 3.6666666666666665,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8313725490196079,
+        "aisle": 1.035294117647059,
+        "east": 0.8549019607843137,
+        "far": 0.8980392156862745,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 26,
+      "time": 3.75,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8313725490196079,
+        "aisle": 1.031372549019608,
+        "east": 0.8549019607843137,
+        "far": 0.9019607843137255,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 26,
+      "time": 3.8333333333333335,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8313725490196079,
+        "aisle": 1.031372549019608,
+        "east": 0.8549019607843137,
+        "far": 0.9019607843137255,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 27,
+      "time": 3.9166666666666665,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8274509803921568,
+        "aisle": 1.031372549019608,
+        "east": 0.8549019607843137,
+        "far": 0.9019607843137255,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 28,
+      "time": 4,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8274509803921568,
+        "aisle": 1.031372549019608,
+        "east": 0.8588235294117647,
+        "far": 0.9019607843137255,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 28,
+      "time": 4.083333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8274509803921568,
+        "aisle": 1.031372549019608,
+        "east": 0.8588235294117647,
+        "far": 0.9019607843137255,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 29,
+      "time": 4.166666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8235294117647058,
+        "aisle": 1.0274509803921568,
+        "east": 0.8588235294117647,
+        "far": 0.9058823529411765,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 29,
+      "time": 4.25,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8235294117647058,
+        "aisle": 1.0274509803921568,
+        "east": 0.8588235294117647,
+        "far": 0.9058823529411765,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 29,
+      "time": 4.333333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8235294117647058,
+        "aisle": 1.0274509803921568,
+        "east": 0.8588235294117647,
+        "far": 0.9058823529411765,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 30,
+      "time": 4.416666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8235294117647058,
+        "aisle": 1.0274509803921568,
+        "east": 0.8627450980392157,
+        "far": 0.9058823529411765,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 31,
+      "time": 4.5,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8196078431372549,
+        "aisle": 1.0274509803921568,
+        "east": 0.8627450980392157,
+        "far": 0.9098039215686274,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 31,
+      "time": 4.583333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8196078431372549,
+        "aisle": 1.0274509803921568,
+        "east": 0.8627450980392157,
+        "far": 0.9098039215686274,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 32,
+      "time": 4.666666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8196078431372549,
+        "aisle": 1.0274509803921568,
+        "east": 0.8666666666666667,
+        "far": 0.9098039215686274,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 32,
+      "time": 4.75,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8196078431372549,
+        "aisle": 1.0274509803921568,
+        "east": 0.8666666666666667,
+        "far": 0.9098039215686274,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 33,
+      "time": 4.833333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8156862745098039,
+        "aisle": 1.0274509803921568,
+        "east": 0.8666666666666667,
+        "far": 0.9137254901960784,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 34,
+      "time": 4.916666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8156862745098039,
+        "aisle": 1.0274509803921568,
+        "east": 0.8705882352941177,
+        "far": 0.9137254901960784,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 34,
+      "time": 5,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8156862745098039,
+        "aisle": 1.0274509803921568,
+        "east": 0.8705882352941177,
+        "far": 0.9137254901960784,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 34,
+      "time": 5.083333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8156862745098039,
+        "aisle": 1.0274509803921568,
+        "east": 0.8705882352941177,
+        "far": 0.9137254901960784,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 35,
+      "time": 5.166666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8156862745098039,
+        "aisle": 1.0274509803921568,
+        "east": 0.8705882352941177,
+        "far": 0.9176470588235294,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 36,
+      "time": 5.25,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8117647058823529,
+        "aisle": 1.0274509803921568,
+        "east": 0.8745098039215686,
+        "far": 0.9176470588235294,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 36,
+      "time": 5.333333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8117647058823529,
+        "aisle": 1.0274509803921568,
+        "east": 0.8745098039215686,
+        "far": 0.9176470588235294,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 36,
+      "time": 5.416666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8117647058823529,
+        "aisle": 1.0274509803921568,
+        "east": 0.8745098039215686,
+        "far": 0.9176470588235294,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 37,
+      "time": 5.5,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8117647058823529,
+        "aisle": 1.031372549019608,
+        "east": 0.8784313725490196,
+        "far": 0.9176470588235294,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 38,
+      "time": 5.583333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8117647058823529,
+        "aisle": 1.031372549019608,
+        "east": 0.8784313725490196,
+        "far": 0.9215686274509803,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 38,
+      "time": 5.666666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8117647058823529,
+        "aisle": 1.031372549019608,
+        "east": 0.8784313725490196,
+        "far": 0.9215686274509803,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 38,
+      "time": 5.75,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8117647058823529,
+        "aisle": 1.031372549019608,
+        "east": 0.8784313725490196,
+        "far": 0.9215686274509803,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 39,
+      "time": 5.833333333333333,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8117647058823529,
+        "aisle": 1.031372549019608,
+        "east": 0.8823529411764706,
+        "far": 0.9215686274509803,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    },
+    {
+      "ready": true,
+      "error": false,
+      "disposed": false,
+      "draws": 0,
+      "mapBuilds": 40,
+      "time": 5.916666666666667,
+      "mapCount": 11,
+      "mapSize": [
+        420,
+        280
+      ],
+      "viewBuffers": 0,
+      "viewBufferLimit": 4,
+      "ownTimers": 0,
+      "ownAnimationFrames": 0,
+      "levels": {
+        "west": 0.8117647058823529,
+        "aisle": 1.035294117647059,
+        "east": 0.8823529411764706,
+        "far": 0.9215686274509803,
+        "crt": 0.8392156862745098,
+        "core": 0.8509803921568627,
+        "racks": 0.8,
+        "alarm": 0,
+        "coreColor": [
+          255,
+          166,
+          71
+        ]
+      }
+    }
+  ]
+}

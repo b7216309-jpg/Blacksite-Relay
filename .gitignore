@@ -1,0 +1,29 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local authoring, test profiles and generated build intermediates
+/work/
+.validation-profile/
+__pycache__/
+*.pyc
+*.blend1
+user-data/
+profile/
+frames/
+user_data.json*
+local_leaderboard.json*
+archive-1.2.0/
+candidates/
+unused-score/
+
+# Retired presentation assets
+/assets/scene/relay-operator-atlas.png
+/assets/scene/*-preview.png
+/art-source/trailer/gold/picture-master.mp4
+
+# Retired baseline audio is not part of the GPL release.
+/son/
+/assets/audio/music-original.ogg

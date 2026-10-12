@@ -1,0 +1,279 @@
+{
+  "source": "User-supplied neon_roguelike_soundtrack folder",
+  "sourceFilesPreserved": true,
+  "generation": "Supplied make_soundtrack.py inspected but never executed during this import",
+  "authorship": "Supplied README states original procedural composition without third-party samples; no additional authorship claim was independently verified.",
+  "processing": "None: four supplied OGG files copied byte-for-byte. Runtime gains and transitions are separate.",
+  "subjectiveListeningPerformed": false,
+  "tracks": [
+    {
+      "key": "neon-standby",
+      "sourceFile": "01_neon_standby_96bpm.ogg",
+      "runtimeFile": "assets/audio/music-neon-standby.ogg",
+      "title": "Neon Standby",
+      "bpm": 96,
+      "meter": [
+        4,
+        4
+      ],
+      "bars": 24,
+      "beatSeconds": 0.625,
+      "barSeconds": 2.5,
+      "sampleRate": 44100,
+      "channels": 2,
+      "decodedFrames": 2646000,
+      "durationSeconds": 60,
+      "loopStartSample": 0,
+      "loopEndSampleExclusive": 2646000,
+      "loopStartSeconds": 0,
+      "loopEndSeconds": 60,
+      "sha256": "69a8326d043067b72b4450b47b1292e88dd8452e921fee902ffefddbff0cb91c",
+      "bytes": 829530,
+      "copiedWithoutModification": true,
+      "integratedLufs": -14.55,
+      "truePeakDbtp": -1.06,
+      "seamDelta": [
+        -0.0032228007912635803,
+        0.0010062307119369507
+      ],
+      "seamVsLocalDifferenceP99": [
+        0.068065520800581,
+        0.02233050176682445
+      ],
+      "suggestedTrim": {
+        "targetLufsBeforeUserVolume": -21,
+        "gainDb": -6.45,
+        "linearGain": 0.475883,
+        "status": "Initial measured suggestion only; not adopted. The music director owns track normalization and screen/user/master gains separately. No gain was rendered into the source OGG.",
+        "advisoryOnly": true,
+        "adoptedByRuntime": false
+      },
+      "masterWav": {
+        "file": "01_neon_standby_96bpm.wav",
+        "sha256": "820e077c664eac228dc820715582bd668edde990f9012e7244a9ced149237d56",
+        "distribution": "Keep WAV in separate Soundtrack-Masters.zip; no duplicate WAV added to repository"
+      }
+    },
+    {
+      "key": "backstreet-signal",
+      "sourceFile": "02_backstreet_signal_112bpm.ogg",
+      "runtimeFile": "assets/audio/music-backstreet-signal.ogg",
+      "title": "Backstreet Signal",
+      "bpm": 112,
+      "meter": [
+        4,
+        4
+      ],
+      "bars": 28,
+      "beatSeconds": 0.5357142857142857,
+      "barSeconds": 2.142857142857143,
+      "sampleRate": 44100,
+      "channels": 2,
+      "decodedFrames": 2646000,
+      "durationSeconds": 60,
+      "loopStartSample": 0,
+      "loopEndSampleExclusive": 2646000,
+      "loopStartSeconds": 0,
+      "loopEndSeconds": 60,
+      "sha256": "09527676ab5729d5252b0049ec6be919d30512bac46ad54c04719840267986f2",
+      "bytes": 1075273,
+      "copiedWithoutModification": true,
+      "integratedLufs": -12.48,
+      "truePeakDbtp": -1.05,
+      "seamDelta": [
+        -0.0021104104816913605,
+        0.007084596902132034
+      ],
+      "seamVsLocalDifferenceP99": [
+        0.04205649285809697,
+        0.16141101382579343
+      ],
+      "suggestedTrim": {
+        "targetLufsBeforeUserVolume": -18,
+        "gainDb": -5.52,
+        "linearGain": 0.529663,
+        "status": "Initial measured suggestion only; not adopted. The music director owns track normalization and screen/user/master gains separately. No gain was rendered into the source OGG.",
+        "advisoryOnly": true,
+        "adoptedByRuntime": false
+      },
+      "masterWav": {
+        "file": "02_backstreet_signal_112bpm.wav",
+        "sha256": "6c67d5af27c5382e39fcf83272e3e8a543c8336d9678f245d7dca1041a07b38b",
+        "distribution": "Keep WAV in separate Soundtrack-Masters.zip; no duplicate WAV added to repository"
+      }
+    },
+    {
+      "key": "chrome-pursuit",
+      "sourceFile": "03_chrome_pursuit_128bpm.ogg",
+      "runtimeFile": "assets/audio/music-chrome-pursuit.ogg",
+      "title": "Chrome Pursuit",
+      "bpm": 128,
+      "meter": [
+        4,
+        4
+      ],
+      "bars": 32,
+      "beatSeconds": 0.46875,
+      "barSeconds": 1.875,
+      "sampleRate": 44100,
+      "channels": 2,
+      "decodedFrames": 2646000,
+      "durationSeconds": 60,
+      "loopStartSample": 0,
+      "loopEndSampleExclusive": 2646000,
+      "loopStartSeconds": 0,
+      "loopEndSeconds": 60,
+      "sha256": "0ee46f1179f89ba7b0d3121dcb76265763a93fd352f475c0f220547f222b87fc",
+      "bytes": 1174996,
+      "copiedWithoutModification": true,
+      "integratedLufs": -12.96,
+      "truePeakDbtp": -0.91,
+      "seamDelta": [
+        -0.005227789282798767,
+        -0.0023171156644821167
+      ],
+      "seamVsLocalDifferenceP99": [
+        0.13081869955486342,
+        0.06461987438673905
+      ],
+      "suggestedTrim": {
+        "targetLufsBeforeUserVolume": -18,
+        "gainDb": -5.04,
+        "linearGain": 0.559758,
+        "status": "Initial measured suggestion only; not adopted. The music director owns track normalization and screen/user/master gains separately. No gain was rendered into the source OGG.",
+        "advisoryOnly": true,
+        "adoptedByRuntime": false
+      },
+      "masterWav": {
+        "file": "03_chrome_pursuit_128bpm.wav",
+        "sha256": "3333167575bc5128bf6290e98413ca628f3933128a0c78212fe00d835cf844d4",
+        "distribution": "Keep WAV in separate Soundtrack-Masters.zip; no duplicate WAV added to repository"
+      }
+    },
+    {
+      "key": "redline-protocol",
+      "sourceFile": "04_redline_protocol_160bpm.ogg",
+      "runtimeFile": "assets/audio/music-redline-protocol.ogg",
+      "title": "Redline Protocol",
+      "bpm": 160,
+      "meter": [
+        4,
+        4
+      ],
+      "bars": 40,
+      "beatSeconds": 0.375,
+      "barSeconds": 1.5,
+      "sampleRate": 44100,
+      "channels": 2,
+      "decodedFrames": 2646000,
+      "durationSeconds": 60,
+      "loopStartSample": 0,
+      "loopEndSampleExclusive": 2646000,
+      "loopStartSeconds": 0,
+      "loopEndSeconds": 60,
+      "sha256": "2f574da3ff9f3d29bb80439f7a87e2af8933a7ced2d8821210aa7d84deab0440",
+      "bytes": 1291225,
+      "copiedWithoutModification": true,
+      "integratedLufs": -11.81,
+      "truePeakDbtp": -0.95,
+      "seamDelta": [
+        -0.0016193324699997902,
+        0.0006677061319351196
+      ],
+      "seamVsLocalDifferenceP99": [
+        0.03098948862111149,
+        0.013737112363515172
+      ],
+      "suggestedTrim": {
+        "targetLufsBeforeUserVolume": -18,
+        "gainDb": -6.19,
+        "linearGain": 0.490343,
+        "status": "Initial measured suggestion only; not adopted. The music director owns track normalization and screen/user/master gains separately. No gain was rendered into the source OGG.",
+        "advisoryOnly": true,
+        "adoptedByRuntime": false
+      },
+      "masterWav": {
+        "file": "04_redline_protocol_160bpm.wav",
+        "sha256": "95d0e03943ce1a6759495130c088fd0965cbf202d0b5f2eb12f45f2f977bbb79",
+        "distribution": "Keep WAV in separate Soundtrack-Masters.zip; no duplicate WAV added to repository"
+      }
+    }
+  ],
+  "sourceInventory": [
+    {
+      "file": "01_neon_standby_96bpm.ogg",
+      "bytes": 829530,
+      "sha256": "69a8326d043067b72b4450b47b1292e88dd8452e921fee902ffefddbff0cb91c"
+    },
+    {
+      "file": "01_neon_standby_96bpm.wav",
+      "bytes": 10584044,
+      "sha256": "820e077c664eac228dc820715582bd668edde990f9012e7244a9ced149237d56"
+    },
+    {
+      "file": "01_neon_standby_96bpm_score.json",
+      "bytes": 13811,
+      "sha256": "cc4b3ac462900fde3af1e671ea4f390d327d39f9ccfa34c1296d089643636a5b"
+    },
+    {
+      "file": "02_backstreet_signal_112bpm.ogg",
+      "bytes": 1075273,
+      "sha256": "09527676ab5729d5252b0049ec6be919d30512bac46ad54c04719840267986f2"
+    },
+    {
+      "file": "02_backstreet_signal_112bpm.wav",
+      "bytes": 10584044,
+      "sha256": "6c67d5af27c5382e39fcf83272e3e8a543c8336d9678f245d7dca1041a07b38b"
+    },
+    {
+      "file": "02_backstreet_signal_112bpm_score.json",
+      "bytes": 35070,
+      "sha256": "88e625e24649be696deb3c799ceda489d6b4276bc80b483984e9c1afc05f032b"
+    },
+    {
+      "file": "03_chrome_pursuit_128bpm.ogg",
+      "bytes": 1174996,
+      "sha256": "0ee46f1179f89ba7b0d3121dcb76265763a93fd352f475c0f220547f222b87fc"
+    },
+    {
+      "file": "03_chrome_pursuit_128bpm.wav",
+      "bytes": 10584044,
+      "sha256": "3333167575bc5128bf6290e98413ca628f3933128a0c78212fe00d835cf844d4"
+    },
+    {
+      "file": "03_chrome_pursuit_128bpm_score.json",
+      "bytes": 61726,
+      "sha256": "190e6ca680f989921cad06d8dc3bbbe80471cf47dc20c15837aebe3e24773291"
+    },
+    {
+      "file": "04_redline_protocol_160bpm.ogg",
+      "bytes": 1291225,
+      "sha256": "2f574da3ff9f3d29bb80439f7a87e2af8933a7ced2d8821210aa7d84deab0440"
+    },
+    {
+      "file": "04_redline_protocol_160bpm.wav",
+      "bytes": 10584044,
+      "sha256": "95d0e03943ce1a6759495130c088fd0965cbf202d0b5f2eb12f45f2f977bbb79"
+    },
+    {
+      "file": "04_redline_protocol_160bpm_score.json",
+      "bytes": 84053,
+      "sha256": "52b8518286910920b4ea6b04c96ee68f38a037645cc9731320045b0646861382"
+    },
+    {
+      "file": "make_soundtrack.py",
+      "bytes": 14122,
+      "sha256": "45d1f6ffa3d498439fd9c3e80d9934a9bc16b435b7d2e11767e69bb2b8fac53c"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2309,
+      "sha256": "73db6da74be6d6b09dd431dfd91f4753b9e76044a30ec96c0a9169d47e266228"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 1209,
+      "sha256": "6af87c9a69d89c7af87325c9dd265c30fa5026a399d095495cca4f97b7bebb79"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.4.0",
+  "generator": "Built-in ImageGen",
+  "styleReference": "assets/scene/blacksite-relay.png",
+  "promptFile": "art-source/menus/prompts.json",
+  "assets": [
+    {
+      "path": "assets/menus/briefing.png",
+      "sha256": "94eedafc1729f0780e8e8cb0499e974affe263f77f12345e9277477444415903",
+      "bytes": 1789698,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "assets/menus/controls.png",
+      "sha256": "ea1d3ba5922e373eaaa2f80c4c4002b0cdf86e44d66fbdb532d5be21a3022a90",
+      "bytes": 1813863,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "assets/menus/records.png",
+      "sha256": "f94981456a7faf294eadc48d6d5fc27a7b7279b3ea884b48eceda00e78573674",
+      "bytes": 1936196,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "assets/menus/signal.png",
+      "sha256": "a35557f4aa02552459476cd201ad26e02c557c0bcd70ea68684bfc518dfe9353",
+      "bytes": 2105536,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "assets/menus/workbench.png",
+      "sha256": "54f651d4bf28a074767fcc8eedb806eb2c02d4c53b5d7b8cae41f6d7ce48cf08",
+      "bytes": 2400105,
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  ]
+}

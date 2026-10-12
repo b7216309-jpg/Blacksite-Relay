@@ -1,0 +1,56 @@
+{
+  "version": "1.3.0",
+  "archive": "Risk_v2-Blacksite-Relay-Source.zip",
+  "archiveSha256": "53d18599057d3992d18aeec235de438fb3f91f92ad79bb2cd2339bee4a0af3e1",
+  "purpose": "Exact prior device layout and media authoring, without saves or leaderboard data.",
+  "files": [
+    {
+      "file": "index.html",
+      "member": "Risk_v2-Blacksite-Relay/index.html",
+      "bytes": 23725,
+      "sha256": "2a0e9038e50974a9ef04b393ef3c030f668f6408899a0833a3235f6678bce62c"
+    },
+    {
+      "file": "style.css",
+      "member": "Risk_v2-Blacksite-Relay/style.css",
+      "bytes": 66857,
+      "sha256": "2e9a307a592b170933fec75096bdaa8e275fcab5226b1c76cd8dd12c7cbabfeb"
+    },
+    {
+      "file": "renderer.js",
+      "member": "Risk_v2-Blacksite-Relay/renderer.js",
+      "bytes": 79948,
+      "sha256": "9633ad3afd066b7e01c81ae24caa9c4b9054fd3f05a1ca04830309df313606b5"
+    },
+    {
+      "file": "src/presentation.js",
+      "member": "Risk_v2-Blacksite-Relay/src/presentation.js",
+      "bytes": 6827,
+      "sha256": "0b1afc77b3a18078e56de04aeb5946953d1f2a319e5d3d1e7614c23a98b9739b"
+    },
+    {
+      "file": "src/relay-ui.js",
+      "member": "Risk_v2-Blacksite-Relay/src/relay-ui.js",
+      "bytes": 25565,
+      "sha256": "e1aece9da6915f0b238226373d61f0d2d4861f378652d1c1bc90bd17060d96a3"
+    },
+    {
+      "file": "src/relay-screen-life.js",
+      "member": "Risk_v2-Blacksite-Relay/src/relay-screen-life.js",
+      "bytes": 4667,
+      "sha256": "00d4f7c9505cb7e5695a2a011d84bd1c3988d692d222bd055719434c457d6c7d"
+    },
+    {
+      "file": "scripts/render-protocol-preview.cjs",
+      "member": "Risk_v2-Blacksite-Relay/scripts/render-protocol-preview.cjs",
+      "bytes": 14843,
+      "sha256": "7d950e4945e6a82ddda0fdcf325f411fdd323cafcac402fd74464a1b2e69cdef"
+    },
+    {
+      "file": "scripts/render-trailer.cjs",
+      "member": "Risk_v2-Blacksite-Relay/scripts/render-trailer.cjs",
+      "bytes": 27671,
+      "sha256": "e9558d7c29e9ac69ae42d947c6eed93cad503c6a96ba0b22f8ad85f0e44dee8e"
+    }
+  ]
+}

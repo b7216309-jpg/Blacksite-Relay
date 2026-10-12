@@ -1,0 +1,50 @@
+/* Language is presentation only. Keep the portrait controls and keyboard hints intact. */
+.language-setting{margin:0 0 3px;padding-bottom:12px;border-bottom:1px solid #324657}
+.language-setting>span{font-size:10px;letter-spacing:.6px;color:#c7d5e2}
+.language-setting select{min-width:135px;max-width:175px}
+#screen-settings.settings-screen{gap:12px}
+#screen-settings .settings-group{gap:8px;padding:12px 14px}
+#screen-settings .panel-heading{padding-bottom:10px}
+#screen-settings .panel-heading h2{margin-top:4px}
+#screen-settings input[type=range]{margin-bottom:4px}
+/* Text fragments preserve adjacent icons, values and keyboard keys. */
+#screen-tutorial .guide-topics button>.i18n-fragment{font-size:11px;color:inherit}
+#screen-tutorial .guide-topics>p>.i18n-fragment{font-size:10px;color:#d7dfdb;letter-spacing:.7px}
+#screen-tutorial .guide-bonus h3>.i18n-fragment{margin-left:0;font-size:inherit;color:inherit}
+#screen-tutorial .guide-protocol-rule h3>.i18n-fragment{margin-left:0;font-size:inherit;color:inherit}
+html[lang=fr] .btn-hack strong{font-size:10px;letter-spacing:-.35px}
+html[lang=fr] .bonus-section .btn-bonus>strong{font-size:9px;letter-spacing:-.2px}
+html[lang=fr] .micro-label{font-size:8px;letter-spacing:0}
+html[lang=fr] .initiate>span{font-size:15px;letter-spacing:0}
+html[lang=fr] .menu-title>p{letter-spacing:2px;font-size:9px}
+html[lang=fr] #guide-title{font-size:29px;line-height:35px;letter-spacing:-1px}
+html[lang=fr] #guide-subtitle{font-size:12px;letter-spacing:-.3px}
+html[lang=fr] #screen-tutorial .guide-loop h3{font-size:11px;letter-spacing:0}
+html[lang=fr] #screen-tutorial .guide-loop p{font-size:10px;letter-spacing:-.15px}
+html[lang=fr] #screen-tutorial .guide-topics button{padding-left:8px;padding-right:8px}
+html[lang=fr] #screen-tutorial .guide-topics button>.i18n-fragment{font-size:10px;letter-spacing:-.2px}
+html[lang=fr] #screen-tutorial .guide-bonus h3{gap:5px;font-size:11px}
+html[lang=fr] #screen-tutorial .guide-bonus h3>span:not(.i18n-fragment){font-size:8px;white-space:nowrap}
+html[lang=fr] #screen-tutorial .guide-keys{font-size:10px;letter-spacing:-.3px}
+html[lang=fr] #screen-tutorial .guide-upgrades dd{max-width:58%;font-size:10px}
+html[lang=fr] #screen-tutorial .guide-prestige{font-size:9px}
+html[lang=fr] #screen-success h2{font-size:34px;letter-spacing:-1.5px}
+html[lang=fr] .btn-restart{font-size:11px}
+html[lang=fr] #bypass-stop-button{font-size:11px;letter-spacing:0}
+html[lang=fr] .terminal-command-label{font-size:8px;letter-spacing:0}
+html[lang=fr] .protocol-payout{font-size:9px;letter-spacing:-.2px}
+html[lang=fr] .settings-screen .select-setting{font-size:11px}
+html[lang=fr] .settings-screen .checkbox-setting{font-size:11px}
+html[lang=fr] .settings-screen .checkbox-setting small{font-size:9px}
+/* Both Gamble probabilities stay visible together at every upgrade level. */
+html[lang=fr] #screen-persistent .upgrade-grid #btn-p-5{min-height:98px}
+html[lang=fr] #screen-persistent .upgrade-grid #btn-p-5>span:nth-child(3){white-space:pre-line;overflow:visible;text-overflow:clip}
+html[lang=fr] .mini-game #bypass-target:after{content:"CIBLE"}
+/* Large multipliers keep their magnitude on the same line as the value. */
+#multiplier-text{white-space:nowrap}
+#multiplier-text.compact-multiplier{font-size:20px;letter-spacing:-.6px}
+#multiplier-text.tiny-multiplier{font-size:16px;letter-spacing:-.5px}
+/* A long localized price gets a full row; its reason stays below the amount. */
+.game-content .bonus-section .btn-bonus[data-long-price="true"] [id^="price-"]{top:20px;bottom:auto;left:25px;right:5px;font-size:10px;line-height:12px;text-overflow:clip}
+.game-content .bonus-section .btn-bonus[data-long-price="true"]>kbd{top:20px;bottom:auto;height:13px;line-height:11px}
+.game-content .bonus-section .btn-bonus[data-long-price="true"]>small{top:auto;bottom:2px;right:5px;max-width:calc(100% - 10px);font-size:7px;line-height:9px}

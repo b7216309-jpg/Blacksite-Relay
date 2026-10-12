@@ -1,0 +1,179 @@
+{
+  "images": [
+    {
+      "name": "blacksite-relay.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "intro-atlas.png",
+      "size": [
+        432,
+        432
+      ],
+      "packed": true
+    },
+    {
+      "name": "intro-electronics-atlas.png",
+      "size": [
+        5040,
+        1680
+      ],
+      "packed": true
+    },
+    {
+      "name": "intro-irradiance-atlas.png",
+      "size": [
+        5040,
+        1680
+      ],
+      "packed": true
+    },
+    {
+      "name": "intro-pets-atlas.png",
+      "size": [
+        5040,
+        1680
+      ],
+      "packed": true
+    },
+    {
+      "name": "intro-shadows-atlas.png",
+      "size": [
+        5040,
+        1680
+      ],
+      "packed": true
+    },
+    {
+      "name": "shade.png",
+      "size": [
+        420,
+        280
+      ],
+      "packed": true
+    }
+  ],
+  "samples": [
+    {
+      "frame": 1,
+      "pets": "PETS / runtime frame pets-000",
+      "operator": "OPERATOR / pose connected-000"
+    },
+    {
+      "frame": 2,
+      "pets": "PETS / runtime frame pets-000",
+      "operator": "OPERATOR / pose connected-000"
+    },
+    {
+      "frame": 3,
+      "pets": "PETS / runtime frame pets-001",
+      "operator": "OPERATOR / pose connected-001"
+    },
+    {
+      "frame": 72,
+      "pets": "PETS / runtime frame pets-035",
+      "operator": "OPERATOR / pose connected-035"
+    },
+    {
+      "frame": 143,
+      "pets": "PETS / runtime frame pets-071",
+      "operator": "OPERATOR / pose connected-071"
+    },
+    {
+      "frame": 144,
+      "pets": "PETS / runtime frame pets-071",
+      "operator": "OPERATOR / pose connected-071"
+    }
+  ],
+  "petFramePlanes": 72,
+  "operatorFramePlanes": 72,
+  "frames": [
+    1,
+    144
+  ],
+  "fps": 24,
+  "resolution": [
+    960,
+    540
+  ],
+  "petsSource": {
+    "renderer": "src/relay-pets.js",
+    "rendererSha256": "83ae364d3367252c5f490face2009fcd19242485ce4f749ab99dfd4218d18b41",
+    "startSeconds": 0,
+    "endExclusiveSeconds": 6,
+    "fps": 12,
+    "nativeCanvas": [
+      420,
+      280
+    ],
+    "separateShadows": true
+  },
+  "viewLayers": [
+    "Relay Beauty",
+    "Relay Shade Data",
+    "Relay Irradiance Data"
+  ],
+  "lightingSource": {
+    "renderer": "src/relay-lighting.js",
+    "rendererSha256": "0fbb95e2764abbdae90bfcaefaca0f7518dcdddde0d2faa41c90e3b720bcc3c2",
+    "art": "assets/scene/blacksite-relay.png",
+    "artSha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+    "startSeconds": 0,
+    "endExclusiveSeconds": 6,
+    "fps": 12,
+    "options": {
+      "risk": 0,
+      "signal": {},
+      "low": false,
+      "isStatic": false,
+      "terminal": false,
+      "screen": "game"
+    }
+  },
+  "lightingFormula": "Encode beauty linear RGB to sRGB; clamp(C * shade * (1 + irradiance)); decode to linear output.",
+  "electronicsSource": {
+    "renderer": "src/relay-scene.js",
+    "rendererSha256": "405c5c7c303514047398d33e16d3aed18d54d07a45ed58057ccabe2b8e562455",
+    "art": "assets/scene/blacksite-relay.png",
+    "artSha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+    "startSeconds": 0,
+    "endExclusiveSeconds": 6,
+    "fps": 12,
+    "options": {
+      "screen": "game",
+      "risk": 0,
+      "effectsLevel": "full",
+      "reducedMotion": false
+    }
+  },
+  "shadowSource": {
+    "renderer": "src/relay-shadows.js",
+    "rendererSha256": "02ce10ca463b4fb6881ab65b81603c80f9b8c4a203dfe260e7eadf01d3419719",
+    "operatorSha256": "c6f5acf9e978b87813fedfc3dc68fbd49029b83c5cf29ce8a8277742d341bcb2",
+    "petsSha256": "83ae364d3367252c5f490face2009fcd19242485ce4f749ab99dfd4218d18b41",
+    "art": "assets/scene/blacksite-relay.png",
+    "artSha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+    "startSeconds": 0,
+    "endExclusiveSeconds": 6,
+    "fps": 12,
+    "options": {
+      "screen": "game",
+      "risk": 0,
+      "isStatic": false,
+      "signal": {
+        "power": 1,
+        "activity": 0,
+        "warning": 0
+      }
+    }
+  },
+  "shadowFormula": "Decode(sRGB(original room) * (1 - native shadow alpha)), transparent outside ink; actors and lighting follow.",
+  "shadowPlanes": 1,
+  "legacyOperatorContacts": 0,
+  "electronicsPlanes": 1,
+  "independentDisplayOverlays": 0
+}

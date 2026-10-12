@@ -1,0 +1,48 @@
+[
+  {
+    "path": "<repository>\\assets\\scene\\blacksite-relay.png",
+    "bytes": 2277167,
+    "sha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+    "_publicationNote": "Publication copy: local authoring paths were replaced with neutral aliases. Original measurements and outcomes are unchanged; these historical results were not rerun for the public snapshot."
+  },
+  {
+    "path": "<repository>\\son\\backgroundloop.mp3",
+    "bytes": 3660948,
+    "sha256": "5bec6a66ce5035ee3a6173dfbe21f8550d0a4ea00e2c10b09eb15dd5b59f8dd9"
+  },
+  {
+    "path": "<repository>\\assets\\audio\\music-original.ogg",
+    "bytes": 4716685,
+    "sha256": "12968a9d4e5bf075a161c236d7aa6dabc6b488491e0998c4656a29d818942f54"
+  },
+  {
+    "path": "<repository>\\art-source\\audio\\masters\\trailer-original-music-40s.wav",
+    "bytes": 10584044,
+    "sha256": "c26f00a264f57deb5fbd7bdb00115e19e8ea278591c8473165d90e6640d1d961"
+  },
+  {
+    "path": "<repository>\\assets\\scene\\relay-operator-design.png",
+    "bytes": 1023050,
+    "sha256": "412e4c0749ab91d92e1d773f3d365cff1657a9dc483583a9bbcf8124ee9dd570"
+  },
+  {
+    "path": "<repository>\\assets\\scene\\relay-rat-design.png",
+    "bytes": 833291,
+    "sha256": "d6733ef487ea1d75881fd0d3049babc7e90bac41b08c0d3d9bb4f76e74308286"
+  },
+  {
+    "path": "<repository>\\assets\\scene\\relay-cat-design.png",
+    "bytes": 847054,
+    "sha256": "c8060c8524afa49e4eff88ce576d4099ff8ee30711a6d1d27b6ca5aada3f1e17"
+  },
+  {
+    "path": "<repository>\\assets\\scene\\relay-snail-design.png",
+    "bytes": 935133,
+    "sha256": "61cef404e4cece9b9864e2ba555440357c1bb42e037cdb20b242e5f8a0570e95"
+  },
+  {
+    "path": "<repository>\\art-source\\audio\\masters\\music-original.wav",
+    "bytes": 59535044,
+    "sha256": "a8187a2a768734678ce18770b07ca9f69a991206d9670fab1af37767ad834246"
+  }
+]

@@ -1,0 +1,169 @@
+{
+  "method": "Read-only source component bounds after runtime chroma-key classification; no raster files altered.",
+  "key": "r>g+12 && b>g+12",
+  "coords": "All crops are [x,y,width,height] in original PNG pixels. Polygons are original PNG coordinates; subtract crop origin before normalizing.",
+  "assets": [
+    {
+      "id": "break-time-placard",
+      "file": "assets/easter-eggs/break-time-placard.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        146,
+        122,
+        750,
+        976
+      ],
+      "crumbCrop": [
+        992,
+        964,
+        114,
+        95
+      ],
+      "blankFace": [
+        [
+          270,
+          207
+        ],
+        [
+          800,
+          350
+        ],
+        [
+          724,
+          748
+        ],
+        [
+          231,
+          609
+        ]
+      ],
+      "previewNative": [
+        28,
+        36
+      ],
+      "crumbNative": [
+        3,
+        2
+      ]
+    },
+    {
+      "id": "snail-courier-kit",
+      "file": "assets/easter-eggs/snail-courier-kit.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "crop": [
+        83,
+        345,
+        638,
+        495
+      ],
+      "envelopeCrop": [
+        784,
+        577,
+        386,
+        263
+      ],
+      "previewNative": [
+        7,
+        5
+      ],
+      "envelopeNative": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": "hidden-locker",
+      "file": "assets/easter-eggs/hidden-locker.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "crop": [
+        272,
+        67,
+        361,
+        1406
+      ],
+      "noteCrop": [
+        724,
+        1226,
+        176,
+        224
+      ],
+      "doorOpening": [
+        [
+          337,
+          188
+        ],
+        [
+          523,
+          188
+        ],
+        [
+          523,
+          1361
+        ],
+        [
+          337,
+          1361
+        ]
+      ],
+      "eye": [
+        485,
+        334
+      ],
+      "previewNative": [
+        19,
+        71
+      ],
+      "noteNative": [
+        8,
+        10
+      ]
+    },
+    {
+      "id": "room404-arcade",
+      "file": "assets/easter-eggs/room404-arcade.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "crop": [
+        211,
+        57,
+        700,
+        1281
+      ],
+      "screenPolygon": [
+        [
+          443,
+          428
+        ],
+        [
+          661,
+          526
+        ],
+        [
+          617,
+          737
+        ],
+        [
+          386,
+          634
+        ]
+      ],
+      "previewNative": [
+        48,
+        87
+      ],
+      "note": "Final guide overlay is48x87 native pixels at x342,y35; preserve the original cropped aspect ratio."
+    }
+  ],
+  "status": "Native display dimensions match the final approved1.6.0 runtime. Blank source faces shown here receive sharp runtime text or live CRT pixels in-game."
+}

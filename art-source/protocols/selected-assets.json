@@ -1,0 +1,74 @@
+{
+  "version": "1.3.0",
+  "method": "Built-in ImageGen",
+  "generatedDate": "2026-09-05",
+  "logicalViewport": [
+    420,
+    650
+  ],
+  "artDirection": "Blacksite Relay: worn industrial pixel-art hardware, petrol teal shadows, copper wiring and amber practical lamps.",
+  "runtimeComposition": "Original PNG backplates with separate native HTML controls and text. No generated target markers, commands, cells or instructional copy.",
+  "promptSet": "art-source/protocols/prompts/device-backplates.json",
+  "memoryCorrectionPrompt": "art-source/protocols/prompts/memory-recess-revision.txt",
+  "memoryCorrection": "The first generated opening was too narrow. ImageGen widened the empty recess around the existing 275 x 275 grid; cell dimensions and positions are preserved.",
+  "imageProcessing": "Selected PNGs are copied unchanged from the built-in generation output. Runtime layout performs display scaling; no external raster retouching was used.",
+  "assets": [
+    {
+      "screen": "bypass",
+      "path": "assets/protocols/bypass-calibrator.png",
+      "sourceGeneratedFilename": "exec-a0a43ae9-c3a7-46fc-b60d-6cead18d1b1c.png",
+      "bytes": 2126223,
+      "sha256": "026610117770d5a4885cf0afc2d9a0367ebc02444a116192fb574cd1f409ea78",
+      "dimensions": [
+        1008,
+        1561
+      ],
+      "approximateClearWell": [
+        52,
+        320,
+        365,
+        504
+      ],
+      "boundsUnits": "420 x 650 logical pixels; left, top, right, bottom",
+      "generation": "New image"
+    },
+    {
+      "screen": "typing",
+      "path": "assets/protocols/injection-crt.png",
+      "sourceGeneratedFilename": "exec-a7174695-3c2b-4587-9979-869354998ad0.png",
+      "bytes": 2038813,
+      "sha256": "55edc0be39d9c46a78e416bbebf454117333d491887d2dcf2c646f9f96d28d38",
+      "dimensions": [
+        1008,
+        1561
+      ],
+      "approximateClearWell": [
+        79,
+        155,
+        341,
+        363
+      ],
+      "boundsUnits": "420 x 650 logical pixels; left, top, right, bottom",
+      "generation": "New image"
+    },
+    {
+      "screen": "backdoor",
+      "path": "assets/protocols/memory-patch-bay-v2.png",
+      "sourceGeneratedFilename": "exec-30dc0aeb-1497-47ae-85d4-4b55e628ed53.png",
+      "bytes": 1821361,
+      "sha256": "7e53106284a7b48c4887781027069f3f2c12739b01340515d8ca0025b041b8cc",
+      "dimensions": [
+        1008,
+        1560
+      ],
+      "approximateClearWell": [
+        67,
+        194,
+        354,
+        479
+      ],
+      "boundsUnits": "420 x 650 logical pixels; left, top, right, bottom",
+      "generation": "New image plus one targeted ImageGen edit"
+    }
+  ]
+}

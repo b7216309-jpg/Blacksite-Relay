@@ -1,0 +1,14 @@
+{
+  "size": [
+    420,
+    280
+  ],
+  "channelMAE": 0.4180895691609977,
+  "maximumChannelError": 3,
+  "channelsWithin2CodesFraction": 0.999657029478458,
+  "pixelsWithin2CodesFraction": 0.9990051020408163,
+  "p99ChannelError": 2.0,
+  "method": "Identical unchanged room at t2/risk0. Compare actual Canvas RelayLighting.draw with Blender piecewise-sRGB compositor using the same exported shade and irradiance.",
+  "tolerance": "MAE below1/255 and maximum channel difference no greater than4/255; Canvas rounds intermediate8-bit composite operations.",
+  "passed": true
+}

@@ -1,0 +1,72 @@
+{
+  "version": "1.6.0",
+  "generator": "built-in ImageGen",
+  "reference": {
+    "path": "assets/scene/blacksite-relay.png",
+    "sha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+    "role": "Style and material reference only; new props are original separate images."
+  },
+  "status": "Selected originals and runtime key approved; integrated pet/locker/arcade motion visually approved by root before release freeze.",
+  "assets": [
+    {
+      "id": "break-time-placard",
+      "path": "assets/easter-eggs/break-time-placard.png",
+      "authoringOriginal": "art-source/easter-eggs/originals/break-time-placard.png",
+      "generatorOutput": "exec-4d6c4f26-a54e-4112-818c-557eb2aa0e26.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1305973,
+      "sha256": "f0a4ffadab805835aef8ac3cfe9acc770e87897a62b20e56032a9ddef42fe467",
+      "sourceMode": "RGB",
+      "storedAlpha": false,
+      "runtimeAlpha": "Cached canvas chroma-key: r > g + 12 and b > g + 12; no file pixel edits."
+    },
+    {
+      "id": "snail-courier-kit",
+      "path": "assets/easter-eggs/snail-courier-kit.png",
+      "authoringOriginal": "art-source/easter-eggs/originals/snail-courier-kit.png",
+      "generatorOutput": "exec-4e564d83-d4e4-401b-9441-5c83f2c68ca7.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "bytes": 1108344,
+      "sha256": "03339f17364abbb74e62619fa07c5420050b158c1215cde072e6df90b5bd8dda",
+      "sourceMode": "RGB",
+      "storedAlpha": false,
+      "runtimeAlpha": "Cached canvas chroma-key: r > g + 12 and b > g + 12; no file pixel edits."
+    },
+    {
+      "id": "hidden-locker",
+      "path": "assets/easter-eggs/hidden-locker.png",
+      "authoringOriginal": "art-source/easter-eggs/originals/hidden-locker.png",
+      "generatorOutput": "exec-14bf919f-3a43-4d00-b502-02cedad7dd58.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 1329258,
+      "sha256": "b707d0bccc1a790616d8afbaffb2c62a67c4b9a3840f1b14089123187721764b",
+      "sourceMode": "RGB",
+      "storedAlpha": false,
+      "runtimeAlpha": "Cached canvas chroma-key: r > g + 12 and b > g + 12; no file pixel edits."
+    },
+    {
+      "id": "room404-arcade",
+      "path": "assets/easter-eggs/room404-arcade.png",
+      "authoringOriginal": "art-source/easter-eggs/originals/room404-arcade.png",
+      "generatorOutput": "exec-1099145f-0d5a-4970-a23c-91c07482114b.png",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "bytes": 1384550,
+      "sha256": "67b7978bcfc906eba3f6e35ae2455238d7154a406b5bf13968182bc63dd782bd",
+      "sourceMode": "RGB",
+      "storedAlpha": false,
+      "runtimeAlpha": "Cached canvas chroma-key: r > g + 12 and b > g + 12; no file pixel edits."
+    }
+  ]
+}

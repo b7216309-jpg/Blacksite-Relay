@@ -1,0 +1,158 @@
+{
+  "revision": "1.3.1",
+  "reusedFrom": "1.3.0",
+  "unchanged": [
+    {
+      "file": "assets/scene/blacksite-relay.png",
+      "bytes": 2277167,
+      "sha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/scene/relay-operator-design.png",
+      "bytes": 1023050,
+      "sha256": "412e4c0749ab91d92e1d773f3d365cff1657a9dc483583a9bbcf8124ee9dd570",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/scene/relay-rat-design.png",
+      "bytes": 833291,
+      "sha256": "d6733ef487ea1d75881fd0d3049babc7e90bac41b08c0d3d9bb4f76e74308286",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/scene/relay-cat-design.png",
+      "bytes": 847054,
+      "sha256": "c8060c8524afa49e4eff88ce576d4099ff8ee30711a6d1d27b6ca5aada3f1e17",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/scene/relay-snail-design.png",
+      "bytes": 935133,
+      "sha256": "61cef404e4cece9b9864e2ba555440357c1bb42e037cdb20b242e5f8a0570e95",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/scene/intro.webm",
+      "bytes": 1990705,
+      "sha256": "99b81c35c63f14982867c59d20dea726cf4d5d4274fc08306bc661e2c4e08f45",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/scene/intro.mp4",
+      "bytes": 2858061,
+      "sha256": "7053b36e88d197b99a3f1c0df99ae3de569843951a99837bb5951395cb6c7ef7",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/audio/music-original.ogg",
+      "bytes": 4716685,
+      "sha256": "12968a9d4e5bf075a161c236d7aa6dabc6b488491e0998c4656a29d818942f54",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "son/backgroundloop.mp3",
+      "bytes": 3660948,
+      "sha256": "5bec6a66ce5035ee3a6173dfbe21f8550d0a4ea00e2c10b09eb15dd5b59f8dd9",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "src/relay-life.js",
+      "bytes": 6480,
+      "sha256": "c6f5acf9e978b87813fedfc3dc68fbd49029b83c5cf29ce8a8277742d341bcb2",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "src/relay-pets.js",
+      "bytes": 10568,
+      "sha256": "83ae364d3367252c5f490face2009fcd19242485ce4f749ab99dfd4218d18b41",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "src/relay-shadows.js",
+      "bytes": 6583,
+      "sha256": "02ce10ca463b4fb6881ab65b81603c80f9b8c4a203dfe260e7eadf01d3419719",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "src/relay-lighting.js",
+      "bytes": 10035,
+      "sha256": "0fbb95e2764abbdae90bfcaefaca0f7518dcdddde0d2faa41c90e3b720bcc3c2",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "src/relay-scene.js",
+      "bytes": 29389,
+      "sha256": "405c5c7c303514047398d33e16d3aed18d54d07a45ed58057ccabe2b8e562455",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "art-source/blender/Blacksite_Relay.blend",
+      "bytes": 6402712,
+      "sha256": "f9524cd29734b896fa0def627189f93bbbbcd83d4e42592c5cd6da1fbba6d477",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "art-source/shadows/intro-shadows-atlas.png",
+      "bytes": 201823,
+      "sha256": "24360e063bdb9aad67861d4a8ce4298da2093f867e175ab2e697b9550bc40091",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "art-source/audio/masters/music-original.wav",
+      "bytes": 59535044,
+      "sha256": "a8187a2a768734678ce18770b07ca9f69a991206d9670fab1af37767ad834246",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "art-source/audio/masters/trailer-original-music-40s.wav",
+      "bytes": 10584044,
+      "sha256": "c26f00a264f57deb5fbd7bdb00115e19e8ea278591c8473165d90e6640d1d961",
+      "source": "verified preservation record in immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/protocols/bypass-calibrator.png",
+      "bytes": 2126223,
+      "sha256": "026610117770d5a4885cf0afc2d9a0367ebc02444a116192fb574cd1f409ea78",
+      "source": "byte comparison to immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/protocols/injection-crt.png",
+      "bytes": 2038813,
+      "sha256": "55edc0be39d9c46a78e416bbebf454117333d491887d2dcf2c646f9f96d28d38",
+      "source": "byte comparison to immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    },
+    {
+      "file": "assets/protocols/memory-patch-bay-v2.png",
+      "bytes": 1821361,
+      "sha256": "7e53106284a7b48c4887781027069f3f2c12739b01340515d8ca0025b041b8cc",
+      "source": "byte comparison to immutable 1.3.0 source ZIP",
+      "matchesBaseline": true
+    }
+  ],
+  "beforeSources": 8,
+  "sourceArchiveSha256": "53d18599057d3992d18aeec235de438fb3f91f92ad79bb2cd2339bee4a0af3e1",
+  "intro": "Accepted six-second encodes and editable Blender scene remain byte-identical; no new intro render or re-encode.",
+  "generatedArt": "All three accepted ImageGen PNGs remain byte-identical; registered effects are code-native alpha overlays.",
+  "checkedAt": "2026-09-05T21:17:21.627Z"
+}

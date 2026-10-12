@@ -1,0 +1,612 @@
+{
+  "version": 1,
+  "image": "intro-electronics-atlas.png",
+  "width": 5040,
+  "height": 1680,
+  "frameWidth": 420,
+  "frameHeight": 280,
+  "roomWidth": 1536,
+  "roomHeight": 1024,
+  "pixelStep": 1,
+  "depth": 0.038,
+  "animationBaked": true,
+  "alpha": "Source-backed registered electronics patches from the runtime; preserved room pixels inside original display masks.",
+  "frames": [
+    {
+      "name": "electronics-000",
+      "x": 0,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-001",
+      "x": 420,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-002",
+      "x": 840,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-003",
+      "x": 1260,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-004",
+      "x": 1680,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-005",
+      "x": 2100,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-006",
+      "x": 2520,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-007",
+      "x": 2940,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-008",
+      "x": 3360,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-009",
+      "x": 3780,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-010",
+      "x": 4200,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-011",
+      "x": 4620,
+      "y": 0,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-012",
+      "x": 0,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-013",
+      "x": 420,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-014",
+      "x": 840,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-015",
+      "x": 1260,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-016",
+      "x": 1680,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-017",
+      "x": 2100,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-018",
+      "x": 2520,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-019",
+      "x": 2940,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-020",
+      "x": 3360,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-021",
+      "x": 3780,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-022",
+      "x": 4200,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-023",
+      "x": 4620,
+      "y": 280,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-024",
+      "x": 0,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-025",
+      "x": 420,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-026",
+      "x": 840,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-027",
+      "x": 1260,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-028",
+      "x": 1680,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-029",
+      "x": 2100,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-030",
+      "x": 2520,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-031",
+      "x": 2940,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-032",
+      "x": 3360,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-033",
+      "x": 3780,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-034",
+      "x": 4200,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-035",
+      "x": 4620,
+      "y": 560,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-036",
+      "x": 0,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-037",
+      "x": 420,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-038",
+      "x": 840,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-039",
+      "x": 1260,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-040",
+      "x": 1680,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-041",
+      "x": 2100,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-042",
+      "x": 2520,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-043",
+      "x": 2940,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-044",
+      "x": 3360,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-045",
+      "x": 3780,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-046",
+      "x": 4200,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-047",
+      "x": 4620,
+      "y": 840,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-048",
+      "x": 0,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-049",
+      "x": 420,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-050",
+      "x": 840,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-051",
+      "x": 1260,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-052",
+      "x": 1680,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-053",
+      "x": 2100,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-054",
+      "x": 2520,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-055",
+      "x": 2940,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-056",
+      "x": 3360,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-057",
+      "x": 3780,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-058",
+      "x": 4200,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-059",
+      "x": 4620,
+      "y": 1120,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-060",
+      "x": 0,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-061",
+      "x": 420,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-062",
+      "x": 840,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-063",
+      "x": 1260,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-064",
+      "x": 1680,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-065",
+      "x": 2100,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-066",
+      "x": 2520,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-067",
+      "x": 2940,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-068",
+      "x": 3360,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-069",
+      "x": 3780,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-070",
+      "x": 4200,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    },
+    {
+      "name": "electronics-071",
+      "x": 4620,
+      "y": 1400,
+      "w": 420,
+      "h": 280
+    }
+  ],
+  "introAnimation": {
+    "sequence": [
+      "electronics-000",
+      "electronics-001",
+      "electronics-002",
+      "electronics-003",
+      "electronics-004",
+      "electronics-005",
+      "electronics-006",
+      "electronics-007",
+      "electronics-008",
+      "electronics-009",
+      "electronics-010",
+      "electronics-011",
+      "electronics-012",
+      "electronics-013",
+      "electronics-014",
+      "electronics-015",
+      "electronics-016",
+      "electronics-017",
+      "electronics-018",
+      "electronics-019",
+      "electronics-020",
+      "electronics-021",
+      "electronics-022",
+      "electronics-023",
+      "electronics-024",
+      "electronics-025",
+      "electronics-026",
+      "electronics-027",
+      "electronics-028",
+      "electronics-029",
+      "electronics-030",
+      "electronics-031",
+      "electronics-032",
+      "electronics-033",
+      "electronics-034",
+      "electronics-035",
+      "electronics-036",
+      "electronics-037",
+      "electronics-038",
+      "electronics-039",
+      "electronics-040",
+      "electronics-041",
+      "electronics-042",
+      "electronics-043",
+      "electronics-044",
+      "electronics-045",
+      "electronics-046",
+      "electronics-047",
+      "electronics-048",
+      "electronics-049",
+      "electronics-050",
+      "electronics-051",
+      "electronics-052",
+      "electronics-053",
+      "electronics-054",
+      "electronics-055",
+      "electronics-056",
+      "electronics-057",
+      "electronics-058",
+      "electronics-059",
+      "electronics-060",
+      "electronics-061",
+      "electronics-062",
+      "electronics-063",
+      "electronics-064",
+      "electronics-065",
+      "electronics-066",
+      "electronics-067",
+      "electronics-068",
+      "electronics-069",
+      "electronics-070",
+      "electronics-071"
+    ],
+    "holdSeconds": 0.08333333333333333
+  },
+  "source": {
+    "renderer": "src/relay-scene.js",
+    "rendererSha256": "405c5c7c303514047398d33e16d3aed18d54d07a45ed58057ccabe2b8e562455",
+    "art": "assets/scene/blacksite-relay.png",
+    "artSha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+    "startSeconds": 0,
+    "endExclusiveSeconds": 6,
+    "fps": 12,
+    "options": {
+      "screen": "game",
+      "risk": 0,
+      "effectsLevel": "full",
+      "reducedMotion": false
+    }
+  }
+}

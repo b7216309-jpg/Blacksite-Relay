@@ -1,0 +1,44 @@
+{
+  "version": "1.2.5",
+  "archive": "Risk_v2-Blacksite-Relay-Source.zip",
+  "archiveSha256": "7ec5bb565f02138f2eea5da1b787f68d3fbdff6ddf088aedef8bcd0d25067c19",
+  "files": [
+    {
+      "member": "Risk_v2-Blacksite-Relay/index.html",
+      "file": "index.html",
+      "bytes": 23195,
+      "sha256": "6c1adcdcdeca14c3f2bf7c020ffc96e8c7e9c1c461efe68668447f795fe506a3"
+    },
+    {
+      "member": "Risk_v2-Blacksite-Relay/style.css",
+      "file": "style.css",
+      "bytes": 56563,
+      "sha256": "bbb91c29c1b6d9782d0e74f9836b560bbed47af83ad4e1510ad2ecd5f68f0fb9"
+    },
+    {
+      "member": "Risk_v2-Blacksite-Relay/renderer.js",
+      "file": "renderer.js",
+      "bytes": 79948,
+      "sha256": "9633ad3afd066b7e01c81ae24caa9c4b9054fd3f05a1ca04830309df313606b5"
+    },
+    {
+      "member": "Risk_v2-Blacksite-Relay/src/presentation.js",
+      "file": "src/presentation.js",
+      "bytes": 6827,
+      "sha256": "0b1afc77b3a18078e56de04aeb5946953d1f2a319e5d3d1e7614c23a98b9739b"
+    },
+    {
+      "member": "Risk_v2-Blacksite-Relay/src/relay-ui.js",
+      "file": "src/relay-ui.js",
+      "bytes": 23018,
+      "sha256": "bb7bdeeb652ae48b5ecd6de4082769e2632478beaa0b1bd20de4d7d29817a4b6"
+    },
+    {
+      "member": "Risk_v2-Blacksite-Relay/src/relay-screen-life.js",
+      "file": "src/relay-screen-life.js",
+      "bytes": 4600,
+      "sha256": "0ad3b0770de5274eac0836225018070e12ccc91dbd46408171ba6852819ea60b"
+    }
+  ],
+  "purpose": "Exact previous protocol layout and presentation sources for comparison; no private save or leaderboard contents."
+}

@@ -1,0 +1,778 @@
+{
+  "revision": "1.2.1",
+  "durationSeconds": 40,
+  "frameCount": 1200,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "videoCodec": "H.264 High / yuv420p / BT.709",
+  "audioCodec": "AAC stereo / 48000Hz",
+  "completeDecode": "passed",
+  "integratedLUFS": -17.3,
+  "truePeakDBTP": -0.56,
+  "browserErrors": [],
+  "stagedGameplay": {
+    "realFunctions": true,
+    "isolatedSave": true,
+    "randomRoll": 0.99999,
+    "traceReduction": 6,
+    "extractedMoney": 15284.095,
+    "finalRisk": 94
+  },
+  "operatorFrames": [
+    {
+      "time": 0,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 9,
+        "time": 0,
+        "frameCount": 1,
+        "generatedFrames": 4,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 11,
+        "time": 0,
+        "frameCount": 1,
+        "generatedFrames": 5,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 2,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 70,
+        "time": 2,
+        "frameCount": 1,
+        "generatedFrames": 28,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 71,
+        "time": 2,
+        "frameCount": 1,
+        "generatedFrames": 29,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 4.966666666666667,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 159,
+        "time": 4.966666666666667,
+        "frameCount": 1,
+        "generatedFrames": 63,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 160,
+        "time": 4.966666666666667,
+        "frameCount": 1,
+        "generatedFrames": 64,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 192,
+        "time": 6,
+        "frameCount": 1,
+        "generatedFrames": 77,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 191,
+        "time": 6,
+        "frameCount": 1,
+        "generatedFrames": 77,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 10,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 318,
+        "time": 10,
+        "frameCount": 1,
+        "generatedFrames": 147,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 311,
+        "time": 10,
+        "frameCount": 1,
+        "generatedFrames": 125,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 16,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 506,
+        "time": 16,
+        "frameCount": 1,
+        "generatedFrames": 247,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 491,
+        "time": 16,
+        "frameCount": 1,
+        "generatedFrames": 197,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 17.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "glance",
+        "draws": 556,
+        "time": 17.6,
+        "frameCount": 1,
+        "generatedFrames": 277,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "glance",
+        "draws": 539,
+        "time": 17.6,
+        "frameCount": 1,
+        "generatedFrames": 216,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 18.4,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "glance",
+        "draws": 582,
+        "time": 18.4,
+        "frameCount": 1,
+        "generatedFrames": 288,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "glance",
+        "draws": 563,
+        "time": 18.4,
+        "frameCount": 1,
+        "generatedFrames": 225,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 22,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 694,
+        "time": 22,
+        "frameCount": 1,
+        "generatedFrames": 351,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 671,
+        "time": 22,
+        "frameCount": 1,
+        "generatedFrames": 269,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 27,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 790,
+        "time": 25.066666666666666,
+        "frameCount": 1,
+        "generatedFrames": 404,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "bypass"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 821,
+        "time": 27,
+        "frameCount": 1,
+        "generatedFrames": 329,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 32,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 821,
+        "time": 13.44,
+        "frameCount": 1,
+        "generatedFrames": 416,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 971,
+        "time": 32,
+        "frameCount": 1,
+        "generatedFrames": 389,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 36,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 941,
+        "time": 15.12,
+        "frameCount": 1,
+        "generatedFrames": 436,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 1091,
+        "time": 36,
+        "frameCount": 1,
+        "generatedFrames": 437,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 37.6,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 989,
+        "time": 15.792,
+        "frameCount": 1,
+        "generatedFrames": 444,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 1139,
+        "time": 37.6,
+        "frameCount": 1,
+        "generatedFrames": 456,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 38.1,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 1004,
+        "time": 16.002,
+        "frameCount": 1,
+        "generatedFrames": 447,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "diagnostics",
+        "draws": 1154,
+        "time": 38.1,
+        "frameCount": 1,
+        "generatedFrames": 462,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    },
+    {
+      "time": 39.333333333333336,
+      "game": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 1041,
+        "time": 16.52,
+        "frameCount": 1,
+        "generatedFrames": 453,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "success"
+      },
+      "stage": {
+        "ready": true,
+        "error": false,
+        "disposed": false,
+        "pose": "idle",
+        "draws": 1191,
+        "time": 39.333333333333336,
+        "frameCount": 1,
+        "generatedFrames": 477,
+        "ownTimers": 0,
+        "ownAnimationFrames": 0,
+        "foot": {
+          "x": 574,
+          "y": 707
+        },
+        "pixelSize": {
+          "width": 36,
+          "height": 72
+        },
+        "screen": "game"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "../../outputs/Blacksite-Relay-1.2.1/Blacksite-Relay-Trailer.mp4",
+      "bytes": 23568340,
+      "sha256": "8cb851a497c7e39ad83444979afa5c260075004465f0ad080eb143a1d1be0114"
+    },
+    {
+      "path": "assets/scene/intro.webm",
+      "bytes": 1463224,
+      "sha256": "aa260ecc79dc964219b2cd2fcacce9dfee42ea663a83d694f1c2d6ec4c48e31a"
+    },
+    {
+      "path": "assets/scene/intro.mp4",
+      "bytes": 2364258,
+      "sha256": "ba91e91daa57d6fdfd99ad7963d957c1ba5153bf18e120998a5bca1b72ac0c08"
+    },
+    {
+      "path": "assets/scene/relay-operator-design.png",
+      "bytes": 1023050,
+      "sha256": "412e4c0749ab91d92e1d773f3d365cff1657a9dc483583a9bbcf8124ee9dd570"
+    },
+    {
+      "path": "art-source/life/intro-atlas.png",
+      "bytes": 31417,
+      "sha256": "0bedbb971263431434a17f1c016c7787861b3a53fd1cd16d1824228639367ad0"
+    },
+    {
+      "path": "art-source/blender/Blacksite_Relay.blend",
+      "bytes": 4642776,
+      "sha256": "5914da0da0c5213b02979af1e07d9ee59002b2a200f1fd44ad2f884f279967d1"
+    },
+    {
+      "path": "art-source/audio/masters/trailer-original-music-40s.wav",
+      "bytes": 10584044,
+      "sha256": "c26f00a264f57deb5fbd7bdb00115e19e8ea278591c8473165d90e6640d1d961"
+    }
+  ],
+  "inspection": {
+    "decodedFrameSeconds": [
+      2,
+      10,
+      16,
+      17.6,
+      18.4,
+      22,
+      27,
+      30,
+      32.5,
+      36,
+      37.6,
+      38.1
+    ],
+    "decodedFrameDirectory": "../operator-rebuild/media/trailer-final-review",
+    "newBlenderIntro": true,
+    "originalMusicUnchanged": true,
+    "blenderReviewFrames": [
+      1,
+      72,
+      144
+    ],
+    "introEncodedReviewSeconds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "audioChecks": "Original-music source selection, timed event mix, full decode, loudness and true peak. No claim of human listening."
+  },
+  "seekChecks": [
+    {
+      "seconds": 17.6,
+      "matchesSequential": true
+    },
+    {
+      "seconds": 38.1,
+      "matchesSequential": true
+    }
+  ]
+}

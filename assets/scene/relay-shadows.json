@@ -1,0 +1,172 @@
+{
+  "version": 1,
+  "sourceArtSize": [
+    1536,
+    1024
+  ],
+  "nativeSize": [
+    420,
+    280
+  ],
+  "sampleFps": 12,
+  "casterLimit": 5,
+  "color": "#000000",
+  "receivers": {
+    "floor": [
+      [
+        229,
+        701
+      ],
+      [
+        482,
+        641
+      ],
+      [
+        609,
+        695
+      ],
+      [
+        723,
+        737
+      ],
+      [
+        874,
+        702
+      ],
+      [
+        1091,
+        654
+      ],
+      [
+        1368,
+        721
+      ],
+      [
+        1401,
+        859
+      ],
+      [
+        1123,
+        880
+      ],
+      [
+        930,
+        803
+      ],
+      [
+        750,
+        833
+      ],
+      [
+        547,
+        938
+      ],
+      [
+        274,
+        844
+      ]
+    ],
+    "leftRoof": [
+      [
+        233,
+        378
+      ],
+      [
+        362,
+        316
+      ],
+      [
+        482,
+        360
+      ],
+      [
+        349,
+        419
+      ]
+    ],
+    "rightRoof": [
+      [
+        1090,
+        386
+      ],
+      [
+        1231,
+        328
+      ],
+      [
+        1358,
+        372
+      ],
+      [
+        1217,
+        433
+      ]
+    ]
+  },
+  "profiles": {
+    "operator": {
+      "receiver": "floor",
+      "light": [
+        716,
+        553
+      ],
+      "length": 28,
+      "width": 0.86,
+      "cast": 0.32,
+      "contact": [
+        6.6,
+        2,
+        -1
+      ],
+      "contactAlpha": 0.48
+    },
+    "rat": {
+      "receiver": "floor",
+      "light": [
+        716,
+        553
+      ],
+      "length": 12,
+      "width": 0.94,
+      "cast": 0.29,
+      "contact": [
+        9.2,
+        1.55,
+        -3
+      ],
+      "contactAlpha": 0.43
+    },
+    "cat": {
+      "receiver": "leftRoof",
+      "light": [
+        474,
+        278
+      ],
+      "length": 9,
+      "width": 0.88,
+      "cast": 0.24,
+      "contact": [
+        9.5,
+        1.8,
+        -1
+      ],
+      "contactAlpha": 0.42
+    },
+    "snail": {
+      "receiver": "rightRoof",
+      "light": [
+        1114,
+        290
+      ],
+      "length": 5,
+      "width": 0.9,
+      "cast": 0.2,
+      "contact": [
+        4.2,
+        0.9,
+        0
+      ],
+      "contactAlpha": 0.4
+    }
+  }
+}

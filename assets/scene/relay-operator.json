@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "image": "assets/scene/relay-operator-design.png",
+  "width": 1024,
+  "height": 1536,
+  "matte": {
+    "method": "minimum-channel",
+    "threshold": 190,
+    "despill": "background-connected neutral pixels only",
+    "neutralMinimum": 120,
+    "neutralRange": 18
+  },
+  "sourceCrop": {
+    "x": 303,
+    "y": 182,
+    "w": 466,
+    "h": 1129
+  },
+  "native": {
+    "canvasWidth": 36,
+    "canvasHeight": 72,
+    "bodyWidth": 24,
+    "bodyHeight": 56,
+    "offsetX": 6,
+    "offsetY": 8,
+    "pivotX": 16,
+    "pivotY": 64
+  },
+  "foot": {
+    "x": 574,
+    "y": 707
+  },
+  "sourcePixelsPerNativePixel": 3.657142857142857,
+  "frames": [
+    {
+      "name": "base",
+      "x": 303,
+      "y": 182,
+      "w": 466,
+      "h": 1129
+    }
+  ],
+  "animation": {
+    "fps": 12,
+    "construction": "single connected drawing; lower body fixed",
+    "idleCycleSeconds": 27.6,
+    "gestures": [
+      "diagnostics",
+      "glance"
+    ],
+    "breathing": "subtle coat shading; no silhouette displacement"
+  },
+  "cinematicMetadata": "art-source/life/intro-operator.json"
+}

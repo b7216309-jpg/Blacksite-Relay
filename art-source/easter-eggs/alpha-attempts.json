@@ -1,0 +1,20 @@
+{
+  "prompt": "Use case: background-extraction. Edit target: the supplied isolated pixel-art prop image. Preserve the existing prop design, colors, silhouette, pixel clusters and separation between objects exactly. Change ONLY the background: completely REMOVE the white/gray checkerboard from the image and export the objects on an ACTUAL TRANSPARENT BACKGROUND with an alpha channel (zero alpha outside the objects). A checkerboard is not transparency: do not draw, replace, or leave any checkerboard pixels. No white, gray, black, colored or patterned matte. No shadows or glow outside the prop silhouettes. The final deliverable must be a true transparent PNG cutout; keep both objects and their existing geometry.",
+  "outcome": "Both tool outputs remained opaque RGB. They were rejected for runtime use. The selected magenta originals were generated after explicit authorization to perform runtime key/despill; originals stay intact.",
+  "attempts": [
+    {
+      "input": "break-time-placard-01.png",
+      "output": "break-time-placard-02.png",
+      "generatorOutput": "exec-9d49a467-0295-46c9-9937-c422dbd9e516.png",
+      "actualBackground": "white",
+      "sha256": "835d4445e6656f2e7615ec0449d2aeaa2f5ce3003053a1711df9d9cda5d3ad9d"
+    },
+    {
+      "input": "snail-courier-kit-01.png",
+      "output": "snail-courier-kit-02.png",
+      "generatorOutput": "exec-a8530660-a17a-4154-a022-c6a4b1b462d7.png",
+      "actualBackground": "painted checkerboard",
+      "sha256": "c0912b8379041bc18289a0063e47de67e6aca62f57857b3d5153e80acd3687cc"
+    }
+  ]
+}

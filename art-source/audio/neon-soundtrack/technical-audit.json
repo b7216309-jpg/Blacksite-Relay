@@ -1,0 +1,896 @@
+{
+  "sourceDirectory": "<supplied-soundtrack>",
+  "sourceFilesPreserved": true,
+  "generatorExecuted": false,
+  "subjectiveListeningPerformed": false,
+  "inventory": [
+    {
+      "file": "01_neon_standby_96bpm.ogg",
+      "bytes": 829530,
+      "sha256": "69a8326d043067b72b4450b47b1292e88dd8452e921fee902ffefddbff0cb91c"
+    },
+    {
+      "file": "01_neon_standby_96bpm.wav",
+      "bytes": 10584044,
+      "sha256": "820e077c664eac228dc820715582bd668edde990f9012e7244a9ced149237d56"
+    },
+    {
+      "file": "01_neon_standby_96bpm_score.json",
+      "bytes": 13811,
+      "sha256": "cc4b3ac462900fde3af1e671ea4f390d327d39f9ccfa34c1296d089643636a5b"
+    },
+    {
+      "file": "02_backstreet_signal_112bpm.ogg",
+      "bytes": 1075273,
+      "sha256": "09527676ab5729d5252b0049ec6be919d30512bac46ad54c04719840267986f2"
+    },
+    {
+      "file": "02_backstreet_signal_112bpm.wav",
+      "bytes": 10584044,
+      "sha256": "6c67d5af27c5382e39fcf83272e3e8a543c8336d9678f245d7dca1041a07b38b"
+    },
+    {
+      "file": "02_backstreet_signal_112bpm_score.json",
+      "bytes": 35070,
+      "sha256": "88e625e24649be696deb3c799ceda489d6b4276bc80b483984e9c1afc05f032b"
+    },
+    {
+      "file": "03_chrome_pursuit_128bpm.ogg",
+      "bytes": 1174996,
+      "sha256": "0ee46f1179f89ba7b0d3121dcb76265763a93fd352f475c0f220547f222b87fc"
+    },
+    {
+      "file": "03_chrome_pursuit_128bpm.wav",
+      "bytes": 10584044,
+      "sha256": "3333167575bc5128bf6290e98413ca628f3933128a0c78212fe00d835cf844d4"
+    },
+    {
+      "file": "03_chrome_pursuit_128bpm_score.json",
+      "bytes": 61726,
+      "sha256": "190e6ca680f989921cad06d8dc3bbbe80471cf47dc20c15837aebe3e24773291"
+    },
+    {
+      "file": "04_redline_protocol_160bpm.ogg",
+      "bytes": 1291225,
+      "sha256": "2f574da3ff9f3d29bb80439f7a87e2af8933a7ced2d8821210aa7d84deab0440"
+    },
+    {
+      "file": "04_redline_protocol_160bpm.wav",
+      "bytes": 10584044,
+      "sha256": "95d0e03943ce1a6759495130c088fd0965cbf202d0b5f2eb12f45f2f977bbb79"
+    },
+    {
+      "file": "04_redline_protocol_160bpm_score.json",
+      "bytes": 84053,
+      "sha256": "52b8518286910920b4ea6b04c96ee68f38a037645cc9731320045b0646861382"
+    },
+    {
+      "file": "make_soundtrack.py",
+      "bytes": 14122,
+      "sha256": "45d1f6ffa3d498439fd9c3e80d9934a9bc16b435b7d2e11767e69bb2b8fac53c"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2309,
+      "sha256": "73db6da74be6d6b09dd431dfd91f4753b9e76044a30ec96c0a9169d47e266228"
+    },
+    {
+      "file": "verification.json",
+      "bytes": 1209,
+      "sha256": "6af87c9a69d89c7af87325c9dd265c30fa5026a399d095495cca4f97b7bebb79"
+    }
+  ],
+  "scores": [
+    {
+      "file": "01_neon_standby_96bpm_score.json",
+      "title": "Neon Standby",
+      "bpm": 96,
+      "bars": 24,
+      "beatsPerBar": 4,
+      "beats": 96,
+      "beatSeconds": 0.625,
+      "barSeconds": 2.5,
+      "durationFromTempoSeconds": 60.0,
+      "noteEvents": 180,
+      "lastNoteEndBeat": 95.7
+    },
+    {
+      "file": "02_backstreet_signal_112bpm_score.json",
+      "title": "Backstreet Signal",
+      "bpm": 112,
+      "bars": 28,
+      "beatsPerBar": 4,
+      "beats": 112,
+      "beatSeconds": 0.5357142857142857,
+      "barSeconds": 2.142857142857143,
+      "durationFromTempoSeconds": 60.0,
+      "noteEvents": 450,
+      "lastNoteEndBeat": 111.8
+    },
+    {
+      "file": "03_chrome_pursuit_128bpm_score.json",
+      "title": "Chrome Pursuit",
+      "bpm": 128,
+      "bars": 32,
+      "beatsPerBar": 4,
+      "beats": 128,
+      "beatSeconds": 0.46875,
+      "barSeconds": 1.875,
+      "durationFromTempoSeconds": 60.0,
+      "noteEvents": 790,
+      "lastNoteEndBeat": 127.93
+    },
+    {
+      "file": "04_redline_protocol_160bpm_score.json",
+      "title": "Redline Protocol",
+      "bpm": 160,
+      "bars": 40,
+      "beatsPerBar": 4,
+      "beats": 160,
+      "beatSeconds": 0.375,
+      "barSeconds": 1.5,
+      "durationFromTempoSeconds": 60.0,
+      "noteEvents": 1069,
+      "lastNoteEndBeat": 159.93
+    }
+  ],
+  "audio": [
+    {
+      "file": "01_neon_standby_96bpm.ogg",
+      "bytes": 829530,
+      "sha256": "69a8326d043067b72b4450b47b1292e88dd8452e921fee902ffefddbff0cb91c",
+      "format": {
+        "index": 0,
+        "codec_name": "vorbis",
+        "codec_long_name": "Vorbis",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "vorbis",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2646000,
+        "duration": "60.000000",
+        "bit_rate": "192000",
+        "extradata_size": 3745,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "encoder": "Lavc62.28.102 libvorbis",
+          "title": "Neon Standby",
+          "LOOPSTART": "0",
+          "LOOPEND": "2646000"
+        }
+      },
+      "decoded": {
+        "frames": 2646000,
+        "durationSeconds": 60.0,
+        "channels": 2,
+        "sampleRate": 44100,
+        "allFinite": true,
+        "clippedSamples": 0,
+        "samplePeakDbfs": -1.06799,
+        "rmsDbfs": -15.02817,
+        "dcMean": [
+          3.263139382782727e-05,
+          1.7517360604835294e-05
+        ],
+        "seamDelta": [
+          -0.0032228007912635803,
+          0.0010062307119369507
+        ],
+        "seamDeltaMaxDbfs": -49.83533,
+        "localDifferenceP99": [
+          0.047348507046699496,
+          0.04506081961095331
+        ],
+        "seamVsLocalP99": [
+          0.068065520800581,
+          0.02233050176682445
+        ],
+        "last20msRmsDbfs": -29.30135,
+        "first20msRmsDbfs": -9.20444,
+        "lastDifference": [
+          0.0005096159875392914,
+          0.00020739436149597168
+        ],
+        "firstDifference": [
+          0.005113191902637482,
+          0.004945728927850723
+        ]
+      },
+      "loudness": {
+        "input_i": -14.55,
+        "input_tp": -1.06,
+        "input_lra": 2.0,
+        "input_thresh": -24.55
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "file": "01_neon_standby_96bpm.wav",
+      "bytes": 10584044,
+      "sha256": "820e077c664eac228dc820715582bd668edde990f9012e7244a9ced149237d56",
+      "format": {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_long_name": "PCM signed 16-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s16",
+        "sample_rate": "44100",
+        "channels": 2,
+        "bits_per_sample": 16,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "duration_ts": 2646000,
+        "duration": "60.000000",
+        "bit_rate": "1411200",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      },
+      "decoded": {
+        "frames": 2646000,
+        "durationSeconds": 60.0,
+        "channels": 2,
+        "sampleRate": 44100,
+        "allFinite": true,
+        "clippedSamples": 0,
+        "samplePeakDbfs": -1.1106,
+        "rmsDbfs": -15.05396,
+        "dcMean": [
+          -8.125680013758976e-07,
+          -2.5192341476521165e-06
+        ],
+        "seamDelta": [
+          0.0,
+          0.0
+        ],
+        "seamDeltaMaxDbfs": -240.0,
+        "localDifferenceP99": [
+          0.04745697021484371,
+          0.04507080078124992
+        ],
+        "seamVsLocalP99": [
+          0.0,
+          0.0
+        ],
+        "last20msRmsDbfs": -29.15962,
+        "first20msRmsDbfs": -9.2723,
+        "lastDifference": [
+          0.0008544921875,
+          0.000457763671875
+        ],
+        "firstDifference": [
+          0.003753662109375,
+          0.00341796875
+        ]
+      },
+      "loudness": {
+        "input_i": -14.57,
+        "input_tp": -1.11,
+        "input_lra": 2.0,
+        "input_thresh": -24.57
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "file": "02_backstreet_signal_112bpm.ogg",
+      "bytes": 1075273,
+      "sha256": "09527676ab5729d5252b0049ec6be919d30512bac46ad54c04719840267986f2",
+      "format": {
+        "index": 0,
+        "codec_name": "vorbis",
+        "codec_long_name": "Vorbis",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "vorbis",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2646000,
+        "duration": "60.000000",
+        "bit_rate": "192000",
+        "extradata_size": 3745,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "encoder": "Lavc62.28.102 libvorbis",
+          "title": "Backstreet Signal",
+          "LOOPSTART": "0",
+          "LOOPEND": "2646000"
+        }
+      },
+      "decoded": {
+        "frames": 2646000,
+        "durationSeconds": 60.0,
+        "channels": 2,
+        "sampleRate": 44100,
+        "allFinite": true,
+        "clippedSamples": 0,
+        "samplePeakDbfs": -1.04917,
+        "rmsDbfs": -12.9954,
+        "dcMean": [
+          8.101262565887783e-05,
+          6.567101594611823e-05
+        ],
+        "seamDelta": [
+          -0.0021104104816913605,
+          0.007084596902132034
+        ],
+        "seamDeltaMaxDbfs": -42.9937,
+        "localDifferenceP99": [
+          0.05018037259578699,
+          0.04389165729284279
+        ],
+        "seamVsLocalP99": [
+          0.04205649285809697,
+          0.16141101382579343
+        ],
+        "last20msRmsDbfs": -28.18982,
+        "first20msRmsDbfs": -8.89996,
+        "lastDifference": [
+          0.0013570338487625122,
+          0.002097710967063904
+        ],
+        "firstDifference": [
+          0.0011080242693424225,
+          0.006791409105062485
+        ]
+      },
+      "loudness": {
+        "input_i": -12.48,
+        "input_tp": -1.05,
+        "input_lra": 0.8,
+        "input_thresh": -22.48
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "file": "02_backstreet_signal_112bpm.wav",
+      "bytes": 10584044,
+      "sha256": "6c67d5af27c5382e39fcf83272e3e8a543c8336d9678f245d7dca1041a07b38b",
+      "format": {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_long_name": "PCM signed 16-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s16",
+        "sample_rate": "44100",
+        "channels": 2,
+        "bits_per_sample": 16,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "duration_ts": 2646000,
+        "duration": "60.000000",
+        "bit_rate": "1411200",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      },
+      "decoded": {
+        "frames": 2646000,
+        "durationSeconds": 60.0,
+        "channels": 2,
+        "sampleRate": 44100,
+        "allFinite": true,
+        "clippedSamples": 0,
+        "samplePeakDbfs": -1.1106,
+        "rmsDbfs": -13.03121,
+        "dcMean": [
+          1.7134270700467686e-05,
+          2.5085726022179704e-05
+        ],
+        "seamDelta": [
+          0.0,
+          0.0
+        ],
+        "seamDeltaMaxDbfs": -240.0,
+        "localDifferenceP99": [
+          0.0510421752929687,
+          0.04421020507812479
+        ],
+        "seamVsLocalP99": [
+          0.0,
+          0.0
+        ],
+        "last20msRmsDbfs": -28.22297,
+        "first20msRmsDbfs": -8.94964,
+        "lastDifference": [
+          0.001739501953125,
+          0.00250244140625
+        ],
+        "firstDifference": [
+          0.00390625,
+          0.0045166015625
+        ]
+      },
+      "loudness": {
+        "input_i": -12.51,
+        "input_tp": -1.11,
+        "input_lra": 0.8,
+        "input_thresh": -22.51
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "file": "03_chrome_pursuit_128bpm.ogg",
+      "bytes": 1174996,
+      "sha256": "0ee46f1179f89ba7b0d3121dcb76265763a93fd352f475c0f220547f222b87fc",
+      "format": {
+        "index": 0,
+        "codec_name": "vorbis",
+        "codec_long_name": "Vorbis",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "vorbis",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2646000,
+        "duration": "60.000000",
+        "bit_rate": "192000",
+        "extradata_size": 3745,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "encoder": "Lavc62.28.102 libvorbis",
+          "title": "Chrome Pursuit",
+          "LOOPSTART": "0",
+          "LOOPEND": "2646000"
+        }
+      },
+      "decoded": {
+        "frames": 2646000,
+        "durationSeconds": 60.0,
+        "channels": 2,
+        "sampleRate": 44100,
+        "allFinite": true,
+        "clippedSamples": 0,
+        "samplePeakDbfs": -1.18434,
+        "rmsDbfs": -13.42693,
+        "dcMean": [
+          -3.365084400225999e-05,
+          4.795462174352923e-06
+        ],
+        "seamDelta": [
+          -0.005227789282798767,
+          -0.0023171156644821167
+        ],
+        "seamDeltaMaxDbfs": -45.63364,
+        "localDifferenceP99": [
+          0.03996209487318982,
+          0.03585763182723894
+        ],
+        "seamVsLocalP99": [
+          0.13081869955486342,
+          0.06461987438673905
+        ],
+        "last20msRmsDbfs": -26.53945,
+        "first20msRmsDbfs": -10.10813,
+        "lastDifference": [
+          0.005012795329093933,
+          0.005003631114959717
+        ],
+        "firstDifference": [
+          0.012465089559555054,
+          0.00882384181022644
+        ]
+      },
+      "loudness": {
+        "input_i": -12.96,
+        "input_tp": -0.91,
+        "input_lra": 2.2,
+        "input_thresh": -22.96
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "file": "03_chrome_pursuit_128bpm.wav",
+      "bytes": 10584044,
+      "sha256": "3333167575bc5128bf6290e98413ca628f3933128a0c78212fe00d835cf844d4",
+      "format": {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_long_name": "PCM signed 16-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s16",
+        "sample_rate": "44100",
+        "channels": 2,
+        "bits_per_sample": 16,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "duration_ts": 2646000,
+        "duration": "60.000000",
+        "bit_rate": "1411200",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      },
+      "decoded": {
+        "frames": 2646000,
+        "durationSeconds": 60.0,
+        "channels": 2,
+        "sampleRate": 44100,
+        "allFinite": true,
+        "clippedSamples": 0,
+        "samplePeakDbfs": -1.1106,
+        "rmsDbfs": -13.46196,
+        "dcMean": [
+          4.25899099060197e-05,
+          4.635772359073838e-05
+        ],
+        "seamDelta": [
+          0.0,
+          0.0
+        ],
+        "seamDeltaMaxDbfs": -240.0,
+        "localDifferenceP99": [
+          0.04156585693359369,
+          0.0370040893554687
+        ],
+        "seamVsLocalP99": [
+          0.0,
+          0.0
+        ],
+        "last20msRmsDbfs": -26.54142,
+        "first20msRmsDbfs": -10.16963,
+        "lastDifference": [
+          0.005401611328125,
+          0.00396728515625
+        ],
+        "firstDifference": [
+          0.0091552734375,
+          0.008392333984375
+        ]
+      },
+      "loudness": {
+        "input_i": -12.99,
+        "input_tp": -0.81,
+        "input_lra": 2.2,
+        "input_thresh": -22.99
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "file": "04_redline_protocol_160bpm.ogg",
+      "bytes": 1291225,
+      "sha256": "2f574da3ff9f3d29bb80439f7a87e2af8933a7ced2d8821210aa7d84deab0440",
+      "format": {
+        "index": 0,
+        "codec_name": "vorbis",
+        "codec_long_name": "Vorbis",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "mime_codec_string": "vorbis",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 2646000,
+        "duration": "60.000000",
+        "bit_rate": "192000",
+        "extradata_size": 3745,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "encoder": "Lavc62.28.102 libvorbis",
+          "title": "Redline Protocol",
+          "LOOPSTART": "0",
+          "LOOPEND": "2646000"
+        }
+      },
+      "decoded": {
+        "frames": 2646000,
+        "durationSeconds": 60.0,
+        "channels": 2,
+        "sampleRate": 44100,
+        "allFinite": true,
+        "clippedSamples": 0,
+        "samplePeakDbfs": -0.95276,
+        "rmsDbfs": -12.24463,
+        "dcMean": [
+          3.471821528312578e-05,
+          7.481702374590693e-05
+        ],
+        "seamDelta": [
+          -0.0016193324699997902,
+          0.0006677061319351196
+        ],
+        "seamDeltaMaxDbfs": -55.81328,
+        "localDifferenceP99": [
+          0.0522542494907975,
+          0.04860600352287292
+        ],
+        "seamVsLocalP99": [
+          0.03098948862111149,
+          0.013737112363515172
+        ],
+        "last20msRmsDbfs": -16.35743,
+        "first20msRmsDbfs": -9.65141,
+        "lastDifference": [
+          -0.011285615153610706,
+          -0.0175534188747406
+        ],
+        "firstDifference": [
+          -0.004053774289786816,
+          -0.00445477943867445
+        ]
+      },
+      "loudness": {
+        "input_i": -11.81,
+        "input_tp": -0.95,
+        "input_lra": 1.4,
+        "input_thresh": -21.81
+      },
+      "sourceUnchanged": true
+    },
+    {
+      "file": "04_redline_protocol_160bpm.wav",
+      "bytes": 10584044,
+      "sha256": "95d0e03943ce1a6759495130c088fd0965cbf202d0b5f2eb12f45f2f977bbb79",
+      "format": {
+        "index": 0,
+        "codec_name": "pcm_s16le",
+        "codec_long_name": "PCM signed 16-bit little-endian",
+        "codec_type": "audio",
+        "codec_tag_string": "[1][0][0][0]",
+        "codec_tag": "0x0001",
+        "sample_fmt": "s16",
+        "sample_rate": "44100",
+        "channels": 2,
+        "bits_per_sample": 16,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "duration_ts": 2646000,
+        "duration": "60.000000",
+        "bit_rate": "1411200",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      },
+      "decoded": {
+        "frames": 2646000,
+        "durationSeconds": 60.0,
+        "channels": 2,
+        "sampleRate": 44100,
+        "allFinite": true,
+        "clippedSamples": 0,
+        "samplePeakDbfs": -1.1106,
+        "rmsDbfs": -12.28159,
+        "dcMean": [
+          -4.025523444512354e-05,
+          -2.0880505251145596e-05
+        ],
+        "seamDelta": [
+          0.0,
+          0.0
+        ],
+        "seamDeltaMaxDbfs": -240.0,
+        "localDifferenceP99": [
+          0.05369049072265622,
+          0.04736419677734369
+        ],
+        "seamVsLocalP99": [
+          0.0,
+          0.0
+        ],
+        "last20msRmsDbfs": -16.41601,
+        "first20msRmsDbfs": -9.68936,
+        "lastDifference": [
+          -0.012115478515625,
+          -0.01690673828125
+        ],
+        "firstDifference": [
+          -0.005584716796875,
+          -0.006072998046875
+        ]
+      },
+      "loudness": {
+        "input_i": -11.84,
+        "input_tp": -1.09,
+        "input_lra": 1.4,
+        "input_thresh": -21.84
+      },
+      "sourceUnchanged": true
+    }
+  ],
+  "_publicationNote": "Publication copy: local authoring paths were replaced with neutral aliases. Original measurements and outcomes are unchanged; these historical results were not rerun for the public snapshot."
+}

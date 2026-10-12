@@ -1,0 +1,162 @@
+{
+  "status": "passed",
+  "checked_assets": 25,
+  "runtime_assets": 24,
+  "listening_review": "Not performed: no audio listening/perception tool is available in this agent session. Objective decode, waveform, peak and loop checks completed.",
+  "results": [
+    {
+      "asset": "music-ambience",
+      "master_valid": true,
+      "runtime_peak_dbfs": -7.852,
+      "decoded_seconds": 20.0,
+      "decoded_seam_delta": 0.0095094,
+      "decoded_delta_p999": 0.0295045,
+      "loop_seam_valid": true
+    },
+    {
+      "asset": "sfx-click",
+      "master_valid": true,
+      "runtime_peak_dbfs": -8.077,
+      "decoded_seconds": 0.181406
+    },
+    {
+      "asset": "sfx-hover",
+      "master_valid": true,
+      "runtime_peak_dbfs": -10.713,
+      "decoded_seconds": 0.147098
+    },
+    {
+      "asset": "sfx-purchase",
+      "master_valid": true,
+      "runtime_peak_dbfs": -4.984,
+      "decoded_seconds": 0.937098
+    },
+    {
+      "asset": "sfx-denied",
+      "master_valid": true,
+      "runtime_peak_dbfs": -8.475,
+      "decoded_seconds": 0.477098
+    },
+    {
+      "asset": "sfx-hack-1",
+      "master_valid": true,
+      "runtime_peak_dbfs": -6.096,
+      "decoded_seconds": 0.417098
+    },
+    {
+      "asset": "sfx-hack-2",
+      "master_valid": true,
+      "runtime_peak_dbfs": -4.93,
+      "decoded_seconds": 0.497098
+    },
+    {
+      "asset": "sfx-hack-3",
+      "master_valid": true,
+      "runtime_peak_dbfs": -3.122,
+      "decoded_seconds": 0.717098
+    },
+    {
+      "asset": "sfx-node",
+      "master_valid": true,
+      "runtime_peak_dbfs": -4.767,
+      "decoded_seconds": 1.216009
+    },
+    {
+      "asset": "sfx-bypass-ready",
+      "master_valid": true,
+      "runtime_peak_dbfs": -6.018,
+      "decoded_seconds": 1.02
+    },
+    {
+      "asset": "sfx-minigame-success",
+      "master_valid": true,
+      "runtime_peak_dbfs": -4.647,
+      "decoded_seconds": 1.39
+    },
+    {
+      "asset": "sfx-minigame-fail",
+      "master_valid": true,
+      "runtime_peak_dbfs": -7.258,
+      "decoded_seconds": 0.797098
+    },
+    {
+      "asset": "sfx-ghost",
+      "master_valid": true,
+      "runtime_peak_dbfs": -5.334,
+      "decoded_seconds": 1.25
+    },
+    {
+      "asset": "sfx-overclock",
+      "master_valid": true,
+      "runtime_peak_dbfs": -4.981,
+      "decoded_seconds": 1.2
+    },
+    {
+      "asset": "sfx-cooler",
+      "master_valid": true,
+      "runtime_peak_dbfs": -4.967,
+      "decoded_seconds": 1.05
+    },
+    {
+      "asset": "sfx-insure",
+      "master_valid": true,
+      "runtime_peak_dbfs": -5.403,
+      "decoded_seconds": 1.26
+    },
+    {
+      "asset": "sfx-gamble",
+      "master_valid": true,
+      "runtime_peak_dbfs": -3.974,
+      "decoded_seconds": 0.967098
+    },
+    {
+      "asset": "sfx-proxy",
+      "master_valid": true,
+      "runtime_peak_dbfs": -5.27,
+      "decoded_seconds": 1.09
+    },
+    {
+      "asset": "sfx-transfer",
+      "master_valid": true,
+      "runtime_peak_dbfs": -4.075,
+      "decoded_seconds": 2.5
+    },
+    {
+      "asset": "sfx-bust",
+      "master_valid": true,
+      "runtime_peak_dbfs": -2.624,
+      "decoded_seconds": 2.5
+    },
+    {
+      "asset": "sfx-achievement",
+      "master_valid": true,
+      "runtime_peak_dbfs": -4.569,
+      "decoded_seconds": 2.1
+    },
+    {
+      "asset": "sfx-prestige",
+      "master_valid": true,
+      "runtime_peak_dbfs": -4.369,
+      "decoded_seconds": 3.2
+    },
+    {
+      "asset": "sfx-intro",
+      "master_valid": true,
+      "runtime_peak_dbfs": -3.416,
+      "decoded_seconds": 6.0
+    },
+    {
+      "asset": "music-original",
+      "master_valid": true,
+      "runtime_peak_dbfs": -1.403,
+      "decoded_seconds": 225.0,
+      "decoded_seam_delta": 0.0021086,
+      "decoded_delta_p999": 0.086812,
+      "loop_seam_valid": true
+    },
+    {
+      "asset": "trailer-original-music-40s",
+      "master_valid": true
+    }
+  ]
+}

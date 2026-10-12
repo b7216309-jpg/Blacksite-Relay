@@ -1,0 +1,28 @@
+{
+  "version": "1.4.0",
+  "generator": "Built-in ImageGen",
+  "reference": "assets/scene/blacksite-relay.png",
+  "intent": "Original adjacent rooms; reference establishes style only",
+  "assets": [
+    {
+      "path": "assets/menus/workbench.png",
+      "prompt": "Use case: stylized-concept. Asset: full portrait background for the UPGRADES submenu in Risk_v2 Blacksite Relay. Reference image is style reference only, not an edit target. Create an ORIGINAL adjacent underground hacker maintenance workshop in precisely this dense HD-2D pixel art style. Portrait 1024x1536. Camera isometric, dark teal steel, tiny deliberate pixel clusters, warm amber caged lamps and soft pale cyan CRTs, no neon purple, no smooth 3D. Composition: the visually legible focal scene in the UPPER THIRD: a wide grimy workbench with dismantled computer, two expansion circuit boards, soldering station, copper cables, small monitor; no readable text. Beneath it, a deep dark steel floor and softly outlined wall panels provide LOW-CONTRAST negative space for sharp UI cards over the lower two thirds. Keep a few atmospheric side pipes and dark corners at left/right. Focal workbench should span upper 15–32% of image height, with dark headroom at top. Beautiful restrained industrial pixel art, same palette, lighting and material language as the reference. No characters, no interface, no labels, no lettering, no button shapes, no watermark."
+    },
+    {
+      "path": "assets/menus/records.png",
+      "prompt": "Use case: stylized-concept. Asset: portrait background for ACHIEVEMENTS submenu in Risk_v2 Blacksite Relay. Reference is style reference only. Create ORIGINAL underground records vault, dense HD-2D pixel art with crisp pixel clusters matching reference, dark teal oxidized steel, amber caged lamp, muted cyan. Portrait 1024x1536. Isometric architectural camera. UPPER THIRD focal scene: recessed display cabinet with physical data cartridges, a few tiny amber glowing storage cubes and an old green terminal, organized evidence archive; evocative but no readable text. Cabinets and pipework occupy upper15–33% image, dark top headroom. Bottom two thirds dark low-contrast metal wall/floor negative space behind UI achievement cards, sparse cables along side edges. Dim volumetric amber light with crisp pixel edges. No people, interface, buttons, letters, logos, watermarks. Avoid fantasy treasure, neon nightclub colors and smooth 3D."
+    },
+    {
+      "path": "assets/menus/signal.png",
+      "prompt": "Use case: stylized-concept. Asset: portrait LEADERBOARD submenu background for Risk_v2 Blacksite Relay. Style reference only: match detailed industrial HD-2D pixel art, restrained teal and amber glow, hard pixel clusters, worn copper cables. Create ORIGINAL underground signal exchange room in isometric perspective. Portrait1024x1536. Focal illustration in UPPER THIRD (15–33% height): a bank of three squat green CRTs with tiny illegible signal marks connected by thick cable bundles, small analog receiver and antenna coil; no text. Warm caged lamp on right and cool cyan reflections. Broad dark headroom. Lower two thirds use dark low-contrast steel wall and floor with faint edge conduits to remain a clear backdrop for leaderboard UI. Polished game environment, not a UI mockup. No lettering, buttons, logos, people, magenta neon, smooth CGI, watermark."
+    },
+    {
+      "path": "assets/menus/controls.png",
+      "prompt": "Use case: stylized-concept. Asset: portrait SETTINGS submenu background for Risk_v2 Blacksite Relay. Reference is art style reference only. Create ORIGINAL industrial blacksite maintenance control station, isometric detailed pixel art exactly matching the reference with deliberate crisp small pixel clusters, blackened teal steel, warm amber lighting and muted cyan LEDs. Portrait1024x1536. Focal scene in UPPER THIRD (15–33% height): old rack-mounted analog audio mixer with metal sliders, two small circular VU meters, reel-like cooling fans and square patch connectors, worn ventilation housing and one caged lamp. Deep dark headroom above. Lower two thirds are very dark low-contrast metal and quiet side piping suitable behind UI controls. No readable text, no interface labels, no game button shapes, no humans, no neon purple, no photo/CGI, no watermarks."
+    },
+    {
+      "path": "assets/menus/briefing.png",
+      "prompt": "Use case: stylized-concept. Asset: portrait HOW TO PLAY briefing background for Risk_v2 Blacksite Relay. Reference only establishes style. ORIGINAL adjacent underground briefing alcove, isometric dense pixel art environment matching reference: dark teal worn metal, tiny crisp pixel clusters, warm amber caged light and gentle cyan screen. Portrait1024x1536. UPPER THIRD focal vignette: one small secure portable data case connected by copper lead to a green CRT on a narrow metal desk, a folded blank schematic sheet and one dim amber status light. Put this vignette toward right half so left upper area is dark enough for a headline. Lower two thirds quiet dark low-contrast metal panel/floor, faint pipes on edges, lots of dark UI negative space. Atmospheric polished game art. No text, no lettering, no UI, no people, no logos, no neon magenta, no smooth illustration."
+    }
+  ]
+}

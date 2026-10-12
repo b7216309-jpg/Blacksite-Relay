@@ -1,0 +1,93 @@
+{
+  "name": "risk-v2",
+  "version": "1.8.1",
+  "description": "Risk_v2 - Blacksite Relay HD-2D hacking roguelike",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win",
+    "test": "node --test test/*.test.cjs",
+    "test:ui": "node scripts/verify-electron.cjs",
+    "build:dir": "electron-builder --win --dir"
+  },
+  "build": {
+    "productName": "Risk_v2",
+    "appId": "com.b7216309.risk-v2",
+    "artifactName": "Risk_v2-Blacksite-Relay-${version}-Setup.${ext}",
+    "win": {
+      "icon": "icon/blacksite.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "requestedExecutionLevel": "asInvoker"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "Risk_v2",
+      "createDesktopShortcut": true
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "style.css",
+      "renderer.js",
+      "main.js",
+      "preload.js",
+      "src/**/*",
+      "assets/**/*",
+      "icon/**/*",
+      "package.json",
+      "!assets/scene/*-preview.png",
+      "!assets/scene/relay-operator-atlas.png",
+      "!assets/scene/intro.mp4",
+      "LICENSE",
+      "ASSET-LICENSE.md",
+      "ASSET-CREDITS.md",
+      "THIRD-PARTY-NOTICES.md",
+      "!assets/audio/music-original.ogg"
+    ],
+    "protocols": [],
+    "forceCodeSigning": false,
+    "extraFiles": [
+      {
+        "from": "LICENSE",
+        "to": "LICENSE"
+      },
+      {
+        "from": "ASSET-LICENSE.md",
+        "to": "ASSET-LICENSE.md"
+      },
+      {
+        "from": "ASSET-CREDITS.md",
+        "to": "ASSET-CREDITS.md"
+      },
+      {
+        "from": "THIRD-PARTY-NOTICES.md",
+        "to": "THIRD-PARTY-NOTICES.md"
+      }
+    ]
+  },
+  "keywords": [],
+  "author": "b7216309-jpg",
+  "license": "GPL-3.0-only",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^44.2.0",
+    "electron-builder": "^26.7.0",
+    "ffmpeg-static": "^5.3.0",
+    "playwright": "^1.63.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/b7216309-jpg/Blacksite-Relay.git"
+  },
+  "homepage": "https://blacksite-relay.b7216309.chatgpt.site"
+}

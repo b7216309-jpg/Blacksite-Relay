@@ -1,0 +1,736 @@
+{
+  "frames": 72,
+  "nativeSize": [
+    420,
+    280
+  ],
+  "alphaValues": [
+    0,
+    255
+  ],
+  "maxOpaqueFraction": 0.008511904761904762,
+  "result": "passed",
+  "scope": "Atlas dimensions, native registration and binary patch alpha; visual review checks placement and pixel appearance separately.",
+  "checks": [
+    {
+      "frame": "electronics-000",
+      "opaquePixels": 979,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-001",
+      "opaquePixels": 985,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-002",
+      "opaquePixels": 979,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-003",
+      "opaquePixels": 983,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-004",
+      "opaquePixels": 987,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-005",
+      "opaquePixels": 986,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-006",
+      "opaquePixels": 982,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-007",
+      "opaquePixels": 982,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-008",
+      "opaquePixels": 978,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-009",
+      "opaquePixels": 976,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-010",
+      "opaquePixels": 972,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-011",
+      "opaquePixels": 967,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-012",
+      "opaquePixels": 966,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-013",
+      "opaquePixels": 967,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-014",
+      "opaquePixels": 963,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-015",
+      "opaquePixels": 968,
+      "nativeBounds": [
+        99,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-016",
+      "opaquePixels": 973,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-017",
+      "opaquePixels": 974,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-018",
+      "opaquePixels": 974,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-019",
+      "opaquePixels": 970,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-020",
+      "opaquePixels": 973,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-021",
+      "opaquePixels": 973,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-022",
+      "opaquePixels": 974,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-023",
+      "opaquePixels": 973,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-024",
+      "opaquePixels": 972,
+      "nativeBounds": [
+        99,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-025",
+      "opaquePixels": 970,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-026",
+      "opaquePixels": 972,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-027",
+      "opaquePixels": 971,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-028",
+      "opaquePixels": 967,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-029",
+      "opaquePixels": 971,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-030",
+      "opaquePixels": 964,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-031",
+      "opaquePixels": 964,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-032",
+      "opaquePixels": 965,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-033",
+      "opaquePixels": 962,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-034",
+      "opaquePixels": 968,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-035",
+      "opaquePixels": 969,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-036",
+      "opaquePixels": 967,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-037",
+      "opaquePixels": 967,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-038",
+      "opaquePixels": 966,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-039",
+      "opaquePixels": 966,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-040",
+      "opaquePixels": 968,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-041",
+      "opaquePixels": 971,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-042",
+      "opaquePixels": 972,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-043",
+      "opaquePixels": 969,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-044",
+      "opaquePixels": 969,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-045",
+      "opaquePixels": 975,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-046",
+      "opaquePixels": 972,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-047",
+      "opaquePixels": 974,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-048",
+      "opaquePixels": 977,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-049",
+      "opaquePixels": 975,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-050",
+      "opaquePixels": 976,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-051",
+      "opaquePixels": 974,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-052",
+      "opaquePixels": 976,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-053",
+      "opaquePixels": 981,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-054",
+      "opaquePixels": 984,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-055",
+      "opaquePixels": 984,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-056",
+      "opaquePixels": 985,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-057",
+      "opaquePixels": 989,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-058",
+      "opaquePixels": 991,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-059",
+      "opaquePixels": 988,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-060",
+      "opaquePixels": 993,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-061",
+      "opaquePixels": 994,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-062",
+      "opaquePixels": 987,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-063",
+      "opaquePixels": 988,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-064",
+      "opaquePixels": 993,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-065",
+      "opaquePixels": 1001,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-066",
+      "opaquePixels": 997,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-067",
+      "opaquePixels": 987,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-068",
+      "opaquePixels": 982,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-069",
+      "opaquePixels": 983,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-070",
+      "opaquePixels": 985,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    },
+    {
+      "frame": "electronics-071",
+      "opaquePixels": 986,
+      "nativeBounds": [
+        98,
+        27,
+        358,
+        178
+      ]
+    }
+  ]
+}

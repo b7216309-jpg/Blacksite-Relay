@@ -1,0 +1,757 @@
+{
+  "version": 2,
+  "image": "intro-atlas.png",
+  "width": 432,
+  "height": 432,
+  "pixelStep": 1,
+  "alphaCutoff": 0.5,
+  "foot": {
+    "x": 574,
+    "y": 707
+  },
+  "scale": 3.657142857142857,
+  "tint": [
+    1,
+    1,
+    1
+  ],
+  "animationBaked": true,
+  "frames": [
+    {
+      "name": "connected-000",
+      "x": 0,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-001",
+      "x": 36,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-002",
+      "x": 72,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-003",
+      "x": 108,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-004",
+      "x": 144,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-005",
+      "x": 180,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-006",
+      "x": 216,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-007",
+      "x": 252,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-008",
+      "x": 288,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-009",
+      "x": 324,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-010",
+      "x": 360,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-011",
+      "x": 396,
+      "y": 0,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-012",
+      "x": 0,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-013",
+      "x": 36,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-014",
+      "x": 72,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-015",
+      "x": 108,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-016",
+      "x": 144,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-017",
+      "x": 180,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-018",
+      "x": 216,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-019",
+      "x": 252,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-020",
+      "x": 288,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-021",
+      "x": 324,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-022",
+      "x": 360,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-023",
+      "x": 396,
+      "y": 72,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-024",
+      "x": 0,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-025",
+      "x": 36,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-026",
+      "x": 72,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-027",
+      "x": 108,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-028",
+      "x": 144,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-029",
+      "x": 180,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-030",
+      "x": 216,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-031",
+      "x": 252,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-032",
+      "x": 288,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-033",
+      "x": 324,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-034",
+      "x": 360,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-035",
+      "x": 396,
+      "y": 144,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-036",
+      "x": 0,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-037",
+      "x": 36,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-038",
+      "x": 72,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-039",
+      "x": 108,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-040",
+      "x": 144,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-041",
+      "x": 180,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-042",
+      "x": 216,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-043",
+      "x": 252,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-044",
+      "x": 288,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-045",
+      "x": 324,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-046",
+      "x": 360,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-047",
+      "x": 396,
+      "y": 216,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-048",
+      "x": 0,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-049",
+      "x": 36,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-050",
+      "x": 72,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-051",
+      "x": 108,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-052",
+      "x": 144,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-053",
+      "x": 180,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-054",
+      "x": 216,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-055",
+      "x": 252,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-056",
+      "x": 288,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-057",
+      "x": 324,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-058",
+      "x": 360,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-059",
+      "x": 396,
+      "y": 288,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-060",
+      "x": 0,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-061",
+      "x": 36,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-062",
+      "x": 72,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-063",
+      "x": 108,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-064",
+      "x": 144,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-065",
+      "x": 180,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-066",
+      "x": 216,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-067",
+      "x": 252,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-068",
+      "x": 288,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-069",
+      "x": 324,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-070",
+      "x": 360,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    },
+    {
+      "name": "connected-071",
+      "x": 396,
+      "y": 360,
+      "w": 36,
+      "h": 72,
+      "pivotX": 16,
+      "pivotY": 64
+    }
+  ],
+  "introAnimation": {
+    "sequence": [
+      "connected-000",
+      "connected-001",
+      "connected-002",
+      "connected-003",
+      "connected-004",
+      "connected-005",
+      "connected-006",
+      "connected-007",
+      "connected-008",
+      "connected-009",
+      "connected-010",
+      "connected-011",
+      "connected-012",
+      "connected-013",
+      "connected-014",
+      "connected-015",
+      "connected-016",
+      "connected-017",
+      "connected-018",
+      "connected-019",
+      "connected-020",
+      "connected-021",
+      "connected-022",
+      "connected-023",
+      "connected-024",
+      "connected-025",
+      "connected-026",
+      "connected-027",
+      "connected-028",
+      "connected-029",
+      "connected-030",
+      "connected-031",
+      "connected-032",
+      "connected-033",
+      "connected-034",
+      "connected-035",
+      "connected-036",
+      "connected-037",
+      "connected-038",
+      "connected-039",
+      "connected-040",
+      "connected-041",
+      "connected-042",
+      "connected-043",
+      "connected-044",
+      "connected-045",
+      "connected-046",
+      "connected-047",
+      "connected-048",
+      "connected-049",
+      "connected-050",
+      "connected-051",
+      "connected-052",
+      "connected-053",
+      "connected-054",
+      "connected-055",
+      "connected-056",
+      "connected-057",
+      "connected-058",
+      "connected-059",
+      "connected-060",
+      "connected-061",
+      "connected-062",
+      "connected-063",
+      "connected-064",
+      "connected-065",
+      "connected-066",
+      "connected-067",
+      "connected-068",
+      "connected-069",
+      "connected-070",
+      "connected-071"
+    ],
+    "holdSeconds": 0.08333333333333333
+  },
+  "source": {
+    "image": "assets/scene/relay-operator-design.png",
+    "sha256": "412e4c0749ab91d92e1d773f3d365cff1657a9dc483583a9bbcf8124ee9dd570",
+    "renderer": "src/relay-life.js",
+    "rendererSha256": "c6f5acf9e978b87813fedfc3dc68fbd49029b83c5cf29ce8a8277742d341bcb2",
+    "startSeconds": 0,
+    "endExclusiveSeconds": 6,
+    "fps": 12,
+    "warmRender": true,
+    "separateShadows": true
+  }
+}

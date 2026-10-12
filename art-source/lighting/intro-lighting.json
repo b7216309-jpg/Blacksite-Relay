@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "formula": "clamp(sRGB(C) * shade * (1 + irradiance), 0, 1)",
+  "colorSpace": "Non-Color RGB data; formula evaluates in sRGB.",
+  "shade": "shade.png",
+  "irradianceAtlas": "intro-irradiance-atlas.png",
+  "width": 5040,
+  "height": 1680,
+  "frameWidth": 420,
+  "frameHeight": 280,
+  "columns": 12,
+  "rows": 6,
+  "frameCount": 72,
+  "roomWidth": 1536,
+  "roomHeight": 1024,
+  "depth": 0,
+  "holdSeconds": 0.08333333333333333,
+  "animationBaked": true,
+  "source": {
+    "renderer": "src/relay-lighting.js",
+    "rendererSha256": "0fbb95e2764abbdae90bfcaefaca0f7518dcdddde0d2faa41c90e3b720bcc3c2",
+    "art": "assets/scene/blacksite-relay.png",
+    "artSha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+    "startSeconds": 0,
+    "endExclusiveSeconds": 6,
+    "fps": 12,
+    "options": {
+      "risk": 0,
+      "signal": {},
+      "low": false,
+      "isStatic": false,
+      "terminal": false,
+      "screen": "game"
+    }
+  }
+}

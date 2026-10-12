@@ -1,0 +1,434 @@
+{
+  "version": 1,
+  "nativeSize": [
+    420,
+    650
+  ],
+  "fps": 24,
+  "devices": {
+    "bypass": {
+      "source": "assets/protocols/bypass-calibrator.png",
+      "sourceSize": [
+        1008,
+        1561
+      ],
+      "protected": [
+        [
+          0,
+          0,
+          420,
+          92
+        ],
+        [
+          53,
+          318,
+          314,
+          192
+        ],
+        [
+          0,
+          517,
+          420,
+          133
+        ]
+      ],
+      "detailCrop": [
+        146,
+        155,
+        128,
+        128
+      ],
+      "leds": [
+        {
+          "id": "left-status",
+          "rect": [
+            22,
+            122,
+            3,
+            4
+          ],
+          "color": "#85e9ec"
+        },
+        {
+          "id": "lower-lens",
+          "rect": [
+            66,
+            280,
+            4,
+            4
+          ],
+          "color": "#8be6e1"
+        },
+        {
+          "id": "bank-one",
+          "rect": [
+            337,
+            272,
+            2,
+            10
+          ],
+          "color": "#8de2e2"
+        },
+        {
+          "id": "bank-two",
+          "rect": [
+            345,
+            272,
+            2,
+            10
+          ],
+          "color": "#8de2e2"
+        },
+        {
+          "id": "bank-three",
+          "rect": [
+            353,
+            272,
+            2,
+            10
+          ],
+          "color": "#8de2e2"
+        }
+      ],
+      "surfaces": [
+        {
+          "id": "core",
+          "rect": [
+            207,
+            195,
+            7,
+            22
+          ],
+          "color": "#ffb050"
+        },
+        {
+          "id": "left-winding",
+          "rect": [
+            112,
+            176,
+            2,
+            40
+          ],
+          "color": "#ffbb69"
+        },
+        {
+          "id": "right-winding",
+          "rect": [
+            296,
+            176,
+            2,
+            40
+          ],
+          "color": "#ffbb69"
+        }
+      ],
+      "sparks": [
+        {
+          "id": "coil-contact",
+          "at": [
+            171,
+            202
+          ],
+          "color": "#ffdda2"
+        }
+      ],
+      "bus": [
+        [
+          73,
+          292
+        ],
+        [
+          116,
+          292
+        ],
+        [
+          126,
+          285
+        ]
+      ]
+    },
+    "typing": {
+      "source": "assets/protocols/injection-crt.png",
+      "sourceSize": [
+        1008,
+        1561
+      ],
+      "protected": [
+        [
+          0,
+          0,
+          420,
+          92
+        ],
+        [
+          78,
+          153,
+          266,
+          212
+        ],
+        [
+          60,
+          395,
+          238,
+          31
+        ],
+        [
+          0,
+          570,
+          420,
+          80
+        ]
+      ],
+      "detailCrop": [
+        262,
+        385,
+        128,
+        128
+      ],
+      "leds": [
+        {
+          "id": "left-upper",
+          "rect": [
+            28,
+            257,
+            3,
+            3
+          ],
+          "color": "#ffd48d"
+        },
+        {
+          "id": "left-middle",
+          "rect": [
+            28,
+            272,
+            3,
+            3
+          ],
+          "color": "#ffd48d"
+        },
+        {
+          "id": "left-lower",
+          "rect": [
+            28,
+            288,
+            3,
+            3
+          ],
+          "color": "#81d3c8"
+        },
+        {
+          "id": "right-amber",
+          "rect": [
+            387,
+            293,
+            5,
+            4
+          ],
+          "color": "#ffd08a"
+        },
+        {
+          "id": "right-teal",
+          "rect": [
+            388,
+            311,
+            3,
+            3
+          ],
+          "color": "#8fe2d4"
+        },
+        {
+          "id": "bezel-a",
+          "rect": [
+            321,
+            405,
+            3,
+            4
+          ],
+          "color": "#ffd086"
+        },
+        {
+          "id": "bezel-b",
+          "rect": [
+            334,
+            405,
+            3,
+            4
+          ],
+          "color": "#ffd086"
+        },
+        {
+          "id": "keyboard-link",
+          "rect": [
+            115,
+            563,
+            2,
+            3
+          ],
+          "color": "#ffe0a3"
+        }
+      ],
+      "surfaces": [],
+      "sparks": [
+        {
+          "id": "keyboard-contact",
+          "at": [
+            341,
+            477
+          ],
+          "color": "#a4e6d4"
+        }
+      ],
+      "bus": [
+        [
+          121,
+          542
+        ],
+        [
+          226,
+          542
+        ],
+        [
+          251,
+          542
+        ]
+      ]
+    },
+    "backdoor": {
+      "source": "assets/protocols/memory-patch-bay-v2.png",
+      "sourceSize": [
+        1008,
+        1560
+      ],
+      "protected": [
+        [
+          0,
+          0,
+          420,
+          92
+        ],
+        [
+          44,
+          103,
+          293,
+          44
+        ],
+        [
+          49,
+          177,
+          305,
+          306
+        ],
+        [
+          0,
+          541,
+          420,
+          109
+        ]
+      ],
+      "detailCrop": [
+        65,
+        475,
+        128,
+        128
+      ],
+      "leds": [
+        {
+          "id": "upper-board-a",
+          "rect": [
+            143,
+            163,
+            2,
+            2
+          ],
+          "color": "#ffd993"
+        },
+        {
+          "id": "phase-lens",
+          "rect": [
+            340,
+            128,
+            4,
+            4
+          ],
+          "color": "#ffd18a"
+        },
+        {
+          "id": "left-board",
+          "rect": [
+            42,
+            351,
+            3,
+            4
+          ],
+          "color": "#ffd58c"
+        },
+        {
+          "id": "lower-board",
+          "rect": [
+            93,
+            504,
+            4,
+            5
+          ],
+          "color": "#ffd18a"
+        }
+      ],
+      "surfaces": [
+        {
+          "id": "copper-fin-a",
+          "rect": [
+            276,
+            155,
+            1,
+            14
+          ],
+          "color": "#ffcb7f"
+        },
+        {
+          "id": "copper-fin-b",
+          "rect": [
+            287,
+            156,
+            1,
+            14
+          ],
+          "color": "#ffcb7f"
+        },
+        {
+          "id": "copper-fin-c",
+          "rect": [
+            303,
+            157,
+            1,
+            14
+          ],
+          "color": "#ffcb7f"
+        }
+      ],
+      "sparks": [
+        {
+          "id": "bus-terminal",
+          "at": [
+            334,
+            519
+          ],
+          "color": "#ffd590"
+        }
+      ],
+      "bus": [
+        [
+          112,
+          531
+        ],
+        [
+          305,
+          531
+        ],
+        [
+          334,
+          520
+        ]
+      ]
+    }
+  }
+}

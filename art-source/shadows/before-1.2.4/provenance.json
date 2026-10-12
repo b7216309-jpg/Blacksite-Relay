@@ -1,0 +1,32 @@
+{
+  "version": "1.2.4",
+  "archive": "Risk_v2-Blacksite-Relay-Source.zip",
+  "archiveSha256": "b294440f94e3448b203b8f4fcb72ce99675043fa3da50b14ae0e95c7ddb2cacf",
+  "files": [
+    {
+      "member": "Risk_v2-Blacksite-Relay/src/relay-life.js",
+      "file": "relay-life.js",
+      "bytes": 5997,
+      "sha256": "418f039a2d02e02e58c524c260359523f9a4100455a53397cd24a85981990d76"
+    },
+    {
+      "member": "Risk_v2-Blacksite-Relay/src/relay-pets.js",
+      "file": "relay-pets.js",
+      "bytes": 9828,
+      "sha256": "511c8d24e43b5841c412af262bd2278ab97e9b6e63f082a5b0816b55a9f8ad82"
+    },
+    {
+      "member": "Risk_v2-Blacksite-Relay/src/relay-lighting.js",
+      "file": "relay-lighting.js",
+      "bytes": 10035,
+      "sha256": "0fbb95e2764abbdae90bfcaefaca0f7518dcdddde0d2faa41c90e3b720bcc3c2"
+    },
+    {
+      "member": "Risk_v2-Blacksite-Relay/src/relay-scene.js",
+      "file": "relay-scene.js",
+      "bytes": 28790,
+      "sha256": "6c5ccd56ba19c189567bdec7785ce94abaa7f6ac92ceb6e636aa865e32433d97"
+    }
+  ],
+  "purpose": "Exact shipped comparison renderer; no new shadow module loaded."
+}

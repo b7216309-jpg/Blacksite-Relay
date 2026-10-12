@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "engine": "Electron 44.2.0 / Chromium 152.0.7977.76",
+  "origin": "file://",
+  "gameAndSaveStateLoaded": false,
+  "physicalOutputMuted": true,
+  "validation": "Actual Ogg decoding and real Web Audio output graph measured with an AnalyserNode. No human listening review.",
+  "checkedRuntimeAssets": 24,
+  "decodedBufferBytesAtFullLoad": 105942080,
+  "voiceLimit": 16,
+  "originalLoop": {
+    "start": 7.5,
+    "end": 225,
+    "rate": 1,
+    "duration": 225
+  },
+  "seamTransition": {
+    "testedAtPlaybackRate": 1,
+    "fromSeconds": 225,
+    "toSeconds": 7.5,
+    "minimumBoundaryRms": 0.01239513758052748,
+    "samples": 17
+  },
+  "audioErrors": [],
+  "observations": [
+    {
+      "label": "menu / keyboard gesture",
+      "measuredPeak": 0.04318828508257866,
+      "averageRms": 0.006166516610523671,
+      "samples": 20
+    },
+    {
+      "label": "original soundtrack / gameplay",
+      "measuredPeak": 0.06410098075866699,
+      "averageRms": 0.013696063118532388,
+      "samples": 24
+    },
+    {
+      "label": "high risk / same original track / no generated stems",
+      "measuredPeak": 0.07439369708299637,
+      "averageRms": 0.01668346023175086,
+      "samples": 33
+    },
+    {
+      "label": "all cue decode / bounded burst / maximum volumes",
+      "measuredPeak": 0.8837025165557861,
+      "averageRms": 0.22478170291525085,
+      "samples": 37
+    },
+    {
+      "label": "persistent upgrades menu crossfade",
+      "measuredPeak": 0.11937357485294342,
+      "averageRms": 0.017741587988128613,
+      "samples": 24
+    },
+    {
+      "label": "mouse handler gesture after reload",
+      "measuredPeak": 0.04318828508257866,
+      "averageRms": 0.00539901370311146,
+      "samples": 18
+    }
+  ]
+}

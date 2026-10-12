@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Blacksite audio validation fixture</title>
+<button id="unlock">Unlock sound</button>
+<script>
+// This isolated fixture never loads game code, player saves or leaderboards.
+// The analyser observes the real final output and therefore actual Ogg
+// decode/playback. It does not mock AudioContext or skip gesture activation.
+window.audioTest = { contexts: [], compressors: [], ceilings: [], sources: [] };
+const NativeAudioContext = window.AudioContext;
+window.AudioContext = class extends NativeAudioContext {
+  constructor(options) { super(options); window.audioTest.contexts.push(this); }
+  createBufferSource() { const source = super.createBufferSource(); window.audioTest.sources.push(source); return source; }
+  createDynamicsCompressor() {
+    const compressor = super.createDynamicsCompressor();
+    const analyser = this.createAnalyser();
+    analyser.fftSize = 2048;
+    compressor.connect(analyser);
+    window.audioTest.compressors.push({ compressor, analyser });
+    return compressor;
+  }
+  createWaveShaper() {
+    const ceiling = super.createWaveShaper();
+    const analyser = this.createAnalyser();
+    analyser.fftSize = 2048;
+    ceiling.connect(analyser);
+    window.audioTest.ceilings.push({ ceiling, analyser });
+    return ceiling;
+  }
+};
+window.audioTest.sample = () => {
+  const entry = window.audioTest.ceilings[0] || window.audioTest.compressors[0];
+  if (!entry) return { rms: 0, peak: 0 };
+  const values = new Float32Array(entry.analyser.fftSize);
+  entry.analyser.getFloatTimeDomainData(values);
+  let sum = 0, peak = 0;
+  for (const value of values) { sum += value * value; peak = Math.max(peak, Math.abs(value)); }
+  return { rms: Math.sqrt(sum / values.length), peak, contextTime: window.audioTest.contexts[0].currentTime };
+};
+</script>
+<script src="../../src/relay-audio.js"></script>
+<script>document.getElementById('unlock').addEventListener('click', () => RelayAudio.unlock());</script>
+</html>

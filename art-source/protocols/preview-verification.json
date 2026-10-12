@@ -1,0 +1,4841 @@
+{
+  "version": "1.3.0",
+  "durationSeconds": 24,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "nativeFrames": [
+    420,
+    650
+  ],
+  "beforeReference": "art-source/protocols/before-1.2.5/provenance.json",
+  "description": "Actual shipped interfaces. Isolated advanced saves; 15 actual hacks charge bypass. Protocol triggers and subsequent inputs are scripted; timers, target locations, errors, rewards and outcomes use the real game.",
+  "samples": [
+    {
+      "time": 0,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "countdown",
+            "countdown": 3,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 7000,
+            "phrase": "virus bypass",
+            "input": "",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 12,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 0
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "countdown",
+              "countdown": 3,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 7000,
+              "phrase": "virus bypass",
+              "input": "",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 12,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 0
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "countdown",
+            "countdown": 3,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 8000,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 0
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "countdown",
+              "countdown": 3,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 8000,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 0
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 1,
+            "stops": 0,
+            "rewardReduction": 0,
+            "target": 52.968221860937774,
+            "tolerance": 18,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 0
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 1,
+              "stops": 0,
+              "rewardReduction": 0,
+              "target": 52.968221860937774,
+              "tolerance": 18,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 1,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "countdown",
+            "countdown": 2,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 7000,
+            "phrase": "virus bypass",
+            "input": "",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 12,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 1000
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "countdown",
+              "countdown": 2,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 7000,
+              "phrase": "virus bypass",
+              "input": "",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 12,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 1000
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "countdown",
+            "countdown": 2,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 8000,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 1000
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "countdown",
+              "countdown": 2,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 8000,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 1000
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 1,
+            "stops": 0,
+            "rewardReduction": 0,
+            "target": 52.968221860937774,
+            "tolerance": 18,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 0
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 1,
+              "stops": 0,
+              "rewardReduction": 0,
+              "target": 52.968221860937774,
+              "tolerance": 18,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 0
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 2.5,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "countdown",
+            "countdown": 1,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 7000,
+            "phrase": "virus bypass",
+            "input": "",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 12,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 2000
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "countdown",
+              "countdown": 1,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 7000,
+              "phrase": "virus bypass",
+              "input": "",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 12,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 2000
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "countdown",
+            "countdown": 1,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 8000,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 2000
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "countdown",
+              "countdown": 1,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 8000,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 2000
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 3,
+            "stops": 2,
+            "rewardReduction": 4,
+            "target": 21.454094224609435,
+            "tolerance": 15.235200000000003,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 2268
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 3,
+              "stops": 2,
+              "rewardReduction": 4,
+              "target": 21.454094224609435,
+              "tolerance": 15.235200000000003,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 2268
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 3.5,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 10000,
+            "remainingMs": 7000,
+            "phrase": "virus bypass",
+            "input": "",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 12,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 3000
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 10000,
+              "remainingMs": 7000,
+              "phrase": "virus bypass",
+              "input": "",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 12,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 3000
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 11000,
+            "remainingMs": 8000,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 3000
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 11000,
+              "remainingMs": 8000,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 3000
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 4,
+            "stops": 3,
+            "rewardReduction": 6,
+            "target": 70.35329638980329,
+            "tolerance": 14.016384000000002,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 2814
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 4,
+              "stops": 3,
+              "rewardReduction": 6,
+              "target": 70.35329638980329,
+              "tolerance": 14.016384000000002,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 2814
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 4.5,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 10000,
+            "remainingMs": 5590,
+            "phrase": "virus bypass",
+            "input": "vir",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 3,
+            "targetCount": 12,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 4410
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 10000,
+              "remainingMs": 5590,
+              "phrase": "virus bypass",
+              "input": "vir",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 3,
+              "targetCount": 12,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 4410
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 11000,
+            "remainingMs": 7000,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 1,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 4032,
+            "action": "correct"
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 11000,
+              "remainingMs": 7000,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 1,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 4032,
+              "action": "correct"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 4,
+            "stops": 3,
+            "rewardReduction": 6,
+            "target": 70.35329638980329,
+            "tolerance": 14.016384000000002,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 2814
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 4,
+              "stops": 3,
+              "rewardReduction": 6,
+              "target": 70.35329638980329,
+              "tolerance": 14.016384000000002,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 2814
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 6,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 10000,
+            "remainingMs": 4120,
+            "phrase": "virus bypass",
+            "input": "virus b",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 7,
+            "targetCount": 12,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 5880
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 10000,
+              "remainingMs": 4120,
+              "phrase": "virus bypass",
+              "input": "virus b",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 7,
+              "targetCount": 12,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 5880
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 11000,
+            "remainingMs": 5000,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 3,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 6000,
+            "action": "correct"
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 11000,
+              "remainingMs": 5000,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 3,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 6000,
+              "action": "correct"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 4,
+            "stops": 3,
+            "rewardReduction": 6,
+            "target": 70.35329638980329,
+            "tolerance": 14.016384000000002,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 2814
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 4,
+              "stops": 3,
+              "rewardReduction": 6,
+              "target": 70.35329638980329,
+              "tolerance": 14.016384000000002,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 2814
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 8,
+      "states": {
+        "typing": {
+          "screen": "game",
+          "protocol": {
+            "game": "typing",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "phrase": "virus bypass",
+            "input": "virus bypas",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 12,
+            "targetCount": 12,
+            "success": true,
+            "rewardText": "Multiplier +5",
+            "updatedAt": 7686,
+            "rewardValue": 5
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "phrase": "virus bypass",
+              "input": "virus bypas",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 12,
+              "targetCount": 12,
+              "success": true,
+              "rewardText": "Multiplier +5",
+              "updatedAt": 7686,
+              "rewardValue": 5
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 5,
+            "targetCount": 5,
+            "success": true,
+            "rewardText": "Funds +$33 · Trace −25 points",
+            "updatedAt": 7686,
+            "action": "correct"
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 69.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 5,
+              "targetCount": 5,
+              "success": true,
+              "rewardText": "Funds +$33 · Trace −25 points",
+              "updatedAt": 7686,
+              "action": "correct"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 4,
+            "stops": 3,
+            "rewardReduction": 6,
+            "target": 70.35329638980329,
+            "tolerance": 14.016384000000002,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 2814
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 4,
+              "stops": 3,
+              "rewardReduction": 6,
+              "target": 70.35329638980329,
+              "tolerance": 14.016384000000002,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 2814
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 9.5,
+      "states": {
+        "typing": {
+          "screen": "game",
+          "protocol": {
+            "game": "typing",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "phrase": "virus bypass",
+            "input": "virus bypas",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 12,
+            "targetCount": 12,
+            "success": true,
+            "rewardText": "Multiplier +5",
+            "updatedAt": 7686,
+            "rewardValue": 5
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "phrase": "virus bypass",
+              "input": "virus bypas",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 12,
+              "targetCount": 12,
+              "success": true,
+              "rewardText": "Multiplier +5",
+              "updatedAt": 7686,
+              "rewardValue": 5
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "game",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 5,
+            "targetCount": 5,
+            "success": true,
+            "rewardText": "Funds +$33 · Trace −25 points",
+            "updatedAt": 7686,
+            "action": "correct"
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 69.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 5,
+              "targetCount": 5,
+              "success": true,
+              "rewardText": "Funds +$33 · Trace −25 points",
+              "updatedAt": 7686,
+              "action": "correct"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "game",
+          "protocol": {
+            "game": "bypass",
+            "phase": "result",
+            "action": "ready",
+            "level": 4,
+            "stops": 3,
+            "rewardReduction": 6,
+            "target": 70.35329638980329,
+            "tolerance": 14.016384000000002,
+            "success": true,
+            "rewardText": "Trace −6 points",
+            "updatedAt": 9072
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 88.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 0,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "result",
+              "action": "ready",
+              "level": 4,
+              "stops": 3,
+              "rewardReduction": 6,
+              "target": 70.35329638980329,
+              "tolerance": 14.016384000000002,
+              "success": true,
+              "rewardText": "Trace −6 points",
+              "updatedAt": 9072
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 11,
+      "states": {
+        "typing": {
+          "screen": "game",
+          "protocol": {
+            "game": "typing",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "phrase": "virus bypass",
+            "input": "virus bypas",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 12,
+            "targetCount": 12,
+            "success": true,
+            "rewardText": "Multiplier +5",
+            "updatedAt": 7686,
+            "rewardValue": 5
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "phrase": "virus bypass",
+              "input": "virus bypas",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 12,
+              "targetCount": 12,
+              "success": true,
+              "rewardText": "Multiplier +5",
+              "updatedAt": 7686,
+              "rewardValue": 5
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "game",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 5,
+            "targetCount": 5,
+            "success": true,
+            "rewardText": "Funds +$33 · Trace −25 points",
+            "updatedAt": 7686,
+            "action": "correct"
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 69.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 5,
+              "targetCount": 5,
+              "success": true,
+              "rewardText": "Funds +$33 · Trace −25 points",
+              "updatedAt": 7686,
+              "action": "correct"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "game",
+          "protocol": {
+            "game": "bypass",
+            "phase": "result",
+            "action": "ready",
+            "level": 4,
+            "stops": 3,
+            "rewardReduction": 6,
+            "target": 70.35329638980329,
+            "tolerance": 14.016384000000002,
+            "success": true,
+            "rewardText": "Trace −6 points",
+            "updatedAt": 9072
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 88.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 0,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "result",
+              "action": "ready",
+              "level": 4,
+              "stops": 3,
+              "rewardReduction": 6,
+              "target": 70.35329638980329,
+              "tolerance": 14.016384000000002,
+              "success": true,
+              "rewardText": "Trace −6 points",
+              "updatedAt": 9072
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 12.5,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "countdown",
+            "countdown": 3,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 7000,
+            "phrase": "exploit access",
+            "input": "",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 14,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 12096,
+            "rewardValue": 5
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "countdown",
+              "countdown": 3,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 7000,
+              "phrase": "exploit access",
+              "input": "",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 14,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 12096,
+              "rewardValue": 5
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "countdown",
+            "countdown": 3,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 8000,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 12096,
+            "action": "correct"
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 69.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "countdown",
+              "countdown": 3,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 8000,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 12096,
+              "action": "correct"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 1,
+            "stops": 0,
+            "rewardReduction": 0,
+            "target": 45.8,
+            "tolerance": 18,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 12096
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 10690.000000000002,
+            "totalMoney": 18500,
+            "risk": 90.27999999999989,
+            "multiplier": 27,
+            "nodeProgress": 0,
+            "nodesValidated": 13,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              2138.0000000000005,
+              2138.0000000000005,
+              150,
+              63.75,
+              1603.5000000000002
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 1,
+              "stops": 0,
+              "rewardReduction": 0,
+              "target": 45.8,
+              "tolerance": 18,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 12096
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 14.5,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "countdown",
+            "countdown": 1,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 7000,
+            "phrase": "exploit access",
+            "input": "",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 14,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 14096,
+            "rewardValue": 5
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "countdown",
+              "countdown": 1,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 7000,
+              "phrase": "exploit access",
+              "input": "",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 14,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 14096,
+              "rewardValue": 5
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "countdown",
+            "countdown": 1,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 8000,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 14096,
+            "action": "correct"
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 69.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "countdown",
+              "countdown": 1,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 8000,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 14096,
+              "action": "correct"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 1,
+            "stops": 0,
+            "rewardReduction": 0,
+            "target": 45.8,
+            "tolerance": 18,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 12096
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 10690.000000000002,
+            "totalMoney": 18500,
+            "risk": 90.27999999999989,
+            "multiplier": 27,
+            "nodeProgress": 0,
+            "nodesValidated": 13,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              2138.0000000000005,
+              2138.0000000000005,
+              150,
+              63.75,
+              1603.5000000000002
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 1,
+              "stops": 0,
+              "rewardReduction": 0,
+              "target": 45.8,
+              "tolerance": 18,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 12096
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 16,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 22096,
+            "remainingMs": 6346,
+            "phrase": "exploit access",
+            "input": "explx",
+            "errors": 1,
+            "maxErrors": 3,
+            "correctCount": 4,
+            "targetCount": 14,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 15750,
+            "rewardValue": 5
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 22096,
+              "remainingMs": 6346,
+              "phrase": "exploit access",
+              "input": "explx",
+              "errors": 1,
+              "maxErrors": 3,
+              "correctCount": 4,
+              "targetCount": 14,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 15750,
+              "rewardValue": 5
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 23096,
+            "remainingMs": 7000,
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 16096,
+            "action": "correct"
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 69.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 23096,
+              "remainingMs": 7000,
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 16096,
+              "action": "correct"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 1,
+            "stops": 0,
+            "rewardReduction": 0,
+            "target": 45.8,
+            "tolerance": 18,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 12096
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 10690.000000000002,
+            "totalMoney": 18500,
+            "risk": 90.27999999999989,
+            "multiplier": 27,
+            "nodeProgress": 0,
+            "nodesValidated": 13,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              2138.0000000000005,
+              2138.0000000000005,
+              150,
+              63.75,
+              1603.5000000000002
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 1,
+              "stops": 0,
+              "rewardReduction": 0,
+              "target": 45.8,
+              "tolerance": 18,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 12096
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 18,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 22096,
+            "remainingMs": 5716,
+            "phrase": "exploit access",
+            "input": "explo",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 5,
+            "targetCount": 14,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 16380,
+            "rewardValue": 5
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 22096,
+              "remainingMs": 5716,
+              "phrase": "exploit access",
+              "input": "explo",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 5,
+              "targetCount": 14,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 16380,
+              "rewardValue": 5
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "backdoor",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 23096,
+            "remainingMs": 5000,
+            "errors": 2,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 18096,
+            "action": "wrong"
+          },
+          "snapshot": {
+            "screen": "backdoor",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 69.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 23096,
+              "remainingMs": 5000,
+              "errors": 2,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 18096,
+              "action": "wrong"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "bypass",
+          "protocol": {
+            "game": "bypass",
+            "phase": "active",
+            "action": "ready",
+            "level": 1,
+            "stops": 0,
+            "rewardReduction": 0,
+            "target": 45.8,
+            "tolerance": 18,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 12096
+          },
+          "snapshot": {
+            "screen": "bypass",
+            "money": 10690.000000000002,
+            "totalMoney": 18500,
+            "risk": 90.27999999999989,
+            "multiplier": 27,
+            "nodeProgress": 0,
+            "nodesValidated": 13,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              2138.0000000000005,
+              2138.0000000000005,
+              150,
+              63.75,
+              1603.5000000000002
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "active",
+              "action": "ready",
+              "level": 1,
+              "stops": 0,
+              "rewardReduction": 0,
+              "target": 45.8,
+              "tolerance": 18,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 12096
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 20,
+      "states": {
+        "typing": {
+          "screen": "typing",
+          "protocol": {
+            "game": "typing",
+            "phase": "active",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 22096,
+            "remainingMs": 5716,
+            "phrase": "exploit access",
+            "input": "explo",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 5,
+            "targetCount": 14,
+            "success": null,
+            "rewardText": "",
+            "updatedAt": 16380,
+            "rewardValue": 5
+          },
+          "snapshot": {
+            "screen": "typing",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 94.80799999999998,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "active",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 22096,
+              "remainingMs": 5716,
+              "phrase": "exploit access",
+              "input": "explo",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 5,
+              "targetCount": 14,
+              "success": null,
+              "rewardText": "",
+              "updatedAt": 16380,
+              "rewardValue": 5
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "game",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "errors": 3,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": false,
+            "rewardText": "Trace +15 points",
+            "updatedAt": 19152,
+            "action": "wrong"
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 84.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "errors": 3,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": false,
+              "rewardText": "Trace +15 points",
+              "updatedAt": 19152,
+              "action": "wrong"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "game",
+          "protocol": {
+            "game": "bypass",
+            "phase": "result",
+            "action": "ready",
+            "level": 1,
+            "stops": 0,
+            "rewardReduction": 0,
+            "target": 45.8,
+            "tolerance": 18,
+            "success": false,
+            "rewardText": "No reduction earned · 2 stops needed",
+            "updatedAt": 19152
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 10690.000000000002,
+            "totalMoney": 18500,
+            "risk": 90.27999999999989,
+            "multiplier": 27,
+            "nodeProgress": 0,
+            "nodesValidated": 13,
+            "bypassCharge": 0,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              2138.0000000000005,
+              2138.0000000000005,
+              150,
+              63.75,
+              1603.5000000000002
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "result",
+              "action": "ready",
+              "level": 1,
+              "stops": 0,
+              "rewardReduction": 0,
+              "target": 45.8,
+              "tolerance": 18,
+              "success": false,
+              "rewardText": "No reduction earned · 2 stops needed",
+              "updatedAt": 19152
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 22.5,
+      "states": {
+        "typing": {
+          "screen": "game",
+          "protocol": {
+            "game": "typing",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "phrase": "exploit access",
+            "input": "explo",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 5,
+            "targetCount": 14,
+            "success": false,
+            "rewardText": "Trace +5.19 points",
+            "updatedAt": 22096,
+            "rewardValue": 5.1920000000000215
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 100,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "phrase": "exploit access",
+              "input": "explo",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 5,
+              "targetCount": 14,
+              "success": false,
+              "rewardText": "Trace +5.19 points",
+              "updatedAt": 22096,
+              "rewardValue": 5.1920000000000215
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "game",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "errors": 3,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": false,
+            "rewardText": "Trace +15 points",
+            "updatedAt": 19152,
+            "action": "wrong"
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 84.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "errors": 3,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": false,
+              "rewardText": "Trace +15 points",
+              "updatedAt": 19152,
+              "action": "wrong"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "game",
+          "protocol": {
+            "game": "bypass",
+            "phase": "result",
+            "action": "ready",
+            "level": 1,
+            "stops": 0,
+            "rewardReduction": 0,
+            "target": 45.8,
+            "tolerance": 18,
+            "success": false,
+            "rewardText": "No reduction earned · 2 stops needed",
+            "updatedAt": 19152
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 10690.000000000002,
+            "totalMoney": 18500,
+            "risk": 90.27999999999989,
+            "multiplier": 27,
+            "nodeProgress": 0,
+            "nodesValidated": 13,
+            "bypassCharge": 0,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              2138.0000000000005,
+              2138.0000000000005,
+              150,
+              63.75,
+              1603.5000000000002
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "result",
+              "action": "ready",
+              "level": 1,
+              "stops": 0,
+              "rewardReduction": 0,
+              "target": 45.8,
+              "tolerance": 18,
+              "success": false,
+              "rewardText": "No reduction earned · 2 stops needed",
+              "updatedAt": 19152
+            }
+          }
+        }
+      }
+    },
+    {
+      "time": 23,
+      "states": {
+        "typing": {
+          "screen": "game",
+          "protocol": {
+            "game": "typing",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 7000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "phrase": "exploit access",
+            "input": "explo",
+            "errors": 0,
+            "maxErrors": 3,
+            "correctCount": 5,
+            "targetCount": 14,
+            "success": false,
+            "rewardText": "Trace +5.19 points",
+            "updatedAt": 22096,
+            "rewardValue": 5.1920000000000215
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6701.200000000001,
+            "totalMoney": 18500,
+            "risk": 100,
+            "multiplier": 16,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1340.2400000000002,
+              1340.2400000000002,
+              150,
+              33.75,
+              1005.1800000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "typing",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 7000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "phrase": "exploit access",
+              "input": "explo",
+              "errors": 0,
+              "maxErrors": 3,
+              "correctCount": 5,
+              "targetCount": 14,
+              "success": false,
+              "rewardText": "Trace +5.19 points",
+              "updatedAt": 22096,
+              "rewardValue": 5.1920000000000215
+            }
+          }
+        },
+        "backdoor": {
+          "screen": "game",
+          "protocol": {
+            "game": "backdoor",
+            "phase": "result",
+            "countdown": 0,
+            "durationMs": 8000,
+            "deadlineAt": 0,
+            "remainingMs": 0,
+            "errors": 3,
+            "maxErrors": 3,
+            "correctCount": 0,
+            "targetCount": 5,
+            "success": false,
+            "rewardText": "Trace +15 points",
+            "updatedAt": 19152,
+            "action": "wrong"
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 6734.200000000001,
+            "totalMoney": 18500,
+            "risk": 84.80799999999998,
+            "multiplier": 11,
+            "nodeProgress": 67.404,
+            "nodesValidated": 5,
+            "bypassCharge": 15,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              1346.8400000000001,
+              1346.8400000000001,
+              150,
+              33.75,
+              1010.1300000000001
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "backdoor",
+              "phase": "result",
+              "countdown": 0,
+              "durationMs": 8000,
+              "deadlineAt": 0,
+              "remainingMs": 0,
+              "errors": 3,
+              "maxErrors": 3,
+              "correctCount": 0,
+              "targetCount": 5,
+              "success": false,
+              "rewardText": "Trace +15 points",
+              "updatedAt": 19152,
+              "action": "wrong"
+            }
+          }
+        },
+        "bypass": {
+          "screen": "game",
+          "protocol": {
+            "game": "bypass",
+            "phase": "result",
+            "action": "ready",
+            "level": 1,
+            "stops": 0,
+            "rewardReduction": 0,
+            "target": 45.8,
+            "tolerance": 18,
+            "success": false,
+            "rewardText": "No reduction earned · 2 stops needed",
+            "updatedAt": 19152
+          },
+          "snapshot": {
+            "screen": "game",
+            "money": 10690.000000000002,
+            "totalMoney": 18500,
+            "risk": 90.27999999999989,
+            "multiplier": 27,
+            "nodeProgress": 0,
+            "nodesValidated": 13,
+            "bypassCharge": 0,
+            "bypassChargeMax": 15,
+            "ghost": false,
+            "ghostCooldown": 0,
+            "insuranceTurns": 0,
+            "overclockTurns": 0,
+            "overclockCooldown": 0,
+            "gambleCooldown": 0,
+            "prestigeLevel": 2,
+            "prestigePoints": 2,
+            "playerName": "PROTOCOL_06",
+            "musicVolume": 0,
+            "sfxVolume": 0,
+            "bonusCosts": [
+              9.200000000000001,
+              2138.0000000000005,
+              2138.0000000000005,
+              150,
+              63.75,
+              1603.5000000000002
+            ],
+            "bonusStatuses": [
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY",
+              "READY"
+            ],
+            "bonusAvailable": [
+              true,
+              true,
+              true,
+              true,
+              true,
+              true
+            ],
+            "reducedMotion": false,
+            "effectsLevel": "full",
+            "preferences": {
+              "version": 1,
+              "reducedMotion": false,
+              "effectsLevel": "full",
+              "introSeen": true
+            },
+            "protocol": {
+              "game": "bypass",
+              "phase": "result",
+              "action": "ready",
+              "level": 1,
+              "stops": 0,
+              "rewardReduction": 0,
+              "target": 45.8,
+              "tolerance": 18,
+              "success": false,
+              "rewardText": "No reduction earned · 2 stops needed",
+              "updatedAt": 19152
+            }
+          }
+        }
+      }
+    }
+  ],
+  "actions": [
+    {
+      "time": 0,
+      "action": "start three protocols"
+    },
+    {
+      "time": 1.2916666666666667,
+      "game": "bypass",
+      "action": "stop at actual target"
+    },
+    {
+      "time": 2.25,
+      "game": "bypass",
+      "action": "stop at actual target"
+    },
+    {
+      "time": 2.7916666666666665,
+      "game": "bypass",
+      "action": "stop at actual target"
+    },
+    {
+      "time": 4,
+      "game": "backdoor",
+      "index": 27,
+      "expected": "correct"
+    },
+    {
+      "time": 4.916666666666667,
+      "game": "backdoor",
+      "index": 36,
+      "expected": "correct"
+    },
+    {
+      "time": 5.833333333333333,
+      "game": "backdoor",
+      "index": 5,
+      "expected": "correct"
+    },
+    {
+      "time": 6.708333333333333,
+      "game": "backdoor",
+      "index": 29,
+      "expected": "correct"
+    },
+    {
+      "time": 7.625,
+      "game": "backdoor",
+      "index": 63,
+      "expected": "correct"
+    },
+    {
+      "time": 12,
+      "action": "start three protocols"
+    },
+    {
+      "time": 16.333333333333332,
+      "game": "backdoor",
+      "index": 0,
+      "expected": "wrong"
+    },
+    {
+      "time": 17.5,
+      "game": "backdoor",
+      "index": 1,
+      "expected": "wrong"
+    },
+    {
+      "time": 19,
+      "game": "backdoor",
+      "index": 2,
+      "expected": "wrong"
+    },
+    {
+      "time": 19,
+      "game": "bypass",
+      "action": "miss outside actual target"
+    }
+  ],
+  "errors": [],
+  "cues": [
+    {
+      "source": "typing",
+      "time": 7.625,
+      "type": "minigame-success",
+      "money": 6701.200000000001,
+      "risk": 94.80799999999998,
+      "multiplier": 16,
+      "game": "typing",
+      "rewardValue": 5,
+      "rewardText": "Multiplier +5"
+    },
+    {
+      "source": "typing",
+      "time": 21.916666666666668,
+      "type": "achievement",
+      "money": 6701.200000000001,
+      "risk": 100,
+      "multiplier": 16,
+      "key": "onTheEdge",
+      "name": "ON_THE_EDGE"
+    },
+    {
+      "source": "typing",
+      "time": 21.916666666666668,
+      "type": "achievement",
+      "money": 6701.200000000001,
+      "risk": 100,
+      "multiplier": 16,
+      "key": "riskTaker",
+      "name": "RISK_TAKER"
+    },
+    {
+      "source": "typing",
+      "time": 21.916666666666668,
+      "type": "minigame-fail",
+      "money": 6701.200000000001,
+      "risk": 100,
+      "multiplier": 16,
+      "game": "typing",
+      "rewardValue": 5.1920000000000215,
+      "rewardText": "Trace +5.19 points"
+    },
+    {
+      "source": "backdoor",
+      "time": 7.625,
+      "type": "minigame-success",
+      "money": 6734.200000000001,
+      "risk": 69.80799999999998,
+      "multiplier": 11,
+      "game": "backdoor",
+      "rewardText": "Funds +$33 · Trace −25 points"
+    },
+    {
+      "source": "backdoor",
+      "time": 19,
+      "type": "minigame-fail",
+      "money": 6734.200000000001,
+      "risk": 84.80799999999998,
+      "multiplier": 11,
+      "game": "backdoor",
+      "rewardText": "Trace +15 points"
+    },
+    {
+      "source": "bypass",
+      "time": 9,
+      "type": "minigame-success",
+      "money": 6701.200000000001,
+      "risk": 88.80799999999998,
+      "multiplier": 11,
+      "game": "bypass",
+      "rewardText": "Trace −6 points",
+      "rewardValue": 6
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 6859.6,
+      "risk": 91.57279999999997,
+      "multiplier": 11,
+      "hackType": 1,
+      "gain": 158.40000000000003
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "node",
+      "money": 6859.6,
+      "risk": 86.57279999999997,
+      "multiplier": 13
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 7046.8,
+      "risk": 89.33759999999997,
+      "multiplier": 13,
+      "hackType": 1,
+      "gain": 187.20000000000002
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 7234,
+      "risk": 92.10239999999996,
+      "multiplier": 13,
+      "hackType": 1,
+      "gain": 187.20000000000002
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "node",
+      "money": 7234,
+      "risk": 87.10239999999996,
+      "multiplier": 15
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 7450,
+      "risk": 89.86719999999995,
+      "multiplier": 15,
+      "hackType": 1,
+      "gain": 216.00000000000003
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 7666,
+      "risk": 92.63199999999995,
+      "multiplier": 15,
+      "hackType": 1,
+      "gain": 216.00000000000003
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "node",
+      "money": 7666,
+      "risk": 87.63199999999995,
+      "multiplier": 17
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 7910.8,
+      "risk": 90.39679999999994,
+      "multiplier": 17,
+      "hackType": 1,
+      "gain": 244.8
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 8155.6,
+      "risk": 93.16159999999994,
+      "multiplier": 17,
+      "hackType": 1,
+      "gain": 244.8
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "node",
+      "money": 8155.6,
+      "risk": 88.16159999999994,
+      "multiplier": 19
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 8429.2,
+      "risk": 90.92639999999993,
+      "multiplier": 19,
+      "hackType": 1,
+      "gain": 273.6
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 8702.800000000001,
+      "risk": 93.69119999999992,
+      "multiplier": 19,
+      "hackType": 1,
+      "gain": 273.6
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "node",
+      "money": 8702.800000000001,
+      "risk": 88.69119999999992,
+      "multiplier": 21
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "achievement",
+      "money": 8702.800000000001,
+      "risk": 88.69119999999992,
+      "multiplier": 21,
+      "key": "nodeRunner",
+      "name": "NODE_RUNNER"
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "achievement",
+      "money": 8702.800000000001,
+      "risk": 88.69119999999992,
+      "multiplier": 21,
+      "key": "multMadness",
+      "name": "MULTIPLIER_MADNESS"
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 9005.2,
+      "risk": 91.45599999999992,
+      "multiplier": 21,
+      "hackType": 1,
+      "gain": 302.40000000000003
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 9307.6,
+      "risk": 94.22079999999991,
+      "multiplier": 21,
+      "hackType": 1,
+      "gain": 302.40000000000003
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "node",
+      "money": 9307.6,
+      "risk": 89.22079999999991,
+      "multiplier": 23
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 9638.800000000001,
+      "risk": 91.9855999999999,
+      "multiplier": 23,
+      "hackType": 1,
+      "gain": 331.20000000000005
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 9970.000000000002,
+      "risk": 94.7503999999999,
+      "multiplier": 23,
+      "hackType": 1,
+      "gain": 331.20000000000005
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "node",
+      "money": 9970.000000000002,
+      "risk": 89.7503999999999,
+      "multiplier": 25
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 10330.000000000002,
+      "risk": 92.5151999999999,
+      "multiplier": 25,
+      "hackType": 1,
+      "gain": 360.00000000000006
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "hack",
+      "money": 10690.000000000002,
+      "risk": 95.27999999999989,
+      "multiplier": 25,
+      "hackType": 1,
+      "gain": 360.00000000000006
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "node",
+      "money": 10690.000000000002,
+      "risk": 90.27999999999989,
+      "multiplier": 27
+    },
+    {
+      "source": "bypass",
+      "time": 12,
+      "type": "bypass-ready",
+      "money": 10690.000000000002,
+      "risk": 90.27999999999989,
+      "multiplier": 27
+    },
+    {
+      "source": "bypass",
+      "time": 19,
+      "type": "minigame-fail",
+      "money": 10690.000000000002,
+      "risk": 90.27999999999989,
+      "multiplier": 27,
+      "game": "bypass",
+      "rewardText": "No reduction earned · 2 stops needed",
+      "rewardValue": 0
+    }
+  ],
+  "decode": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '<authoring-workspace>\\outputs\\Blacksite-Relay-1.3.0\\Protocol-Preview.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf60.16.100\r\n  Duration: 00:00:24.00, start: 0.000000, bitrate: 2129 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 1867 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\r\n    Metadata:\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 libx264\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 257 kb/s (default)\r\n    Metadata:\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\nStream mapping:\r\n  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))\r\n  Stream #0:1 -> #0:1 (aac (native) -> pcm_s16le (native))\r\nPress [q] to stop, [?] for help\r\nOutput #0, null, to 'pipe:':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf60.16.100\r\n  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 24 fps, 24 tbn (default)\r\n    Metadata:\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 wrapped_avframe\r\n  Stream #0:1(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)\r\n    Metadata:\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 pcm_s16le\r\nframe=    0 fps=0.0 q=-0.0 size=N/A time=00:00:00.61 bitrate=N/A speed=  30x    \r[out#0/null @ 0000023dbbcc8580] video:270kB audio:4500kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown\r\nframe=  576 fps=0.0 q=-0.0 Lsize=N/A time=00:00:23.97 bitrate=N/A speed=  72x    \r\n",
+  "audioMeasurement": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '<authoring-workspace>\\outputs\\Blacksite-Relay-1.3.0\\Protocol-Preview.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf60.16.100\r\n  Duration: 00:00:24.00, start: 0.000000, bitrate: 2129 kb/s\r\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 1867 kb/s, 24 fps, 24 tbr, 12288 tbn (default)\r\n    Metadata:\r\n      handler_name    : VideoHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 libx264\r\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 257 kb/s (default)\r\n    Metadata:\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\nStream mapping:\r\n  Stream #0:1 -> #0:0 (aac (native) -> pcm_s16le (native))\r\nPress [q] to stop, [?] for help\r\nOutput #0, null, to 'pipe:':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf60.16.100\r\n  Stream #0:0(und): Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s (default)\r\n    Metadata:\r\n      handler_name    : SoundHandler\r\n      vendor_id       : [0][0][0][0]\r\n      encoder         : Lavc60.31.102 pcm_s16le\r\n[out#0/null @ 0000015ba1c99e80] video:0kB audio:18000kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown\r\nsize=N/A time=00:00:21.10 bitrate=N/A speed=42.8x    \r\n[Parsed_loudnorm_0 @ 0000015ba1cae2c0] \r\n{\r\n\t\"input_i\" : \"-23.45\",\r\n\t\"input_tp\" : \"-6.03\",\r\n\t\"input_lra\" : \"7.20\",\r\n\t\"input_thresh\" : \"-33.58\",\r\n\t\"output_i\" : \"-14.36\",\r\n\t\"output_tp\" : \"-1.50\",\r\n\t\"output_lra\" : \"1.90\",\r\n\t\"output_thresh\" : \"-24.41\",\r\n\t\"normalization_type\" : \"dynamic\",\r\n\t\"target_offset\" : \"-1.64\"\r\n}\r\n",
+  "file": {
+    "name": "Protocol-Preview.mp4",
+    "bytes": 6389293,
+    "sha256": "4180b4a290e540760ad694829de277721575d2bdfc6ca195613dbc1bef807fbe"
+  },
+  "encoded": {
+    "durationSeconds": 24,
+    "frames": 576,
+    "fps": 24,
+    "completeDecode": "passed",
+    "reviewFrames": [
+      "decoded-1s.png",
+      "decoded-4.5s.png",
+      "decoded-7s.png",
+      "decoded-9.5s.png",
+      "decoded-14s.png",
+      "decoded-17.5s.png",
+      "decoded-22.5s.png"
+    ],
+    "integratedLUFS": -23.45,
+    "truePeakDBTP": -6.03,
+    "music": "art-source/audio/masters/music-original.wav",
+    "musicSha256": "a8187a2a768734678ce18770b07ca9f69a991206d9670fab1af37767ad834246"
+  },
+  "selectedAssets": {
+    "version": "1.3.0",
+    "method": "Built-in ImageGen",
+    "generatedDate": "2026-09-05",
+    "logicalViewport": [
+      420,
+      650
+    ],
+    "artDirection": "Blacksite Relay: worn industrial pixel-art hardware, petrol teal shadows, copper wiring and amber practical lamps.",
+    "runtimeComposition": "Original PNG backplates with separate native HTML controls and text. No generated target markers, commands, cells or instructional copy.",
+    "promptSet": "art-source/protocols/prompts/device-backplates.json",
+    "memoryCorrectionPrompt": "art-source/protocols/prompts/memory-recess-revision.txt",
+    "memoryCorrection": "The first generated opening was too narrow. ImageGen widened the empty recess around the existing 275 x 275 grid; cell dimensions and positions are preserved.",
+    "imageProcessing": "Selected PNGs are copied unchanged from the built-in generation output. Runtime layout performs display scaling; no external raster retouching was used.",
+    "assets": [
+      {
+        "screen": "bypass",
+        "path": "assets/protocols/bypass-calibrator.png",
+        "sourceGeneratedFilename": "exec-a0a43ae9-c3a7-46fc-b60d-6cead18d1b1c.png",
+        "bytes": 2126223,
+        "sha256": "026610117770d5a4885cf0afc2d9a0367ebc02444a116192fb574cd1f409ea78",
+        "dimensions": [
+          1008,
+          1561
+        ],
+        "approximateClearWell": [
+          52,
+          320,
+          365,
+          504
+        ],
+        "boundsUnits": "420 x 650 logical pixels; left, top, right, bottom",
+        "generation": "New image"
+      },
+      {
+        "screen": "typing",
+        "path": "assets/protocols/injection-crt.png",
+        "sourceGeneratedFilename": "exec-a7174695-3c2b-4587-9979-869354998ad0.png",
+        "bytes": 2038813,
+        "sha256": "55edc0be39d9c46a78e416bbebf454117333d491887d2dcf2c646f9f96d28d38",
+        "dimensions": [
+          1008,
+          1561
+        ],
+        "approximateClearWell": [
+          79,
+          155,
+          341,
+          363
+        ],
+        "boundsUnits": "420 x 650 logical pixels; left, top, right, bottom",
+        "generation": "New image"
+      },
+      {
+        "screen": "backdoor",
+        "path": "assets/protocols/memory-patch-bay-v2.png",
+        "sourceGeneratedFilename": "exec-30dc0aeb-1497-47ae-85d4-4b55e628ed53.png",
+        "bytes": 1821361,
+        "sha256": "7e53106284a7b48c4887781027069f3f2c12739b01340515d8ca0025b041b8cc",
+        "dimensions": [
+          1008,
+          1560
+        ],
+        "approximateClearWell": [
+          67,
+          194,
+          354,
+          479
+        ],
+        "boundsUnits": "420 x 650 logical pixels; left, top, right, bottom",
+        "generation": "New image plus one targeted ImageGen edit"
+      }
+    ]
+  },
+  "visualReview": {
+    "decodedFrames": [
+      "decoded-1s.png",
+      "decoded-4.5s.png",
+      "decoded-7s.png",
+      "decoded-9.5s.png",
+      "decoded-14s.png",
+      "decoded-17.5s.png",
+      "decoded-22.5s.png"
+    ],
+    "result": "All seven decoded frames inspected: three actual native 420×650 interfaces remain fully contained and readable. Generated device art stays registered to HTML controls; active command input, memory recall and bypass timing match actual captured state. Success/failure receipts follow the real outcomes. Existing achievement banners are retained when the real game emits them.",
+    "independentReview": "art-source/protocols/ROOT-REVIEW.md",
+    "approvedTrialFrames": [
+      "review-0024.png",
+      "review-0108.png"
+    ],
+    "rootEncodedReview": "decoded-17.5s.png"
+  },
+  "_publicationNote": "Publication copy: local authoring paths were replaced with neutral aliases. Original measurements and outcomes are unchanged; these historical results were not rerun for the public snapshot."
+}

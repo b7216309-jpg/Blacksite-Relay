@@ -1,0 +1,252 @@
+{
+  "version": "1.6.0",
+  "method": "Actual pointer/keyboard controls with real elapsed scene clocks; isolated saves and no gameplay actions.",
+  "audio": "Screen recording is silent. Original cue masters are synchronized in the edit using captured discovery/control timestamps.",
+  "width": 420,
+  "height": 650,
+  "recordings": [
+    {
+      "id": "ratUnion",
+      "events": [
+        {
+          "id": "ratUnion",
+          "browserTime": 1279.5,
+          "nodeTime": 151470.2987932
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "ratUnion-0.1s.png",
+          "time": 151470.503351
+        },
+        {
+          "file": "ratUnion-2.2s.png",
+          "time": 151472.6693625
+        },
+        {
+          "file": "ratUnion-5.2s.png",
+          "time": 151475.7555759
+        },
+        {
+          "file": "ratUnion-10.5s.png",
+          "time": 151481.1471745
+        },
+        {
+          "file": "ratUnion-13.9s.png",
+          "time": 151484.6171751
+        }
+      ],
+      "actions": [],
+      "startWall": 151468.9707166,
+      "baseline": {
+        "snapshot": "{\"screen\":\"game\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 2
+      },
+      "detailRect": {
+        "x": 1,
+        "y": 40,
+        "width": 418,
+        "height": 150
+      },
+      "actionStart": 151470.2359475,
+      "triggered": 151470.3240313,
+      "endWall": 151485.2220415,
+      "after": {
+        "snapshot": "{\"screen\":\"game\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 2
+      },
+      "file": "recordings\\ratUnion.webm"
+    },
+    {
+      "id": "room404",
+      "events": [
+        {
+          "id": "room404",
+          "browserTime": 1688.199999988079,
+          "nodeTime": 151517.4099722
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "room404-0.1s.png",
+          "time": 151517.7597146
+        },
+        {
+          "file": "room404-2.5s.png",
+          "time": 151520.2243706
+        },
+        {
+          "file": "room404-5.2s.png",
+          "time": 151522.9736508
+        },
+        {
+          "file": "room404-8.5s.png",
+          "time": 151526.3244991
+        }
+      ],
+      "actions": [],
+      "startWall": 151515.6817287,
+      "baseline": {
+        "snapshot": "{\"screen\":\"tutorial\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 1
+      },
+      "detailRect": {
+        "x": 24,
+        "y": 1,
+        "width": 372,
+        "height": 124
+      },
+      "actionStart": 151516.724031,
+      "triggered": 151517.6098585,
+      "endWall": 151527.3276031,
+      "after": {
+        "snapshot": "{\"screen\":\"tutorial\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 1
+      },
+      "file": "recordings\\room404.webm"
+    },
+    {
+      "id": "rootAccess",
+      "events": [
+        {
+          "id": "rootAccess",
+          "browserTime": 1787.699999988079,
+          "nodeTime": 151801.7345244
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "rootAccess-0.1s.png",
+          "time": 151802.0539881
+        },
+        {
+          "file": "rootAccess-2.2s.png",
+          "time": 151804.2210242
+        },
+        {
+          "file": "rootAccess-4.8s.png",
+          "time": 151806.8861802
+        }
+      ],
+      "actions": [],
+      "startWall": 151799.898058,
+      "baseline": {
+        "snapshot": "{\"screen\":\"game\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 2
+      },
+      "detailRect": {
+        "x": 1,
+        "y": 40,
+        "width": 418,
+        "height": 150
+      },
+      "actionStart": 151801.372622,
+      "triggered": 151801.883384,
+      "endWall": 151808.5876498,
+      "after": {
+        "snapshot": "{\"screen\":\"game\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 2
+      },
+      "file": "recordings\\rootAccess.webm"
+    },
+    {
+      "id": "snailMail",
+      "events": [
+        {
+          "id": "snailMail",
+          "browserTime": 5042.700000017881,
+          "nodeTime": 151813.7017605
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "snailMail-0.1s.png",
+          "time": 151813.9568134
+        },
+        {
+          "file": "snailMail-2.2s.png",
+          "time": 151816.1542168
+        },
+        {
+          "file": "snailMail-4.8s.png",
+          "time": 151818.8378339
+        }
+      ],
+      "actions": [],
+      "startWall": 151808.6193909,
+      "baseline": {
+        "snapshot": "{\"screen\":\"game\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 2
+      },
+      "detailRect": {
+        "x": 1,
+        "y": 40,
+        "width": 418,
+        "height": 150
+      },
+      "actionStart": 151813.6643421,
+      "triggered": 151813.7522465,
+      "endWall": 151820.5443128,
+      "after": {
+        "snapshot": "{\"screen\":\"game\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 2
+      },
+      "file": "recordings\\snailMail.webm"
+    },
+    {
+      "id": "locker",
+      "events": [
+        {
+          "id": "locker",
+          "browserTime": 2698.4000000059605,
+          "nodeTime": 151823.3348416
+        }
+      ],
+      "screenshots": [
+        {
+          "file": "locker-0.1s.png",
+          "time": 151823.5701564
+        },
+        {
+          "file": "locker-2.2s.png",
+          "time": 151825.7703919
+        },
+        {
+          "file": "locker-4.8s.png",
+          "time": 151828.4527327
+        }
+      ],
+      "actions": [
+        {
+          "kind": "knock",
+          "at": 151822.0054528
+        },
+        {
+          "kind": "knock",
+          "at": 151822.2832867
+        }
+      ],
+      "startWall": 151820.5760712,
+      "baseline": {
+        "snapshot": "{\"screen\":\"game\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 2
+      },
+      "detailRect": {
+        "x": 1,
+        "y": 40,
+        "width": 418,
+        "height": 150
+      },
+      "actionStart": 151822.0054475,
+      "triggered": 151823.3811956,
+      "endWall": 151831.158025,
+      "after": {
+        "snapshot": "{\"screen\":\"game\",\"money\":0,\"totalMoney\":4321,\"risk\":0,\"multiplier\":1,\"nodeProgress\":0,\"nodesValidated\":0,\"bypassCharge\":0,\"bypassChargeMax\":15,\"ghost\":false,\"ghostCooldown\":0,\"insuranceTurns\":0,\"overclockTurns\":0,\"overclockCooldown\":0,\"gambleCooldown\":0,\"prestigeLevel\":0,\"prestigePoints\":0,\"playerName\":\"RELAY_VISITOR\",\"musicVolume\":0,\"sfxVolume\":0,\"bonusCosts\":[10,0,0,150,15,0],\"bonusStatuses\":[\"CLEAR\",\"LOW FUNDS\",\"HACK FIRST\",\"LOW FUNDS\",\"CLEAR\",\"LOW FUNDS\"],\"bonusAvailable\":[false,false,false,false,false,false],\"reducedMotion\":false,\"effectsLevel\":\"full\",\"preferences\":{\"version\":1,\"reducedMotion\":false,\"effectsLevel\":\"full\",\"introSeen\":true},\"protocol\":null}",
+        "saves": 2
+      },
+      "file": "recordings\\locker.webm"
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

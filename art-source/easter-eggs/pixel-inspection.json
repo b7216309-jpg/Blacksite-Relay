@@ -1,0 +1,132 @@
+{
+  "runtimeKey": "r>g+12 && b>g+12",
+  "images": [
+    {
+      "file": "break-time-placard-03.png",
+      "mode": "RGB",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "f0a4ffadab805835aef8ac3cfe9acc770e87897a62b20e56032a9ddef42fe467",
+      "bytes": 1305973,
+      "mattePixels": 1025012,
+      "solidPixels": 547504,
+      "matteFraction": 0.6518,
+      "pieces": [
+        {
+          "pixels": 539985,
+          "crop": [
+            146,
+            122,
+            749,
+            976
+          ]
+        },
+        {
+          "pixels": 7519,
+          "crop": [
+            993,
+            965,
+            112,
+            93
+          ]
+        }
+      ],
+      "originalPixelsPreserved": true
+    },
+    {
+      "file": "snail-courier-kit-03.png",
+      "mode": "RGB",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "03339f17364abbb74e62619fa07c5420050b158c1215cde072e6df90b5bd8dda",
+      "bytes": 1108344,
+      "mattePixels": 1284193,
+      "solidPixels": 288323,
+      "matteFraction": 0.8166,
+      "pieces": [
+        {
+          "pixels": 224276,
+          "crop": [
+            83,
+            345,
+            638,
+            495
+          ]
+        },
+        {
+          "pixels": 64034,
+          "crop": [
+            785,
+            577,
+            385,
+            263
+          ]
+        }
+      ],
+      "originalPixelsPreserved": true
+    },
+    {
+      "file": "hidden-locker-01.png",
+      "mode": "RGB",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sha256": "b707d0bccc1a790616d8afbaffb2c62a67c4b9a3840f1b14089123187721764b",
+      "bytes": 1329258,
+      "mattePixels": 1039471,
+      "solidPixels": 533393,
+      "matteFraction": 0.6609,
+      "pieces": [
+        {
+          "pixels": 500516,
+          "crop": [
+            272,
+            68,
+            361,
+            1404
+          ]
+        },
+        {
+          "pixels": 32877,
+          "crop": [
+            724,
+            1226,
+            175,
+            223
+          ]
+        }
+      ],
+      "originalPixelsPreserved": true
+    },
+    {
+      "file": "room404-arcade-01.png",
+      "mode": "RGB",
+      "dimensions": [
+        1122,
+        1402
+      ],
+      "sha256": "67b7978bcfc906eba3f6e35ae2455238d7154a406b5bf13968182bc63dd782bd",
+      "bytes": 1384550,
+      "mattePixels": 877087,
+      "solidPixels": 695957,
+      "matteFraction": 0.5576,
+      "pieces": [
+        {
+          "pixels": 695955,
+          "crop": [
+            212,
+            57,
+            699,
+            1281
+          ]
+        }
+      ],
+      "originalPixelsPreserved": true
+    }
+  ]
+}

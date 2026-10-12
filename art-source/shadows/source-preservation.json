@@ -1,0 +1,123 @@
+{
+  "version": "1.2.5",
+  "unchanged": [
+    {
+      "path": "assets/scene/blacksite-relay.png",
+      "bytes": 2277167,
+      "sha256": "6f4e03ae40692ff976341efb503b575c3b281f72476b9d0bde060fde04649072",
+      "matchesBaseline": true
+    },
+    {
+      "path": "son/backgroundloop.mp3",
+      "bytes": 3660948,
+      "sha256": "5bec6a66ce5035ee3a6173dfbe21f8550d0a4ea00e2c10b09eb15dd5b59f8dd9",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/audio/music-original.ogg",
+      "bytes": 4716685,
+      "sha256": "12968a9d4e5bf075a161c236d7aa6dabc6b488491e0998c4656a29d818942f54",
+      "matchesBaseline": true
+    },
+    {
+      "path": "art-source/audio/masters/trailer-original-music-40s.wav",
+      "bytes": 10584044,
+      "sha256": "c26f00a264f57deb5fbd7bdb00115e19e8ea278591c8473165d90e6640d1d961",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/scene/relay-operator-design.png",
+      "bytes": 1023050,
+      "sha256": "412e4c0749ab91d92e1d773f3d365cff1657a9dc483583a9bbcf8124ee9dd570",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/scene/relay-rat-design.png",
+      "bytes": 833291,
+      "sha256": "d6733ef487ea1d75881fd0d3049babc7e90bac41b08c0d3d9bb4f76e74308286",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/scene/relay-cat-design.png",
+      "bytes": 847054,
+      "sha256": "c8060c8524afa49e4eff88ce576d4099ff8ee30711a6d1d27b6ca5aada3f1e17",
+      "matchesBaseline": true
+    },
+    {
+      "path": "assets/scene/relay-snail-design.png",
+      "bytes": 935133,
+      "sha256": "61cef404e4cece9b9864e2ba555440357c1bb42e037cdb20b242e5f8a0570e95",
+      "matchesBaseline": true
+    },
+    {
+      "path": "art-source/audio/masters/music-original.wav",
+      "bytes": 59535044,
+      "sha256": "a8187a2a768734678ce18770b07ca9f69a991206d9670fab1af37767ad834246",
+      "matchesBaseline": true
+    }
+  ],
+  "lightingExport": {
+    "rendererMatchesFrozenRuntime": true,
+    "mapsMatchExport": true,
+    "frames": 72,
+    "uniqueIrradianceFrames": 40,
+    "nativeFrame": [
+      420,
+      280
+    ],
+    "atlas": [
+      5040,
+      1680
+    ],
+    "startSeconds": 0,
+    "fps": 12,
+    "formula": "clamp(sRGB(C) * shade * (1 + irradiance), 0, 1)",
+    "errors": []
+  },
+  "gamma": {
+    "size": [
+      420,
+      280
+    ],
+    "channelMAE": 0.4180895691609977,
+    "maximumChannelError": 3,
+    "channelsWithin2CodesFraction": 0.999657029478458,
+    "pixelsWithin2CodesFraction": 0.9990051020408163,
+    "p99ChannelError": 2,
+    "method": "Identical unchanged room at t2/risk0. Compare actual Canvas RelayLighting.draw with Blender piecewise-sRGB compositor using the same exported shade and irradiance.",
+    "tolerance": "MAE below1/255 and maximum channel difference no greater than4/255; Canvas rounds intermediate8-bit composite operations.",
+    "passed": true
+  },
+  "checkedAt": "2026-09-05T18:40:24.851Z",
+  "electronicsExport": {
+    "rendererMatchesFrozenRuntime": true,
+    "atlasMatchesExport": true,
+    "frames": 72,
+    "uniqueFrames": 72,
+    "errors": []
+  },
+  "shadowExport": {
+    "rendererAndCastersMatchFrozenRuntime": true,
+    "atlasMatchesExport": true,
+    "frames": 72,
+    "uniqueFrames": 32,
+    "sharedStartSeconds": 0,
+    "separateActorContacts": true,
+    "nativeMaterial": {
+      "nativeSize": [
+        420,
+        280
+      ],
+      "referenceSeconds": 2,
+      "shadowPixels": 786,
+      "meanChannelError": 0.003262471655328798,
+      "shadowMeanChannelError": 0.48812553011026294,
+      "maximumChannelError": 1,
+      "outsideShadowMaximumError": 0,
+      "method": "Identical original native room and continuous shadow mask; compare real Canvas RelayShadows.draw against the actual orthographic Blender source-backed sRGB material at frame 49.",
+      "tolerance": "Shadow-region MAE < 1/255, no channel beyond 3/255, outside-ink error <= 1/255.",
+      "passed": true
+    },
+    "errors": []
+  }
+}
