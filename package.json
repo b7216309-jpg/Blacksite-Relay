@@ -1,6 +1,6 @@
 {
   "name": "risk-v2",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Risk_v2 - Blacksite Relay HD-2D hacking roguelike",
   "main": "main.js",
   "scripts": {

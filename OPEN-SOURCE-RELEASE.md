@@ -1,7 +1,7 @@
-# Blacksite Relay 1.8.1 — free and open source
+# Blacksite Relay 1.8.2 — free and open source
 
 The complete game is free under GPL-3.0-only. The public repository starts from
-finished 1.8.0 gameplay, with a friendly application icon, explicit code/asset
+finished 1.8.0 gameplay, with an Industrial Terminal application icon, explicit code/asset
 licensing, contribution guidance and portable authoring paths.
 
 Rules, 34 achievements, three mini-games, six bonuses, saves, French/English
@@ -14,7 +14,7 @@ attachments or Git history are copied into this repository.
 
 The current Neon music is included with the owner's explicit GPLv3 permission.
 Unused baseline recordings with unclear provenance are excluded. The original
-icon is replaced by original cat-and-CRT art. Dependency notices are preserved.
+icon is replaced by original Industrial Terminal art. Dependency notices are preserved.
 
 The release tag identifies the source used for the installer and portable ZIP.
 Run `npm ci` and `npm run build` on Windows to rebuild. Editable Blender material,

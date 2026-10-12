@@ -1,13 +1,14 @@
 # Risk_v2 — Blacksite Relay asset credits
 
-## Free/open-source release — 1.8.1
+## Free/open-source release — 1.8.2
 
 Project-owned code and included assets now use GPL-3.0-only. The owner confirmed
 permission for the four supplied Neon arrangements on 12 October 2026.
 See ASSET-LICENSE.md for the current scope and third-party exceptions.
 
-The new friendly cat-and-CRT icon is original ImageGen artwork, with its master
-and prompt in `art-source/icon/`. It replaces the inherited baseline icon.
+The selected Industrial Terminal icon is original ImageGen artwork, with its
+unchanged master, prompt and reproducible size exports in `art-source/icon/`.
+It replaces the cat-and-CRT icon from 1.8.1.
 The baseline `son/` recordings and unused `music-original.ogg` are excluded from
 the public source and new package. The earlier production notes below describe
 historical versions; references to those old assets do not include or relicense them.

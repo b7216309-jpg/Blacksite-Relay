@@ -1,23 +1,27 @@
-Friendly icon export validation - 2026-10-12
+BLACKSITE RELAY / INDUSTRIAL TERMINAL / EXPORT VALIDATION
+Master: 1254x1254, unchanged selected ImageGen artwork.
+Master SHA256: C0B4D72C03204D12226CEA6E08C33751B48C86299296DF55CE419BF81812A1A0
+Conversion only: full original framing; GDI+ high-quality bicubic scaling; no regeneration, repainting, recoloring or cropping.
+ICO 16x16: 32-bit; lossless PNG frame exactly matches export (798 bytes).
+ICO 24x24: 32-bit; lossless PNG frame exactly matches export (1446 bytes).
+ICO 32x32: 32-bit; lossless PNG frame exactly matches export (2250 bytes).
+ICO 48x48: 32-bit; lossless PNG frame exactly matches export (4283 bytes).
+ICO 64x64: 32-bit; lossless PNG frame exactly matches export (6994 bytes).
+ICO 128x128: 32-bit; lossless PNG frame exactly matches export (24217 bytes).
+ICO 256x256: 32-bit; lossless PNG frame exactly matches export (87927 bytes).
+PNG 16x16: exact dimensions; transparent corners verified.
+PNG 24x24: exact dimensions; transparent corners verified.
+PNG 32x32: exact dimensions; transparent corners verified.
+PNG 48x48: exact dimensions; transparent corners verified.
+PNG 64x64: exact dimensions; transparent corners verified.
+PNG 128x128: exact dimensions; transparent corners verified.
+PNG 256x256: exact dimensions; transparent corners verified.
+PNG 512x512: exact dimensions; transparent corners verified.
+Windows native LoadImage decode: PASS, 256x256.
 
-Original built-in ImageGen output: blacksite-friendly-icon-master.png (1254x1254 RGBA).
-Subject: original charcoal cat with turquoise eyes and copper CRT. No text or existing IP.
-No content alterations were applied after generation. Export frames use area downsampling.
-
-PNG exports: 16, 24, 32, 48, 64, 128, 256 and 512 pixels square.
-ICO embeds lossless RGBA PNG frames at 16, 24, 32, 48, 64, 128 and 256px.
-ffprobe independently reads all seven ICO dimensions and RGBA pixel formats.
-System.Drawing.Icon opens the ICO successfully.
-Master corner alpha is 0 at all four corners; the exterior is truly transparent.
-
-Visual inspection:
-- Reviewed the original composition and native-size exports on both dark and light backgrounds.
-- Reviewed 16px and 32px nearest-neighbor enlargements for downsampling defects.
-- The recognizable elements at 16px are the twin ears, teal eyes and copper/teal lower terminal.
-- The tiny screen smile and face expression resolve at 32px and above; they are intentionally not required to read at 16px.
-- Silhouette remains separated from both light and dark backgrounds; no clipping or opaque corner plate.
-- No extra limbs, lettering, watermark or franchise resemblance observed.
-
-native-size-preview.png is the main review board.
-prompt.txt records the complete generation prompt.
-export-icon.ps1 reproduces the ICO and review board from the PNG frames.
+Visual inspection (2026-10-12):
+- Viewed original master, native-size board on charcoal and light gray, and nearest-neighbor enlargements of 16px and 32px exports.
+- The cyan CRT screen and warm command chevron retain the approved mature industrial appearance. Full original silhouette is retained with transparent margins; no cropping or repainting.
+- 16px necessarily resolves primarily as a cyan screen inside a dark chassis with amber detail. 24px and larger show the chevron more distinctly; 32/48px preserve the three-quarter hardware shape.
+- 256px retains visible square source details and controlled amber rim light, with no newly introduced glow or backdrop.
+- Master and prompt were copied directly from the approved 02-terminal.png and 02-prompt.txt. Master SHA256 matches selected draft byte-for-byte.

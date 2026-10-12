@@ -222,3 +222,11 @@ Gameplay formulas and progression are preserved against the original renderer in
 - Exclude unused legacy recordings with unclear provenance.
 - Preserve all gameplay, saves, translations, music pacing and local-only records.
 
+# 1.8.2 — Industrial Terminal icon
+
+- Replace the cat icon with the selected industrial pixel-art terminal.
+- Include transparent PNG exports, multi-resolution Windows ICO, the original
+  master, generation prompt and reproducible export script.
+- Update installer, portable download and website branding to the same artwork.
+- Preserve gameplay, saves, soundtrack, translations and local records.
+

@@ -12,7 +12,7 @@ bring you back stronger. A living pixel-art relay station keeps you company.
 
 ![Blacksite Relay](assets/scene/blacksite-relay.png)
 
-**Version 1.8.1 · Windows x64 · English / Français · Offline · 420 × 650 portrait**
+**Version 1.8.2 · Windows x64 · English / Français · Offline · 420 × 650 portrait**
 
 - Three hacks, six bonuses, and memory, command-entry and timing mini-games.
 - Permanent upgrades, prestige, 34 achievements and hidden discoveries.
